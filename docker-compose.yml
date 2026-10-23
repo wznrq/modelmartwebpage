@@ -1,0 +1,142 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: modelmart
+      POSTGRES_USER: modelmart_user
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-modelmart_password}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U modelmart_user"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis (for Celery)
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # FastAPI Backend
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    environment:
+      DATABASE_URL: postgresql://modelmart_user:${DB_PASSWORD:-modelmart_password}@postgres:5432/modelmart
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/1
+      CELERY_RESULT_BACKEND: redis://redis:6379/2
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY}
+      MOONSHOT_API_KEY: ${MOONSHOT_API_KEY}
+      BYTEDANCE_API_KEY: ${BYTEDANCE_API_KEY}
+      MINIMAX_API_KEY: ${MINIMAX_API_KEY}
+      MISTRAL_API_KEY: ${MISTRAL_API_KEY}
+      XAI_API_KEY: ${XAI_API_KEY}
+      PERPLEXITY_API_KEY: ${PERPLEXITY_API_KEY}
+      SENSETIME_API_KEY: ${SENSETIME_API_KEY}
+      IFLYTEK_API_KEY: ${IFLYTEK_API_KEY}
+      360_API_KEY: ${360_API_KEY}
+      HUAWEI_API_KEY: ${HUAWEI_API_KEY}
+      MOBVOI_API_KEY: ${MOBVOI_API_KEY}
+      STABILITY_API_KEY: ${STABILITY_API_KEY}
+      RUNWAY_API_KEY: ${RUNWAY_API_KEY}
+      MIDJOURNEY_API_KEY: ${MIDJOURNEY_API_KEY}
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - ./backend:/app
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  # Celery Worker
+  celery_worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    environment:
+      DATABASE_URL: postgresql://modelmart_user:${DB_PASSWORD:-modelmart_password}@postgres:5432/modelmart
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/1
+      CELERY_RESULT_BACKEND: redis://redis:6379/2
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY}
+      MOONSHOT_API_KEY: ${MOONSHOT_API_KEY}
+      BYTEDANCE_API_KEY: ${BYTEDANCE_API_KEY}
+      MINIMAX_API_KEY: ${MINIMAX_API_KEY}
+      MISTRAL_API_KEY: ${MISTRAL_API_KEY}
+      XAI_API_KEY: ${XAI_API_KEY}
+      PERPLEXITY_API_KEY: ${PERPLEXITY_API_KEY}
+      SENSETIME_API_KEY: ${SENSETIME_API_KEY}
+      IFLYTEK_API_KEY: ${IFLYTEK_API_KEY}
+      360_API_KEY: ${360_API_KEY}
+      HUAWEI_API_KEY: ${HUAWEI_API_KEY}
+      MOBVOI_API_KEY: ${MOBVOI_API_KEY}
+      STABILITY_API_KEY: ${STABILITY_API_KEY}
+      RUNWAY_API_KEY: ${RUNWAY_API_KEY}
+      MIDJOURNEY_API_KEY: ${MIDJOURNEY_API_KEY}
+    depends_on:
+      - postgres
+      - redis
+    volumes:
+      - ./backend:/app
+    command: celery -A app.tasks.celery_app worker --loglevel=info
+
+  # Celery Beat (Scheduler)
+  celery_beat:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    environment:
+      DATABASE_URL: postgresql://modelmart_user:${DB_PASSWORD:-modelmart_password}@postgres:5432/modelmart
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/1
+      CELERY_RESULT_BACKEND: redis://redis:6379/2
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY}
+      MOONSHOT_API_KEY: ${MOONSHOT_API_KEY}
+      BYTEDANCE_API_KEY: ${BYTEDANCE_API_KEY}
+      MINIMAX_API_KEY: ${MINIMAX_API_KEY}
+      MISTRAL_API_KEY: ${MISTRAL_API_KEY}
+      XAI_API_KEY: ${XAI_API_KEY}
+      PERPLEXITY_API_KEY: ${PERPLEXITY_API_KEY}
+      SENSETIME_API_KEY: ${SENSETIME_API_KEY}
+      IFLYTEK_API_KEY: ${IFLYTEK_API_KEY}
+      360_API_KEY: ${360_API_KEY}
+      HUAWEI_API_KEY: ${HUAWEI_API_KEY}
+      MOBVOI_API_KEY: ${MOBVOI_API_KEY}
+      STABILITY_API_KEY: ${STABILITY_API_KEY}
+      RUNWAY_API_KEY: ${RUNWAY_API_KEY}
+      MIDJOURNEY_API_KEY: ${MIDJOURNEY_API_KEY}
+    depends_on:
+      - postgres
+      - redis
+    volumes:
+      - ./backend:/app
+    command: celery -A app.tasks.celery_app beat --loglevel=info
+
+volumes:
+  postgres_data:
+  redis_data:

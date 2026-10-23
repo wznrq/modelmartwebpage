@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash",
+      "Bash(dev *)",
+      "Bash(npm *)",
+      "Bash(node *)",
+      "Bash(git *)",
+      "Bash(ls *)",
+      "Bash(pwd)",
+      "Bash(cd *)",
+      "Bash(mkdir *)",
+      "Bash(rm *)",
+      "Bash(npx *)",
+      "Bash(vite *)",
+      "Bash(cat *)",
+      "Bash(echo *)",
+      "Bash(ps *)",
+      "Bash(kill *)",
+      "Bash(pkill *)",
+      "Write(*.ts)",
+      "Write(*.tsx)",
+      "Write(*.svg)",
+      "Write(*.json)",
+      "Write(*.html)",
+      "Write(*.css)",
+      "Edit(*.ts)",
+      "Edit(*.tsx)",
+      "Edit(*.svg)",
+      "Edit(*.json)",
+      "Edit(*.html)",
+      "Edit(*.css)"
+    ],
+    "defaultMode": "bypassPermissions"
+  }
+}

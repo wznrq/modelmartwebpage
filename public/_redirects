@@ -1,0 +1,2 @@
+# Static SEO pages are generated at build time.
+# Missing HTML paths are handled by Cloudflare Pages middleware.

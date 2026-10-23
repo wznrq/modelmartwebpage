@@ -1,0 +1,1659 @@
+export interface ModelProvider {
+  id: string;
+  name: string;
+  logo: string;
+  country: 'domestic' | 'international';
+  description: string;
+}
+
+export interface AIModel {
+  id: string;
+  providerId: string;
+  name: string;
+  version: string;
+  type: 'chat' | 'code' | 'image' | 'multimodal' | 'audio' | 'embedding' | 'moderation';
+  pricing: {
+    input: number; // per 1M tokens in CNY (人民币)
+    output: number; // per 1M tokens in CNY (人民币)
+  };
+  performance: {
+    contextWindow: number; // in tokens
+    maxOutput: number; // in tokens
+    latency: number; // average ms
+    accuracy: number; // percentage
+  };
+  features: string[];
+  releaseDate: string;
+  websiteUrl?: string; // 官网产品页面链接
+}
+
+export const providers: ModelProvider[] = [
+  // === 国际顶级提供商 ===
+  {
+    id: 'openai',
+    name: 'OpenAI',
+    logo: '/logos/openai.svg',
+    country: 'international',
+    description: '全球领先的AI研究机构',
+  },
+  {
+    id: 'anthropic',
+    name: 'Anthropic',
+    logo: '/logos/anthropic.svg',
+    country: 'international',
+    description: '安全可靠的AI系统',
+  },
+  {
+    id: 'google',
+    name: 'Google DeepMind',
+    logo: '/logos/google.svg',
+    country: 'international',
+    description: '谷歌旗下人工智能实验室',
+  },
+  {
+    id: 'meta',
+    name: 'Meta AI',
+    logo: '/logos/meta.svg',
+    country: 'international',
+    description: '开源大模型领导者',
+  },
+  {
+    id: 'mistral',
+    name: 'Mistral AI',
+    logo: '/logos/mistral.svg',
+    country: 'international',
+    description: '欧洲AI初创公司，专注于开源模型',
+  },
+  {
+    id: 'amazon',
+    name: 'Amazon AWS',
+    logo: '/logos/amazon.svg',
+    country: 'international',
+    description: '亚马逊云服务AI平台',
+  },
+  {
+    id: 'microsoft',
+    name: 'Microsoft Azure',
+    logo: '/logos/microsoft.svg',
+    country: 'international',
+    description: '微软Azure AI服务',
+  },
+  {
+    id: 'stability',
+    name: 'Stability AI',
+    logo: '/logos/stability.svg',
+    country: 'international',
+    description: '开源图像生成模型领导者',
+  },
+  {
+    id: 'runway',
+    name: 'Runway',
+    logo: '/logos/runway.svg',
+    country: 'international',
+    description: 'AI视频生成和编辑平台',
+  },
+  {
+    id: 'midjourney',
+    name: 'Midjourney',
+    logo: '/logos/midjourney.svg',
+    country: 'international',
+    description: 'AI图像生成领先平台',
+  },
+  {
+    id: 'perplexity',
+    name: 'Perplexity',
+    logo: '/logos/perplexity.svg',
+    country: 'international',
+    description: 'AI搜索引擎创新者',
+  },
+  {
+    id: 'xai',
+    name: 'xAI',
+    logo: '/logos/xai.svg',
+    country: 'international',
+    description: '马斯克旗下AI公司，Grok模型开发者',
+  },
+  // === 国内主流提供商 ===
+  {
+    id: 'baidu',
+    name: '百度文心',
+    logo: '/logos/baidu.svg',
+    country: 'domestic',
+    description: '中国领先的人工智能平台',
+  },
+  {
+    id: 'alibaba',
+    name: '阿里通义',
+    logo: '/logos/alibaba.svg',
+    country: 'domestic',
+    description: '阿里巴巴集团AI品牌',
+  },
+  {
+    id: 'tencent',
+    name: '腾讯混元',
+    logo: '/logos/tencent.svg',
+    country: 'domestic',
+    description: '腾讯全链路自研大语言模型',
+  },
+  {
+    id: 'zhipu',
+    name: '智谱AI',
+    logo: '/logos/zhipu.svg',
+    country: 'domestic',
+    description: '清华大学孵化的人工智能企业',
+  },
+  {
+    id: 'moonshot',
+    name: '月之暗面 Moonshot AI',
+    logo: '/logos/moonshot.svg',
+    country: 'domestic',
+    description: '中国领先的大语言模型初创公司',
+  },
+  {
+    id: 'minimax',
+    name: 'MiniMax',
+    logo: '/logos/minimax.svg',
+    country: 'domestic',
+    description: '通用人工智能领军企业',
+  },
+  {
+    id: 'xiaomi',
+    name: 'Xiaomi MiMo',
+    logo: '/logos/xiaomi.svg',
+    country: 'domestic',
+    description: '小米自研通用大模型与多模态智能平台',
+  },
+  {
+    id: 'deepseek',
+    name: 'DeepSeek 深度求索',
+    logo: '/logos/deepseek.svg',
+    country: 'domestic',
+    description: '中国领先的开源大模型研究团队',
+  },
+  {
+    id: 'bytedance',
+    name: '字节豆包 ByteDance',
+    logo: '/logos/bytedance.svg',
+    country: 'domestic',
+    description: '字节跳动AI大模型产品',
+  },
+  {
+    id: 'sensetime',
+    name: '商汤 SenseTime',
+    logo: '/logos/sensetime.svg',
+    country: 'domestic',
+    description: '计算机视觉和AI领域的领先企业',
+  },
+  {
+    id: 'mobvoi',
+    name: '出门问问 Mobvoi',
+    logo: '/logos/mobvoi.svg',
+    country: 'domestic',
+    description: '中国AI语音交互和生成式AI公司',
+  },
+  {
+    id: 'iflytek',
+    name: '讯飞 iFlytek',
+    logo: '/logos/iflytek.svg',
+    country: 'domestic',
+    description: '中国智能语音和AI领导者',
+  },
+  {
+    id: '360',
+    name: '360 智脑',
+    logo: '/logos/360.svg',
+    country: 'domestic',
+    description: '360安全大脑AI模型',
+  },
+  {
+    id: 'huawei',
+    name: '华为云 盘古',
+    logo: '/logos/huawei.svg',
+    country: 'domestic',
+    description: '华为云AI大模型服务',
+  },
+  {
+    id: 'yi',
+    name: '零一万物 Yi',
+    logo: '/logos/yi.svg',
+    country: 'domestic',
+    description: '李开复创立的AI大模型公司',
+  },
+  ];
+
+// 汇率: 1 USD ≈ 7.2 CNY (2026年4月)
+export const models: AIModel[] = [
+  // ========== OpenAI ==========
+  {
+    id: 'gpt-5.5',
+    providerId: 'openai',
+    name: 'GPT-5.5',
+    version: '5.5',
+    type: 'multimodal',
+    pricing: { input: 36, output: 216 }, // $5/$30 -> ¥36/¥216
+    performance: { contextWindow: 1050000, maxOutput: 128000, latency: 850, accuracy: 99 },
+    features: ['最新旗舰', '顶级智能', '代理任务', '代码生成', '函数调用'],
+    releaseDate: '2026-04-23',
+    websiteUrl: 'https://developers.openai.com/api/docs/models/gpt-5.5',
+  },
+  {
+    id: 'gpt-5.5-pro',
+    providerId: 'openai',
+    name: 'GPT-5.5 Pro',
+    version: '5.5',
+    type: 'multimodal',
+    pricing: { input: 216, output: 1296 }, // $30/$180 -> ¥216/¥1296
+    performance: { contextWindow: 1050000, maxOutput: 128000, latency: 1400, accuracy: 99 },
+    features: ['专业版', '更精准响应', '顶级智能', '复杂任务'],
+    releaseDate: '2026-04-24',
+    websiteUrl: 'https://developers.openai.com/api/docs/models/gpt-5.5-pro',
+  },
+  {
+    id: 'gpt-5.4',
+    providerId: 'openai',
+    name: 'GPT-5.4',
+    version: '5.4',
+    type: 'multimodal',
+    pricing: { input: 18, output: 108 }, // $2.5/$15 → ¥18/¥108
+    performance: { contextWindow: 1050000, maxOutput: 128000, latency: 900, accuracy: 99 },
+    features: ['最新旗舰', '顶级智能', '多模态理解', '代理任务', '函数调用'],
+    releaseDate: '2026-03-05',
+    websiteUrl: 'https://developers.openai.com/api/docs/models/gpt-5.4',
+  },
+  {
+    id: 'gpt-5.4-pro',
+    providerId: 'openai',
+    name: 'GPT-5.4 Pro',
+    version: '5.4',
+    type: 'multimodal',
+    pricing: { input: 216, output: 1296 }, // $30/$180 → ¥216/¥1296
+    performance: { contextWindow: 1050000, maxOutput: 128000, latency: 1100, accuracy: 99 },
+    features: ['专业版', '更精准响应', '顶级智能', '复杂任务'],
+    releaseDate: '2026-03-05',
+    websiteUrl: 'https://developers.openai.com/api/docs/models/gpt-5.4',
+  },
+  {
+    id: 'gpt-5.4-mini',
+    providerId: 'openai',
+    name: 'GPT-5.4 mini',
+    version: '5.4',
+    type: 'multimodal',
+    pricing: { input: 5.4, output: 32.4 }, // $0.75/$4.5 → ¥5.4/¥32.4
+    performance: { contextWindow: 400000, maxOutput: 128000, latency: 500, accuracy: 96 },
+    features: ['高性价比', '400K上下文', '多模态', '快速响应'],
+    releaseDate: '2026-03-17',
+    websiteUrl: 'https://openai.com/index/introducing-gpt-5-4-mini-and-nano/',
+  },
+  {
+    id: 'gpt-5.4-nano',
+    providerId: 'openai',
+    name: 'GPT-5.4 nano',
+    version: '5.4',
+    type: 'multimodal',
+    pricing: { input: 1.44, output: 9 }, // $0.20/$1.25 → ¥1.44/¥9
+    performance: { contextWindow: 400000, maxOutput: 128000, latency: 220, accuracy: 93 },
+    features: ['最经济', '极速响应', '高性价比', '轻量任务'],
+    releaseDate: '2026-03-17',
+    websiteUrl: 'https://openai.com/index/introducing-gpt-5-4-mini-and-nano/',
+  },
+  {
+    id: 'gpt-5-mini',
+    providerId: 'openai',
+    name: 'GPT-5 mini',
+    version: '5.0',
+    type: 'multimodal',
+    pricing: { input: 1.8, output: 14.4 }, // $0.25/$2 → ¥1.8/¥14.4
+    performance: { contextWindow: 400000, maxOutput: 128000, latency: 600, accuracy: 95 },
+    features: ['近前沿智能', '低延迟', '高容量', '高性价比'],
+    releaseDate: '2026-03-01',
+    websiteUrl: 'https://platform.openai.com/docs/models/gpt-5',
+  },
+  {
+    id: 'gpt-5-nano',
+    providerId: 'openai',
+    name: 'GPT-5 nano',
+    version: '5.0',
+    type: 'multimodal',
+    pricing: { input: 0.36, output: 2.88 }, // $0.05/$0.40 → ¥0.36/¥2.88
+    performance: { contextWindow: 400000, maxOutput: 128000, latency: 300, accuracy: 92 },
+    features: ['最快', '最经济', '轻量任务'],
+    releaseDate: '2026-03-01',
+    websiteUrl: 'https://platform.openai.com/docs/models/gpt-5',
+  },
+  {
+    id: 'gpt-5',
+    providerId: 'openai',
+    name: 'GPT-5',
+    version: '5.0',
+    type: 'chat',
+    pricing: { input: 9, output: 72 }, // $1.25/$10 → ¥9/¥72
+    performance: { contextWindow: 400000, maxOutput: 128000, latency: 1000, accuracy: 97 },
+    features: ['可配置推理', '代理任务', '代码生成'],
+    releaseDate: '2026-02-01',
+    websiteUrl: 'https://platform.openai.com/docs/models/gpt-5',
+  },
+  {
+    id: 'gpt-4.1',
+    providerId: 'openai',
+    name: 'GPT-4.1',
+    version: '4.1',
+    type: 'chat',
+    pricing: { input: 14.4, output: 57.6 }, // $2/$8 → ¥14.4/¥57.6
+    performance: { contextWindow: 128000, maxOutput: 32768, latency: 600, accuracy: 94 },
+    features: ['最智能非推理模型', '高级推理', '代码生成'],
+    releaseDate: '2026-01-01',
+    websiteUrl: 'https://platform.openai.com/docs/models/gpt-4-1',
+  },
+  {
+    id: 'gpt-4.1-mini',
+    providerId: 'openai',
+    name: 'GPT-4.1 mini',
+    version: '4.1',
+    type: 'chat',
+    pricing: { input: 2.88, output: 11.52 }, // $0.40/$1.60 → ¥2.88/¥11.52
+    performance: { contextWindow: 128000, maxOutput: 16384, latency: 300, accuracy: 90 },
+    features: ['高性价比', '快速响应'],
+    releaseDate: '2026-01-01',
+    websiteUrl: 'https://platform.openai.com/docs/models/gpt-4-1',
+  },
+  {
+    id: 'gpt-5.2-codex',
+    providerId: 'openai',
+    name: 'GPT-5.2 Codex',
+    version: '5.2',
+    type: 'code',
+    pricing: { input: 12.6, output: 100.8 }, // $1.75/$14 → ¥12.6/¥100.8
+    performance: { contextWindow: 400000, maxOutput: 128000, latency: 500, accuracy: 97 },
+    features: ['代理编码', '代码生成', '架构设计'],
+    releaseDate: '2026-04-01',
+    websiteUrl: 'https://platform.openai.com/docs/models/gpt-5.2-codex',
+  },
+  {
+    id: 'gpt-5.2',
+    providerId: 'openai',
+    name: 'GPT-5.2',
+    version: '5.2',
+    type: 'chat',
+    pricing: { input: 12.6, output: 100.8 }, // $1.75/$14 → ¥12.6/¥100.8
+    performance: { contextWindow: 400000, maxOutput: 128000, latency: 900, accuracy: 96 },
+    features: ['最新旗舰', '高级推理', '多模态'],
+    releaseDate: '2026-04-01',
+    websiteUrl: 'https://platform.openai.com/docs/models/gpt-5.2',
+  },
+  {
+    id: 'gpt-5.1',
+    providerId: 'openai',
+    name: 'GPT-5.1',
+    version: '5.1',
+    type: 'chat',
+    pricing: { input: 9, output: 72 }, // $1.25/$10 → ¥9/¥72
+    performance: { contextWindow: 400000, maxOutput: 128000, latency: 800, accuracy: 95 },
+    features: ['代理编码', '代理任务', '多模态'],
+    releaseDate: '2025-11-01',
+    websiteUrl: 'https://platform.openai.com/docs/models/gpt-5',
+  },
+  {
+    id: 'gpt-5-pro',
+    providerId: 'openai',
+    name: 'GPT-5 Pro',
+    version: '5.0',
+    type: 'chat',
+    pricing: { input: 108, output: 864 }, // $15/$120 → ¥108/¥864
+    performance: { contextWindow: 400000, maxOutput: 128000, latency: 1000, accuracy: 98 },
+    features: ['更精准响应', '顶级智能', '复杂推理'],
+    releaseDate: '2026-02-01',
+    websiteUrl: 'https://platform.openai.com/docs/models/gpt-5',
+  },
+  {
+    id: 'gpt-5.2-pro',
+    providerId: 'openai',
+    name: 'GPT-5.2 Pro',
+    version: '5.2',
+    type: 'chat',
+    pricing: { input: 151.2, output: 1209.6 }, // $21/$168 → ¥151.2/¥1209.6
+    performance: { contextWindow: 400000, maxOutput: 128000, latency: 850, accuracy: 97 },
+    features: ['专业版', '更精准', '复杂任务'],
+    releaseDate: '2026-04-01',
+    websiteUrl: 'https://platform.openai.com/docs/models/gpt-5.2-pro',
+  },
+  {
+    id: 'o3-pro',
+    providerId: 'openai',
+    name: 'o3 Pro',
+    version: '3.0',
+    type: 'chat',
+    pricing: { input: 144, output: 576 }, // $20/$80 → ¥144/¥576
+    performance: { contextWindow: 200000, maxOutput: 65536, latency: 1500, accuracy: 98 },
+    features: ['更强推理', '复杂问题解决', '深度思考'],
+    releaseDate: '2025-06-10',
+    websiteUrl: 'https://platform.openai.com/docs/models/o3',
+  },
+  {
+    id: 'o3',
+    providerId: 'openai',
+    name: 'o3',
+    version: '3.0',
+    type: 'chat',
+    pricing: { input: 14.4, output: 57.6 }, // $2/$8 → ¥14.4/¥57.6
+    performance: { contextWindow: 200000, maxOutput: 65536, latency: 1500, accuracy: 97 },
+    features: ['复杂推理', '深度思考', '科学计算'],
+    releaseDate: '2025-11-01',
+    websiteUrl: 'https://platform.openai.com/docs/models/o3',
+  },
+  {
+    id: 'chatgpt-image-latest',
+    providerId: 'openai',
+    name: 'ChatGPT Image Latest',
+    version: 'latest',
+    type: 'image',
+    pricing: { input: 36, output: 72 }, // text tokens $5/$10 → ¥36/¥72
+    performance: { contextWindow: 0, maxOutput: 0, latency: 5000, accuracy: 95 },
+    features: ['图像生成', '高分辨率', '创意无限'],
+    releaseDate: '2026-01-01',
+    websiteUrl: 'https://platform.openai.com/docs/guides/image-generation',
+  },
+  {
+    id: 'gpt-image-1.5',
+    providerId: 'openai',
+    name: 'GPT Image 1.5',
+    version: '1.5',
+    type: 'image',
+    pricing: { input: 36, output: 72 }, // text tokens $5/$10 → ¥36/¥72
+    performance: { contextWindow: 0, maxOutput: 0, latency: 4000, accuracy: 92 },
+    features: ['图像生成', '多模态'],
+    releaseDate: '2026-01-01',
+    websiteUrl: 'https://platform.openai.com/docs/guides/image-generation',
+  },
+  {
+    id: 'gpt-oss-120b',
+    providerId: 'openai',
+    name: 'GPT-OSS-120B',
+    version: '1.0',
+    type: 'chat',
+    pricing: { input: 0, output: 0 }, // 开源免费 (Apache 2.0)
+    performance: { contextWindow: 128000, maxOutput: 4096, latency: 800, accuracy: 90 },
+    features: ['开源权重', 'Apache 2.0', '可本地部署'],
+    releaseDate: '2026-02-01',
+    websiteUrl: 'https://platform.openai.com/docs/models/gpt-oss',
+  },
+  {
+    id: 'gpt-oss-20b',
+    providerId: 'openai',
+    name: 'GPT-OSS-20B',
+    version: '1.0',
+    type: 'chat',
+    pricing: { input: 0, output: 0 }, // 开源免费 (Apache 2.0)
+    performance: { contextWindow: 128000, maxOutput: 4096, latency: 300, accuracy: 87 },
+    features: ['中型开源', '低延迟', '可本地部署'],
+    releaseDate: '2026-02-01',
+    websiteUrl: 'https://platform.openai.com/docs/models/gpt-oss',
+  },
+  {
+    id: 'gpt-realtime',
+    providerId: 'openai',
+    name: 'GPT Realtime',
+    version: 'latest',
+    type: 'audio',
+    pricing: { input: 28.8, output: 115.2 }, // text tokens $4/$16 → ¥28.8/¥115.2
+    performance: { contextWindow: 128000, maxOutput: 32768, latency: 100, accuracy: 92 },
+    features: ['语音输入输出', '实时对话', '多模态'],
+    releaseDate: '2026-01-01',
+    websiteUrl: 'https://platform.openai.com/docs/guides/realtime',
+  },
+  {
+    id: 'gpt-audio',
+    providerId: 'openai',
+    name: 'GPT Audio',
+    version: 'latest',
+    type: 'audio',
+    pricing: { input: 18, output: 72 }, // text tokens $2.5/$10 → ¥18/¥72
+    performance: { contextWindow: 128000, maxOutput: 32768, latency: 150, accuracy: 91 },
+    features: ['语音输入输出', 'Chat Completions API'],
+    releaseDate: '2026-01-01',
+    websiteUrl: 'https://platform.openai.com/docs/guides/audio',
+  },
+  {
+    id: 'gpt-4o-transcribe',
+    providerId: 'openai',
+    name: 'GPT-4o Transcribe',
+    version: '1.0',
+    type: 'audio',
+    pricing: { input: 0.72, output: 0 }, // $0.1/分钟 → ¥0.72/分钟
+    performance: { contextWindow: 0, maxOutput: 0, latency: 1000, accuracy: 94 },
+    features: ['语音转文字', '高准确率'],
+    releaseDate: '2025-06-01',
+    websiteUrl: 'https://platform.openai.com/docs/guides/audio',
+  },
+  {
+    id: 'tts-1',
+    providerId: 'openai',
+    name: 'TTS-1',
+    version: '1.0',
+    type: 'audio',
+    pricing: { input: 3.6, output: 0 }, // $0.5/千字符 → ¥3.6/千字符
+    performance: { contextWindow: 0, maxOutput: 0, latency: 2000, accuracy: 90 },
+    features: ['文字转语音', '快速响应'],
+    releaseDate: '2024-08-01',
+    websiteUrl: 'https://platform.openai.com/docs/guides/audio',
+  },
+  {
+    id: 'tts-1-hd',
+    providerId: 'openai',
+    name: 'TTS-1 HD',
+    version: '1.0',
+    type: 'audio',
+    pricing: { input: 10.8, output: 0 }, // $1.5/千字符 → ¥10.8/千字符
+    performance: { contextWindow: 0, maxOutput: 0, latency: 5000, accuracy: 93 },
+    features: ['文字转语音', '高质量'],
+    releaseDate: '2024-08-01',
+    websiteUrl: 'https://platform.openai.com/docs/guides/audio',
+  },
+  {
+    id: 'whisper-1',
+    providerId: 'openai',
+    name: 'Whisper-1',
+    version: '1.0',
+    type: 'audio',
+    pricing: { input: 0.72, output: 0 }, // $0.1/分钟 → ¥0.72/分钟
+    performance: { contextWindow: 0, maxOutput: 0, latency: 1000, accuracy: 95 },
+    features: ['语音识别', '通用场景'],
+    releaseDate: '2023-09-01',
+    websiteUrl: 'https://platform.openai.com/docs/guides/audio',
+  },
+  {
+    id: 'omni-moderation-latest',
+    providerId: 'openai',
+    name: 'Omni Moderation',
+    version: 'latest',
+    type: 'moderation',
+    pricing: { input: 0, output: 0 }, // OpenAI moderation models are free
+    performance: { contextWindow: 0, maxOutput: 0, latency: 100, accuracy: 96 },
+    features: ['内容审核', '文字图像'],
+    releaseDate: '2025-06-01',
+    websiteUrl: 'https://platform.openai.com/docs/guides/moderation',
+  },
+  {
+    id: 'text-embedding-3-large',
+    providerId: 'openai',
+    name: 'Text Embedding 3 Large',
+    version: '3.0',
+    type: 'embedding',
+    pricing: { input: 0.936, output: 0 }, // $0.13/1M tokens → ¥0.936/1M tokens
+    performance: { contextWindow: 8192, maxOutput: 0, latency: 50, accuracy: 90 },
+    features: ['最强嵌入', '3072维度'],
+    releaseDate: '2024-01-01',
+    websiteUrl: 'https://platform.openai.com/docs/guides/embeddings',
+  },
+  {
+    id: 'text-embedding-3-small',
+    providerId: 'openai',
+    name: 'Text Embedding 3 Small',
+    version: '3.0',
+    type: 'embedding',
+    pricing: { input: 0.144, output: 0 }, // $0.02/1M tokens → ¥0.144/1M tokens
+    performance: { contextWindow: 8192, maxOutput: 0, latency: 30, accuracy: 85 },
+    features: ['小型嵌入', '高性价比'],
+    releaseDate: '2024-01-01',
+    websiteUrl: 'https://platform.openai.com/docs/guides/embeddings',
+  },
+
+  // ========== Anthropic ==========
+  {
+    id: 'claude-opus-4-7',
+    providerId: 'anthropic',
+    name: 'Claude Opus 4.7',
+    version: '4.7',
+    type: 'chat',
+    pricing: { input: 36, output: 180 }, // $5/$25 → ¥36/¥180
+    performance: { contextWindow: 1000000, maxOutput: 128000, latency: 850, accuracy: 98 },
+    features: ['最新旗舰', '最高智能', '复杂推理', '多模态理解', '1M上下文'],
+    releaseDate: '2026-04-16',
+    websiteUrl: 'https://www.anthropic.com/news/claude-opus-4-7',
+  },
+  {
+    id: 'claude-opus-4-6',
+    providerId: 'anthropic',
+    name: 'Claude Opus 4.6',
+    version: '4.6',
+    type: 'chat',
+    pricing: { input: 36, output: 180 }, // $5/$25 → ¥36/¥180
+    performance: { contextWindow: 1000000, maxOutput: 128000, latency: 900, accuracy: 97 },
+    features: ['最高智能', '顶级推理', '复杂分析', '代码能力', '1M上下文'],
+    releaseDate: '2026-02-05',
+    websiteUrl: 'https://www.anthropic.com/news/claude-opus-4-6',
+  },
+  {
+    id: 'claude-sonnet-4-6',
+    providerId: 'anthropic',
+    name: 'Claude Sonnet 4.6',
+    version: '4.6',
+    type: 'chat',
+    pricing: { input: 21.6, output: 108 }, // $3/$15 → ¥21.6/¥108
+    performance: { contextWindow: 1000000, maxOutput: 64000, latency: 480, accuracy: 96 },
+    features: ['平衡性能', '快速响应', '高性价比', '代码能力', '1M上下文'],
+    releaseDate: '2026-02-17',
+    websiteUrl: 'https://www.anthropic.com/news/claude-sonnet-4-6',
+  },
+  {
+    id: 'claude-haiku-4-5-20251001',
+    providerId: 'anthropic',
+    name: 'Claude Haiku 4.5',
+    version: '4.5',
+    type: 'chat',
+    pricing: { input: 7.2, output: 36 }, // $1/$5 → ¥7.2/¥36
+    performance: { contextWindow: 200000, maxOutput: 64000, latency: 220, accuracy: 92 },
+    features: ['极速响应', '高性价比', '轻量级', '代码能力'],
+    releaseDate: '2025-10-15',
+    websiteUrl: 'https://www.anthropic.com/news/claude-haiku-4-5',
+  },
+  {
+    id: 'claude-sonnet-4-5-20250929',
+    providerId: 'anthropic',
+    name: 'Claude Sonnet 4.5',
+    version: '4.5',
+    type: 'chat',
+    pricing: { input: 21.6, output: 108 }, // $3/$15 → ¥21.6/¥108
+    performance: { contextWindow: 1000000, maxOutput: 64000, latency: 500, accuracy: 95 },
+    features: ['平衡性能', '快速响应', '高性价比', '高级推理', '1M上下文'],
+    releaseDate: '2025-09-29',
+    websiteUrl: 'https://www.anthropic.com/news/claude-sonnet-4-5',
+  },
+
+  // ========== Google DeepMind ==========
+  {
+    id: 'gemini-3.5-flash',
+    providerId: 'google',
+    name: 'Gemini 3.5 Flash',
+    version: '3.5',
+    type: 'multimodal',
+    pricing: { input: 19.44, output: 116.64 }, // $2.70/$16.20 -> ¥19.44/¥116.64
+    performance: { contextWindow: 1048576, maxOutput: 65536, latency: 240, accuracy: 97 },
+    features: ['最新模型', '快速响应', '百万级上下文', '代理任务', '多模态'],
+    releaseDate: '2026-05-19',
+    websiteUrl: 'https://ai.google.dev/gemini-api/docs/pricing',
+  },
+  {
+    id: 'gemini-3-pro-preview',
+    providerId: 'google',
+    name: 'Gemini 3 Pro Preview',
+    version: '3.0',
+    type: 'multimodal',
+    pricing: { input: 14.4, output: 86.4 }, // $2/$12 → ¥14.4/¥86.4
+    performance: { contextWindow: 1048576, maxOutput: 65536, latency: 600, accuracy: 97 },
+    features: ['最新旗舰模型', '百万级上下文', '顶级推理', '多模态'],
+    releaseDate: '2025-11-01',
+    websiteUrl: 'https://ai.google.dev/gemini-api/docs/models',
+  },
+  {
+    id: 'gemini-3-flash-preview',
+    providerId: 'google',
+    name: 'Gemini 3 Flash Preview',
+    version: '3.0',
+    type: 'multimodal',
+    pricing: { input: 3.6, output: 21.6 }, // $0.50/$3 → ¥3.6/¥21.6
+    performance: { contextWindow: 1048576, maxOutput: 65536, latency: 260, accuracy: 94 },
+    features: ['快速响应', '百万级上下文', '多模态', '高性价比'],
+    releaseDate: '2025-12-01',
+    websiteUrl: 'https://ai.google.dev/gemini-api/docs/models',
+  },
+  {
+    id: 'gemini-3-pro-image-preview',
+    providerId: 'google',
+    name: 'Gemini 3 Pro Image Preview',
+    version: '3.0',
+    type: 'image',
+    pricing: { input: 14.4, output: 86.4 }, // Text tokens priced like Gemini 3 Pro
+    performance: { contextWindow: 65536, maxOutput: 32768, latency: 1200, accuracy: 95 },
+    features: ['图像生成', '多模态', '顶级推理', '高质量'],
+    releaseDate: '2025-11-01',
+    websiteUrl: 'https://ai.google.dev/gemini-api/docs/models',
+  },
+  {
+    id: 'gemini-2.5-pro',
+    providerId: 'google',
+    name: 'Gemini 2.5 Pro',
+    version: '2.5',
+    type: 'multimodal',
+    pricing: { input: 9, output: 72 }, // $1.25/$10 → ¥9/¥72
+    performance: { contextWindow: 1000000, maxOutput: 32768, latency: 500, accuracy: 95 },
+    features: ['高性能', '百万级上下文', '高级推理'],
+    releaseDate: '2025-03-01',
+    websiteUrl: 'https://ai.google.dev/gemini-api/docs/models',
+  },
+  {
+    id: 'gemini-2.5-flash',
+    providerId: 'google',
+    name: 'Gemini 2.5 Flash',
+    version: '2.5',
+    type: 'multimodal',
+    pricing: { input: 2.16, output: 18 }, // $0.3/$2.5 → ¥2.16/¥18
+    performance: { contextWindow: 1000000, maxOutput: 16384, latency: 200, accuracy: 92 },
+    features: ['高性价比', '快速响应', '百万级上下文'],
+    releaseDate: '2025-03-01',
+    websiteUrl: 'https://ai.google.dev/gemini-api/docs/models',
+  },
+
+  // ========== Meta AI ==========
+  {
+    id: 'llama-4-maverick',
+    providerId: 'meta',
+    name: 'Llama 4 Maverick',
+    version: '4.0',
+    type: 'multimodal',
+    pricing: { input: 0, output: 0 }, // 开源免费
+    performance: { contextWindow: 1000000, maxOutput: 32768, latency: 400, accuracy: 93 },
+    features: ['开源', '多模态', '百万级上下文', '高性价比'],
+    releaseDate: '2025-04-05',
+    websiteUrl: 'https://www.llama.com/models/',
+  },
+  {
+    id: 'llama-4-scout',
+    providerId: 'meta',
+    name: 'Llama 4 Scout',
+    version: '4.0',
+    type: 'multimodal',
+    pricing: { input: 0, output: 0 }, // 开源免费
+    performance: { contextWindow: 10000000, maxOutput: 32768, latency: 500, accuracy: 92 },
+    features: ['开源', '百万级上下文', '多模态'],
+    releaseDate: '2025-04-05',
+    websiteUrl: 'https://www.llama.com/models/',
+  },
+  {
+    id: 'llama-3.3-70b',
+    providerId: 'meta',
+    name: 'Llama 3.3 70B',
+    version: '3.3',
+    type: 'chat',
+    pricing: { input: 0, output: 0 }, // 开源免费
+    performance: { contextWindow: 128000, maxOutput: 4096, latency: 500, accuracy: 92 },
+    features: ['开源', '70B参数', '多语言', '高性价比'],
+    releaseDate: '2024-12-06',
+    websiteUrl: 'https://www.llama.com/models/',
+  },
+  {
+    id: 'llama-3.1-70b',
+    providerId: 'meta',
+    name: 'Llama 3.1 70B',
+    version: '3.1',
+    type: 'chat',
+    pricing: { input: 0, output: 0 }, // 开源免费
+    performance: { contextWindow: 128000, maxOutput: 4096, latency: 400, accuracy: 90 },
+    features: ['开源', '70B参数', '高性价比'],
+    releaseDate: '2024-07-23',
+    websiteUrl: 'https://www.llama.com/models/',
+  },
+  {
+    id: 'llama-3.1-8b',
+    providerId: 'meta',
+    name: 'Llama 3.1 8B',
+    version: '3.1',
+    type: 'chat',
+    pricing: { input: 0, output: 0 }, // 开源免费
+    performance: { contextWindow: 128000, maxOutput: 4096, latency: 200, accuracy: 86 },
+    features: ['开源', '轻量快速', '本地部署'],
+    releaseDate: '2024-07-23',
+    websiteUrl: 'https://www.llama.com/models/',
+  },
+
+  // ========== Mistral AI ==========
+  {
+    id: 'mistral-small-4',
+    providerId: 'mistral',
+    name: 'Mistral Small 4',
+    version: '26.03',
+    type: 'multimodal',
+    pricing: { input: 1.08, output: 4.32 }, // $0.15/$0.6 → ¥1.08/¥4.32
+    performance: { contextWindow: 256000, maxOutput: 32768, latency: 260, accuracy: 91 },
+    features: ['开源', '256K上下文', '多模态', '高性价比'],
+    releaseDate: '2026-03-16',
+    websiteUrl: 'https://docs.mistral.ai/models/mistral-small-4-0-26-03',
+  },
+  {
+    id: 'mistral-large-3',
+    providerId: 'mistral',
+    name: 'Mistral Large 3',
+    version: '25.12',
+    type: 'multimodal',
+    pricing: { input: 3.6, output: 10.8 }, // $0.5/$1.5 → ¥3.6/¥10.8
+    performance: { contextWindow: 256000, maxOutput: 32768, latency: 420, accuracy: 94 },
+    features: ['开源', '256K上下文', '多模态', '顶级推理'],
+    releaseDate: '2025-12-02',
+    websiteUrl: 'https://docs.mistral.ai/models/mistral-large-3-25-12',
+  },
+  {
+    id: 'mistral-medium-3.1',
+    providerId: 'mistral',
+    name: 'Mistral Medium 3.1',
+    version: '3.1',
+    type: 'chat',
+    pricing: { input: 2.88, output: 14.4 }, // $0.4/$2 → ¥2.88/¥14.4
+    performance: { contextWindow: 128000, maxOutput: 32768, latency: 300, accuracy: 90 },
+    features: ['高性价比', '快速响应', '128K上下文', '多模态'],
+    releaseDate: '2025-08-01',
+    websiteUrl: 'https://docs.mistral.ai/models/mistral-medium-3-1-25-08',
+  },
+  {
+    id: 'leanstral',
+    providerId: 'mistral',
+    name: 'Leanstral',
+    version: '26.03',
+    type: 'code',
+    pricing: { input: 0, output: 0 }, // 开源免费
+    performance: { contextWindow: 256000, maxOutput: 32768, latency: 320, accuracy: 89 },
+    features: ['开源', '代码生成', '256K上下文', '高性价比'],
+    releaseDate: '2026-03-16',
+    websiteUrl: 'https://docs.mistral.ai/models/leanstral-26-03',
+  },
+
+  // ========== xAI ==========
+  {
+    id: 'grok-4.3',
+    providerId: 'xai',
+    name: 'Grok 4.3',
+    version: '4.3',
+    type: 'chat',
+    pricing: { input: 9, output: 18 }, // $1.25/$2.50 -> ¥9/¥18
+    performance: { contextWindow: 1000000, maxOutput: 32768, latency: 360, accuracy: 96 },
+    features: ['最新旗舰', '代理任务', '函数调用', '低延迟', '百万级上下文'],
+    releaseDate: '2026-05-06',
+    websiteUrl: 'https://docs.x.ai/developers/models',
+  },
+  {
+    id: 'grok-4.20',
+    providerId: 'xai',
+    name: 'Grok 4.20',
+    version: '4.20',
+    type: 'chat',
+    pricing: { input: 14.4, output: 43.2 }, // public xAI console pricing may vary by account
+    performance: { contextWindow: 2000000, maxOutput: 32768, latency: 450, accuracy: 95 },
+    features: ['最新旗舰', '推理能力', '百万级上下文', '函数调用'],
+    releaseDate: '2026-03-09',
+    websiteUrl: 'https://docs.x.ai/docs/models/',
+  },
+  {
+    id: 'grok-4.1-fast',
+    providerId: 'xai',
+    name: 'Grok 4.1 Fast',
+    version: '4.1',
+    type: 'chat',
+    pricing: { input: 1.44, output: 3.6 }, // public xAI console pricing may vary by account
+    performance: { contextWindow: 2000000, maxOutput: 32768, latency: 250, accuracy: 92 },
+    features: ['快速响应', '高性价比', '百万级上下文'],
+    releaseDate: '2025-11-17',
+    websiteUrl: 'https://docs.x.ai/docs/models/',
+  },
+  {
+    id: 'grok-4',
+    providerId: 'xai',
+    name: 'Grok 4',
+    version: '4.0',
+    type: 'chat',
+    pricing: { input: 21.6, output: 108 }, // public xAI console pricing may vary by account
+    performance: { contextWindow: 256000, maxOutput: 32768, latency: 400, accuracy: 94 },
+    features: ['推理能力', '函数调用', '多模态'],
+    releaseDate: '2025-07-10',
+    websiteUrl: 'https://docs.x.ai/docs/models/',
+  },
+
+  // ========== Amazon AWS ==========
+  {
+    id: 'bedrock-claude-opus-4-7',
+    providerId: 'amazon',
+    name: 'Claude Opus 4.7 (Bedrock)',
+    version: '4.7',
+    type: 'chat',
+    pricing: { input: 36, output: 180 }, // Anthropic list price $5/$25 → ¥36/¥180
+    performance: { contextWindow: 1000000, maxOutput: 128000, latency: 850, accuracy: 98 },
+    features: ['AWS托管', '企业级安全', 'VPC支持', '最高智能'],
+    releaseDate: '2026-04-16',
+    websiteUrl: 'https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-7.html',
+  },
+  {
+    id: 'bedrock-nova-2-lite',
+    providerId: 'amazon',
+    name: 'Amazon Nova 2 Lite',
+    version: '2.0',
+    type: 'multimodal',
+    pricing: { input: 0, output: 0 },
+    performance: { contextWindow: 300000, maxOutput: 8192, latency: 220, accuracy: 89 },
+    features: ['AWS原生', '多模态', '高性价比', '企业级安全'],
+    releaseDate: '2025-12-02',
+    websiteUrl: 'https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-amazon.html',
+  },
+  {
+    id: 'bedrock-nova-premier',
+    providerId: 'amazon',
+    name: 'Amazon Nova Premier',
+    version: '1.0',
+    type: 'multimodal',
+    pricing: { input: 0, output: 0 },
+    performance: { contextWindow: 1000000, maxOutput: 8192, latency: 500, accuracy: 92 },
+    features: ['AWS原生', '复杂推理', '多模态', '企业级安全'],
+    releaseDate: '2025-04-30',
+    websiteUrl: 'https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-amazon.html',
+  },
+
+  // ========== Microsoft Azure ==========
+  {
+    id: 'azure-gpt-5.4',
+    providerId: 'microsoft',
+    name: 'GPT-5.4 (Azure)',
+    version: '5.4',
+    type: 'multimodal',
+    pricing: { input: 18, output: 108 }, // OpenAI list price $2.5/$15 → ¥18/¥108
+    performance: { contextWindow: 1050000, maxOutput: 128000, latency: 900, accuracy: 99 },
+    features: ['Azure托管', '企业级安全', '合规性', '多模态'],
+    releaseDate: '2026-03-05',
+    websiteUrl: 'https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models',
+  },
+  {
+    id: 'azure-gpt-5.4-mini',
+    providerId: 'microsoft',
+    name: 'GPT-5.4 mini (Azure)',
+    version: '5.4',
+    type: 'multimodal',
+    pricing: { input: 5.4, output: 32.4 }, // OpenAI list price $0.75/$4.5 → ¥5.4/¥32.4
+    performance: { contextWindow: 400000, maxOutput: 128000, latency: 500, accuracy: 96 },
+    features: ['Azure托管', '快速响应', '高性价比', '多模态'],
+    releaseDate: '2026-03-17',
+    websiteUrl: 'https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models',
+  },
+  {
+    id: 'azure-gpt-5.4-nano',
+    providerId: 'microsoft',
+    name: 'GPT-5.4 nano (Azure)',
+    version: '5.4',
+    type: 'multimodal',
+    pricing: { input: 1.44, output: 9 }, // OpenAI list price $0.20/$1.25 → ¥1.44/¥9
+    performance: { contextWindow: 400000, maxOutput: 128000, latency: 220, accuracy: 93 },
+    features: ['Azure托管', '最经济', '极速响应', '轻量任务'],
+    releaseDate: '2026-03-17',
+    websiteUrl: 'https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models',
+  },
+  {
+    id: 'azure-phi-4-reasoning',
+    providerId: 'microsoft',
+    name: 'Phi-4 Reasoning',
+    version: '4.0',
+    type: 'chat',
+    pricing: { input: 0, output: 0 },
+    performance: { contextWindow: 32768, maxOutput: 8192, latency: 180, accuracy: 89 },
+    features: ['轻量级', '推理能力', 'Azure托管', '开源'],
+    releaseDate: '2025-05-01',
+    websiteUrl: 'https://learn.microsoft.com/en-us/azure/ai-foundry/model-inference/concepts/models',
+  },
+
+  // ========== DeepSeek ==========
+  {
+    id: 'deepseek-v4-flash',
+    providerId: 'deepseek',
+    name: 'DeepSeek V4 Flash',
+    version: 'V4 Preview',
+    type: 'chat',
+    pricing: { input: 1.01, output: 2.02 }, // $0.14/$0.28 → ¥1.01/¥2.02; cache hit $0.0028
+    performance: { contextWindow: 1000000, maxOutput: 384000, latency: 220, accuracy: 95 },
+    features: ['超高性价比', '1M上下文', '快速响应', '推理能力'],
+    releaseDate: '2026-04-24',
+    websiteUrl: 'https://api-docs.deepseek.com/quick_start/pricing/',
+  },
+  {
+    id: 'deepseek-v4-pro',
+    providerId: 'deepseek',
+    name: 'DeepSeek V4 Pro',
+    version: 'V4 Preview',
+    type: 'chat',
+    pricing: { input: 3.13, output: 6.26 }, // Current 75% off: $0.435/$0.87 → ¥3.13/¥6.26; cache hit $0.003625
+    performance: { contextWindow: 1000000, maxOutput: 384000, latency: 430, accuracy: 97 },
+    features: ['最新旗舰', '推理能力', '复杂任务', '1M上下文'],
+    releaseDate: '2026-04-24',
+    websiteUrl: 'https://api-docs.deepseek.com/quick_start/pricing/',
+  },
+
+  // ========== Xiaomi MiMo ==========
+  {
+    id: 'mimo-v2.5-pro',
+    providerId: 'xiaomi',
+    name: 'MiMo-V2.5-Pro',
+    version: '2.5-Pro',
+    type: 'code',
+    pricing: { input: 7.2, output: 21.6 }, // $1/$3 → ¥7.2/¥21.6 per 1M tokens; 256K-1M tier doubles
+    performance: { contextWindow: 1000000, maxOutput: 131072, latency: 1950, accuracy: 94 },
+    features: ['1M上下文', '代理编码', '复杂任务', '开源权重', 'MoE架构'],
+    releaseDate: '2026-04-27',
+    websiteUrl: 'https://mimo.xiaomi.com/mimo-v2-5-pro',
+  },
+  {
+    id: 'mimo-v2.5',
+    providerId: 'xiaomi',
+    name: 'MiMo-V2.5',
+    version: '2.5',
+    type: 'multimodal',
+    pricing: { input: 2.88, output: 14.4 }, // $0.4/$2 → ¥2.88/¥14.4 per 1M tokens
+    performance: { contextWindow: 1000000, maxOutput: 131072, latency: 2100, accuracy: 92 },
+    features: ['1M上下文', '多模态', '图像理解', '视频理解', '音频理解'],
+    releaseDate: '2026-04-22',
+    websiteUrl: 'https://mimo.xiaomi.com/mimo-v2-5',
+  },
+  {
+    id: 'mimo-v2-pro',
+    providerId: 'xiaomi',
+    name: 'MiMo-V2-Pro',
+    version: '2-Pro',
+    type: 'code',
+    pricing: { input: 7.2, output: 21.6 }, // $1/$3 → ¥7.2/¥21.6 per 1M tokens; 256K-1M tier doubles
+    performance: { contextWindow: 1000000, maxOutput: 131072, latency: 2100, accuracy: 91 },
+    features: ['1M上下文', '代理任务', '代码能力', '函数调用', 'MoE架构'],
+    releaseDate: '2026-03-18',
+    websiteUrl: 'https://mimo.xiaomi.com/mimo-v2-pro',
+  },
+  {
+    id: 'mimo-v2-omni',
+    providerId: 'xiaomi',
+    name: 'MiMo-V2-Omni',
+    version: '2-Omni',
+    type: 'multimodal',
+    pricing: { input: 2.88, output: 14.4 }, // $0.4/$2 → ¥2.88/¥14.4 per 1M tokens
+    performance: { contextWindow: 262000, maxOutput: 32768, latency: 2400, accuracy: 89 },
+    features: ['多模态', '图像理解', '视频理解', '音频理解', '函数调用'],
+    releaseDate: '2026-03-18',
+    websiteUrl: 'https://mimo.xiaomi.com/mimo-v2-omni',
+  },
+  {
+    id: 'mimo-v2-flash',
+    providerId: 'xiaomi',
+    name: 'MiMo-V2-Flash',
+    version: '2-Flash',
+    type: 'chat',
+    pricing: { input: 0.65, output: 2.09 }, // $0.09/$0.29 → ¥0.65/¥2.09 per 1M tokens
+    performance: { contextWindow: 262000, maxOutput: 32768, latency: 900, accuracy: 88 },
+    features: ['高性价比', '极速响应', 'MoE架构', '开源', '函数调用'],
+    releaseDate: '2025-12-16',
+    websiteUrl: 'https://mimo.xiaomi.com/mimo-v2-flash',
+  },
+
+  // ========== Moonshot (月之暗面) ==========
+  {
+    id: 'kimi-k2.6',
+    providerId: 'moonshot',
+    name: 'Kimi K2.6',
+    version: '2.6',
+    type: 'multimodal',
+    pricing: { input: 6.5, output: 27 }, // 官方 Kimi API: ¥6.5/¥27 per 1M tokens
+    performance: { contextWindow: 256000, maxOutput: 32768, latency: 430, accuracy: 93 },
+    features: ['262K上下文', '长文档处理', '代码能力', '高智能', '多模态'],
+    releaseDate: '2026-04-01',
+    websiteUrl: 'https://platform.moonshot.cn/',
+  },
+  {
+    id: 'kimi-k2.5',
+    providerId: 'moonshot',
+    name: 'Kimi K2.5',
+    version: '2.5',
+    type: 'multimodal',
+    pricing: { input: 4, output: 21 }, // 官方 Kimi API: ¥4/¥21 per 1M tokens
+    performance: { contextWindow: 256000, maxOutput: 32768, latency: 380, accuracy: 92 },
+    features: ['262K上下文', '长文档处理', '代码能力', '多模态'],
+    releaseDate: '2026-01-27',
+    websiteUrl: 'https://platform.moonshot.cn/docs/guide/kimi-k2-5-quickstart',
+  },
+  {
+    id: 'moonshot-v1-128k-vision-preview',
+    providerId: 'moonshot',
+    name: 'Moonshot v1 128K Vision Preview',
+    version: '1.0',
+    type: 'multimodal',
+    pricing: { input: 12, output: 12 },
+    performance: { contextWindow: 128000, maxOutput: 8192, latency: 450, accuracy: 88 },
+    features: ['多模态理解', '图像分析', '长文档处理'],
+    releaseDate: '2025-01-01',
+    websiteUrl: 'https://platform.moonshot.cn/docs/intro',
+  },
+
+  // ========== ByteDance (字节豆包) ==========
+  {
+    id: 'doubao-pro',
+    providerId: 'bytedance',
+    name: '豆包 Doubao Pro',
+    version: '2.0',
+    type: 'chat',
+    pricing: { input: 2.88, output: 8.64 }, // ¥0.4/¥1.2 → ¥2.88/¥8.64
+    performance: { contextWindow: 256000, maxOutput: 8192, latency: 350, accuracy: 88 },
+    features: ['256K上下文', '高性价比', '抖音生态'],
+    releaseDate: '2025-01-01',
+    websiteUrl: 'https://www.volcengine.com/product/doubao',
+  },
+  {
+    id: 'doubao-lite',
+    providerId: 'bytedance',
+    name: '豆包 Doubao Lite',
+    version: '2.0',
+    type: 'chat',
+    pricing: { input: 1.44, output: 4.32 }, // ¥0.2/¥0.6 → ¥1.44/¥4.32
+    performance: { contextWindow: 256000, maxOutput: 4096, latency: 200, accuracy: 85 },
+    features: ['轻量快速', '极高性价比', '256K上下文'],
+    releaseDate: '2025-01-01',
+    websiteUrl: 'https://www.volcengine.com/product/doubao',
+  },
+
+  // ========== 商汤 SenseTime ==========
+  {
+    id: 'sensechat-5',
+    providerId: 'sensetime',
+    name: 'SenseChat 5',
+    version: '5.0',
+    type: 'chat',
+    pricing: { input: 7.2, output: 21.6 }, // ¥1/¥3 → ¥7.2/¥21.6
+    performance: { contextWindow: 128000, maxOutput: 8192, latency: 400, accuracy: 89 },
+    features: ['128K上下文', '高级推理', '商汤CV积累'],
+    releaseDate: '2024-11-01',
+    websiteUrl: 'https://www.sensetime.com/',
+  },
+
+  // ========== 出门问问 Mobvoi ==========
+  {
+    id: 'qidu-lme',
+    providerId: 'mobvoi',
+    name: '奇点LME 2.0',
+    version: '2.0',
+    type: 'chat',
+    pricing: { input: 4.32, output: 14.4 }, // ¥0.6/¥2 → ¥4.32/¥14.4
+    performance: { contextWindow: 32000, maxOutput: 4096, latency: 350, accuracy: 86 },
+    features: ['语音交互', 'AI助手', '多模态'],
+    releaseDate: '2024-09-01',
+    websiteUrl: 'https://www.mobvoi.com/',
+  },
+
+  // ========== 讯飞 iFlytek ==========
+  {
+    id: 'spark-v4',
+    providerId: 'iflytek',
+    name: '星火大模型 v4.0',
+    version: '4.0',
+    type: 'chat',
+    pricing: { input: 7.2, output: 21.6 }, // ¥1/¥3 → ¥7.2/¥21.6
+    performance: { contextWindow: 128000, maxOutput: 8192, latency: 400, accuracy: 90 },
+    features: ['语音交互', '128K上下文', '认知智能'],
+    releaseDate: '2024-06-01',
+    websiteUrl: 'https://xinghuo.xfyun.cn/',
+  },
+
+  // ========== 360 智脑 ==========
+  {
+    id: 'brain-6',
+    providerId: '360',
+    name: '360 智脑大模型 6.0',
+    version: '6.0',
+    type: 'chat',
+    pricing: { input: 4.32, output: 14.4 }, // ¥0.6/¥2 → ¥4.32/¥14.4
+    performance: { contextWindow: 128000, maxOutput: 8192, latency: 380, accuracy: 87 },
+    features: ['安全大脑', '128K上下文', '搜索增强'],
+    releaseDate: '2024-08-01',
+    websiteUrl: 'https://ai.360.cn/',
+  },
+
+  // ========== 华为云 盘古 ==========
+  {
+    id: 'pangu-5',
+    providerId: 'huawei',
+    name: '盘古大模型 5.0',
+    version: '5.0',
+    type: 'chat',
+    pricing: { input: 7.2, output: 21.6 }, // ¥1/¥3 → ¥7.2/¥21.6
+    performance: { contextWindow: 128000, maxOutput: 8192, latency: 450, accuracy: 91 },
+    features: ['华为自研', '128K上下文', '昇腾AI加速'],
+    releaseDate: '2024-09-01',
+    websiteUrl: 'https://www.huaweicloud.com/product/pangu.html',
+  },
+
+  // ========== 百度 ==========
+  {
+    id: 'ernie-4.5',
+    providerId: 'baidu',
+    name: '文心 ERNIE 4.5',
+    version: '4.5',
+    type: 'multimodal',
+    pricing: { input: 7.2, output: 21.6 }, // 公开精确定价待千帆控制台核验
+    performance: { contextWindow: 128000, maxOutput: 8192, latency: 480, accuracy: 91 },
+    features: ['128K上下文', '高级推理', '知识增强', '多模态'],
+    releaseDate: '2025-03-16',
+    websiteUrl: 'https://cloud.baidu.com/product/wenxin.html',
+  },
+  {
+    id: 'ernie-x1',
+    providerId: 'baidu',
+    name: '文心 ERNIE X1',
+    version: '1.0',
+    type: 'chat',
+    pricing: { input: 3.96, output: 15.84 }, // 公开精确定价待千帆控制台核验
+    performance: { contextWindow: 128000, maxOutput: 8192, latency: 520, accuracy: 92 },
+    features: ['推理能力', '复杂问题解决', '百度生态'],
+    releaseDate: '2025-03-16',
+    websiteUrl: 'https://cloud.baidu.com/product/wenxin.html',
+  },
+
+  // ========== 阿里通义 ==========
+  {
+    id: 'qwen3.7-max',
+    providerId: 'alibaba',
+    name: 'Qwen3.7 Max',
+    version: '3.7',
+    type: 'multimodal',
+    pricing: { input: 9, output: 27 }, // llm-stats $1.25/$3.75 -> ¥9/¥27; Alibaba public docs list model, exact console plan should be rechecked
+    performance: { contextWindow: 1000000, maxOutput: 65536, latency: 430, accuracy: 96 },
+    features: ['最新旗舰', '百万级上下文', '代理任务', '代码生成', '多模态'],
+    releaseDate: '2026-05-19',
+    websiteUrl: 'https://help.aliyun.com/zh/model-studio/models',
+  },
+  {
+    id: 'qwen3-max-2026-01-23',
+    providerId: 'alibaba',
+    name: 'Qwen3 Max',
+    version: '3.0',
+    type: 'chat',
+    pricing: { input: 8.64, output: 25.92 },
+    performance: { contextWindow: 1000000, maxOutput: 65536, latency: 480, accuracy: 94 },
+    features: ['百万级上下文', '顶级推理', '代码生成'],
+    releaseDate: '2026-01-23',
+    websiteUrl: 'https://help.aliyun.com/zh/model-studio',
+  },
+  {
+    id: 'qwen3.6-plus',
+    providerId: 'alibaba',
+    name: 'Qwen3.6 Plus',
+    version: '3.6',
+    type: 'multimodal',
+    pricing: { input: 3.6, output: 21.6 }, // llm-stats $0.50/$3 -> ¥3.6/¥21.6; Alibaba public docs list model, exact console plan should be rechecked
+    performance: { contextWindow: 1000000, maxOutput: 65536, latency: 360, accuracy: 94 },
+    features: ['百万级上下文', '代码生成', '多模态', '高级推理'],
+    releaseDate: '2026-04-02',
+    websiteUrl: 'https://help.aliyun.com/zh/model-studio',
+  },
+  {
+    id: 'qwen3-coder-plus',
+    providerId: 'alibaba',
+    name: 'Qwen3 Coder Plus',
+    version: '3.0',
+    type: 'code',
+    pricing: { input: 7.339, output: 36.696 },
+    performance: { contextWindow: 1000000, maxOutput: 65536, latency: 380, accuracy: 93 },
+    features: ['代码生成', '架构设计', '百万级上下文'],
+    releaseDate: '2025-09-23',
+    websiteUrl: 'https://help.aliyun.com/document_detail/2840914.html',
+  },
+  {
+    id: 'qwen3-vl-plus-2025-12-19',
+    providerId: 'alibaba',
+    name: 'Qwen3 VL Plus',
+    version: '3.0',
+    type: 'multimodal',
+    pricing: { input: 1.5, output: 4.5 },
+    performance: { contextWindow: 128000, maxOutput: 8192, latency: 300, accuracy: 91 },
+    features: ['多模态', '图像理解', '128K上下文'],
+    releaseDate: '2025-12-19',
+    websiteUrl: 'https://help.aliyun.com/zh/model-studio/qwen-vl-compatible-with-openai',
+  },
+  {
+    id: 'qwen3-omni-flash',
+    providerId: 'alibaba',
+    name: 'Qwen3 Omni Flash',
+    version: '3.0',
+    type: 'multimodal',
+    pricing: { input: 3.156, output: 27.962 },
+    performance: { contextWindow: 128000, maxOutput: 8192, latency: 260, accuracy: 90 },
+    features: ['多模态', '音频理解', '快速响应'],
+    releaseDate: '2025-12-01',
+    websiteUrl: 'https://help.aliyun.com/zh/model-studio/billing-for-text-rerank',
+  },
+  {
+    id: 'qwen-plus-2025-12-01',
+    providerId: 'alibaba',
+    name: '通义千问 Plus',
+    version: '3.0',
+    type: 'chat',
+    pricing: { input: 0.8, output: 2 },
+    performance: { contextWindow: 128000, maxOutput: 8192, latency: 380, accuracy: 88 },
+    features: ['128K上下文', '高性价比', '快速响应'],
+    releaseDate: '2025-12-01',
+    websiteUrl: 'https://help.aliyun.com/model-studio/developer-reference/community-support-dashscope-rerank',
+  },
+  {
+    id: 'qwen3-72b',
+    providerId: 'alibaba',
+    name: 'Qwen3-72B',
+    version: '3.0',
+    type: 'chat',
+    pricing: { input: 0, output: 0 }, // 开源免费
+    performance: { contextWindow: 32768, maxOutput: 4096, latency: 450, accuracy: 92 },
+    features: ['开源免费', '72B参数', '顶级推理'],
+    releaseDate: '2025-05-01',
+    websiteUrl: 'https://qwenlm.ai/',
+  },
+
+  // ========== 智谱 AI ==========
+  {
+    id: 'glm-5',
+    providerId: 'zhipu',
+    name: 'GLM-5',
+    version: '5.0',
+    type: 'chat',
+    pricing: { input: 7.2, output: 23 }, // ¥1/¥3.2 → ¥7.2/¥23
+    performance: { contextWindow: 200000, maxOutput: 32768, latency: 400, accuracy: 92 },
+    features: ['200K上下文', '高级推理', '代码生成', '数学推理'],
+    releaseDate: '2025-10-01',
+    websiteUrl: 'https://bigmodel.cn/',
+  },
+  {
+    id: 'glm-4-Plus',
+    providerId: 'zhipu',
+    name: 'GLM-4-Plus',
+    version: '4.0',
+    type: 'chat',
+    pricing: { input: 10.08, output: 31.68 }, // ¥1.4/¥4.4 → ¥10.08/¥31.68
+    performance: { contextWindow: 128000, maxOutput: 32768, latency: 450, accuracy: 91 },
+    features: ['128K上下文', '高级推理'],
+    releaseDate: '2024-06-01',
+    websiteUrl: 'https://bigmodel.cn/',
+  },
+  {
+    id: 'glm-4-vision',
+    providerId: 'zhipu',
+    name: 'GLM-4-Vision',
+    version: '4.0',
+    type: 'multimodal',
+    pricing: { input: 7.2, output: 21.6 }, // ¥1/¥3 → ¥7.2/¥21.6
+    performance: { contextWindow: 128000, maxOutput: 4096, latency: 400, accuracy: 88 },
+    features: ['多模态', '图像理解', '128K上下文'],
+    releaseDate: '2024-06-01',
+    websiteUrl: 'https://bigmodel.cn/',
+  },
+  {
+    id: 'glm-4-long',
+    providerId: 'zhipu',
+    name: 'GLM-4-Long',
+    version: '4.0',
+    type: 'chat',
+    pricing: { input: 7.2, output: 21.6 }, // ¥1/¥3 → ¥7.2/¥21.6
+    performance: { contextWindow: 1000000, maxOutput: 32768, latency: 550, accuracy: 90 },
+    features: ['百万级上下文', '长文档处理', '高级推理'],
+    releaseDate: '2024-06-01',
+    websiteUrl: 'https://bigmodel.cn/',
+  },
+
+  // ========== MiniMax ==========
+  {
+    id: 'minimax-m2.7',
+    providerId: 'minimax',
+    name: 'MiniMax-M2.7',
+    version: '2.7',
+    type: 'chat',
+    pricing: { input: 2.1, output: 8.4 }, // ¥2.1/¥8.4 per 1M tokens
+    performance: { contextWindow: 204800, maxOutput: 32768, latency: 400, accuracy: 92 },
+    features: ['200K上下文', '高智能', '长文档处理'],
+    releaseDate: '2026-04-01',
+    websiteUrl: 'https://platform.minimaxi.com/docs/guides/text-generation',
+  },
+  {
+    id: 'minimax-m2.7-highspeed',
+    providerId: 'minimax',
+    name: 'MiniMax-M2.7-highspeed',
+    version: '2.7',
+    type: 'chat',
+    pricing: { input: 4.2, output: 16.8 }, // ¥4.2/¥16.8 per 1M tokens
+    performance: { contextWindow: 204800, maxOutput: 32768, latency: 200, accuracy: 90 },
+    features: ['200K上下文', '极速响应', '高智能'],
+    releaseDate: '2026-04-01',
+    websiteUrl: 'https://platform.minimaxi.com/docs/guides/text-generation',
+  },
+  {
+    id: 'minimax-m2.5',
+    providerId: 'minimax',
+    name: 'MiniMax-M2.5',
+    version: '2.5',
+    type: 'chat',
+    pricing: { input: 2.1, output: 8.4 }, // ¥2.1/¥8.4 per 1M tokens
+    performance: { contextWindow: 204800, maxOutput: 32768, latency: 350, accuracy: 90 },
+    features: ['200K上下文', '高智能', '高性价比'],
+    releaseDate: '2025-11-01',
+    websiteUrl: 'https://platform.minimaxi.com/docs/guides/text-generation',
+  },
+  {
+    id: 'minimax-m2',
+    providerId: 'minimax',
+    name: 'MiniMax-M2',
+    version: '2.0',
+    type: 'chat',
+    pricing: { input: 2.1, output: 8.4 }, // ¥2.1/¥8.4 per 1M tokens
+    performance: { contextWindow: 204800, maxOutput: 32768, latency: 380, accuracy: 88 },
+    features: ['200K上下文', '基础对话', '高性价比'],
+    releaseDate: '2025-06-01',
+    websiteUrl: 'https://platform.minimaxi.com/docs/guides/text-generation',
+  },
+
+  // ========== 零一万物 Yi ==========
+  {
+    id: 'yi-large',
+    providerId: 'yi',
+    name: 'Yi-Large',
+    version: '2.0',
+    type: 'chat',
+    pricing: { input: 14.4, output: 43.2 }, // $2/$6 → ¥14.4/¥43.2
+    performance: { contextWindow: 128000, maxOutput: 4096, latency: 400, accuracy: 91 },
+    features: ['128K上下文', '高级推理', '双语优化'],
+    releaseDate: '2024-06-01',
+    websiteUrl: 'https://www.lingyiwanwu.com/',
+  },
+  {
+    id: 'yi-large-turbo',
+    providerId: 'yi',
+    name: 'Yi-Large-Turbo',
+    version: '2.0',
+    type: 'chat',
+    pricing: { input: 7.2, output: 21.6 }, // $1/$3 → ¥7.2/¥21.6
+    performance: { contextWindow: 128000, maxOutput: 4096, latency: 300, accuracy: 89 },
+    features: ['128K上下文', '快速响应', '高性价比'],
+    releaseDate: '2024-06-01',
+    websiteUrl: 'https://www.lingyiwanwu.com/',
+  },
+  {
+    id: 'yi-34b',
+    providerId: 'yi',
+    name: 'Yi-34B',
+    version: '1.0',
+    type: 'chat',
+    pricing: { input: 0, output: 0 }, // 开源免费
+    performance: { contextWindow: 32000, maxOutput: 4096, latency: 350, accuracy: 88 },
+    features: ['开源', '34B参数', '高性能'],
+    releaseDate: '2024-01-01',
+    websiteUrl: 'https://www.lingyiwanwu.com/',
+  },
+
+  // ========== 腾讯混元 ==========
+  {
+    id: 'hunyuan-2.0-thinking-20251109',
+    providerId: 'tencent',
+    name: '腾讯混元 2.0 Think',
+    version: '2.0',
+    type: 'chat',
+    pricing: { input: 5.3, output: 21.2 },
+    performance: { contextWindow: 128000, maxOutput: 65536, latency: 450, accuracy: 92 },
+    features: ['128K上下文', '深度推理', '复杂问题解决', '腾讯生态'],
+    releaseDate: '2025-11-09',
+    websiteUrl: 'https://cloud.tencent.com/product/hunyuan',
+  },
+  {
+    id: 'hunyuan-2.0-instruct-20251111',
+    providerId: 'tencent',
+    name: '腾讯混元 2.0 Instruct',
+    version: '2.0',
+    type: 'chat',
+    pricing: { input: 4.505, output: 11.13 },
+    performance: { contextWindow: 128000, maxOutput: 16384, latency: 380, accuracy: 90 },
+    features: ['128K上下文', '快速响应', '指令遵循', '腾讯生态'],
+    releaseDate: '2025-11-11',
+    websiteUrl: 'https://cloud.tencent.com/product/hunyuan',
+  },
+  {
+    id: 'hunyuan-turbo',
+    providerId: 'tencent',
+    name: '腾讯混元 Turbo',
+    version: '2.0',
+    type: 'chat',
+    pricing: { input: 4.32, output: 12.96 }, // ¥0.6/¥1.8 → ¥4.32/¥12.96
+    performance: { contextWindow: 256000, maxOutput: 8192, latency: 380, accuracy: 89 },
+    features: ['256K上下文', '快速响应', '腾讯生态'],
+    releaseDate: '2025-01-01',
+    websiteUrl: 'https://cloud.tencent.com/product/hunyuan',
+  },
+  {
+    id: 'hunyuan-pro',
+    providerId: 'tencent',
+    name: '腾讯混元 Pro',
+    version: '2.0',
+    type: 'chat',
+    pricing: { input: 7.2, output: 21.6 }, // ¥1/¥3 → ¥7.2/¥21.6
+    performance: { contextWindow: 256000, maxOutput: 16384, latency: 450, accuracy: 91 },
+    features: ['256K上下文', '高级推理', '腾讯生态'],
+    releaseDate: '2025-01-01',
+    websiteUrl: 'https://cloud.tencent.com/product/hunyuan',
+  },
+  {
+    id: 'hunyuan-standard',
+    providerId: 'tencent',
+    name: '腾讯混元 Standard',
+    version: '1.0',
+    type: 'chat',
+    pricing: { input: 4.3, output: 13 }, // ¥0.6/¥1.8 → ¥4.3/¥13
+    performance: { contextWindow: 256000, maxOutput: 8192, latency: 450, accuracy: 87 },
+    features: ['256K上下文', '高性价比', '平衡性能'],
+    releaseDate: '2024-05-01',
+    websiteUrl: 'https://cloud.tencent.com/product/hunyuan',
+  },
+  {
+    id: 'hunyuan-lite',
+    providerId: 'tencent',
+    name: '腾讯混元 Lite',
+    version: '1.0',
+    type: 'chat',
+    pricing: { input: 1.44, output: 4.32 }, // ¥0.2/¥0.6 → ¥1.44/¥4.32
+    performance: { contextWindow: 32000, maxOutput: 4096, latency: 200, accuracy: 84 },
+    features: ['轻量快速', '极高性价比', '日常对话'],
+    releaseDate: '2024-05-01',
+    websiteUrl: 'https://cloud.tencent.com/product/hunyuan',
+  },
+
+  // ========== Stability AI ==========
+  {
+    id: 'stable-diffusion-3.5-large',
+    providerId: 'stability',
+    name: 'Stable Diffusion 3.5 Large',
+    version: '3.5',
+    type: 'image',
+    pricing: { input: 0, output: 0 }, // Open weights; API/hosted prices vary by platform
+    performance: { contextWindow: 0, maxOutput: 0, latency: 5000, accuracy: 94 },
+    features: ['图像生成', '文字渲染', '高一致性', '开源'],
+    releaseDate: '2024-10-22',
+    websiteUrl: 'https://stability.ai/news-updates/introducing-stable-diffusion-3-5',
+  },
+  {
+    id: 'stable-diffusion-3.5-large-turbo',
+    providerId: 'stability',
+    name: 'Stable Diffusion 3.5 Large Turbo',
+    version: '3.5',
+    type: 'image',
+    pricing: { input: 0, output: 0 }, // Open weights; API/hosted prices vary by platform
+    performance: { contextWindow: 0, maxOutput: 0, latency: 1200, accuracy: 92 },
+    features: ['图像生成', '高效生成', '开源'],
+    releaseDate: '2024-10-22',
+    websiteUrl: 'https://stability.ai/news-updates/introducing-stable-diffusion-3-5',
+  },
+  {
+    id: 'stable-diffusion-3.5-medium',
+    providerId: 'stability',
+    name: 'Stable Diffusion 3.5 Medium',
+    version: '3.5',
+    type: 'image',
+    pricing: { input: 0, output: 0 }, // Open weights; API/hosted prices vary by platform
+    performance: { contextWindow: 0, maxOutput: 0, latency: 2200, accuracy: 91 },
+    features: ['图像生成', '高效生成', '开源'],
+    releaseDate: '2024-10-29',
+    websiteUrl: 'https://stability.ai/news-updates/introducing-stable-diffusion-3-5',
+  },
+
+  // ========== Runway ==========
+  {
+    id: 'gen-4.5',
+    providerId: 'runway',
+    name: 'Gen-4.5',
+    version: '4.5',
+    type: 'image',
+    pricing: { input: 86.4, output: 86.4 }, // 12 credits/sec normalized display
+    performance: { contextWindow: 0, maxOutput: 0, latency: 60000, accuracy: 94 },
+    features: ['视频生成', '电影级质量', '运动一致性'],
+    releaseDate: '2025-12-01',
+    websiteUrl: 'https://runwayml.com/research/introducing-runway-gen-4.5',
+  },
+
+  // ========== Midjourney ==========
+  {
+    id: 'midjourney-v8.1-alpha',
+    providerId: 'midjourney',
+    name: 'Midjourney V8.1 Alpha',
+    version: '8.1-alpha',
+    type: 'image',
+    pricing: { input: 0, output: 0 }, // Subscription/GPU-minute pricing
+    performance: { contextWindow: 0, maxOutput: 0, latency: 15000, accuracy: 95 },
+    features: ['艺术图像', '高保真', '创意无限', '高分辨率'],
+    releaseDate: '2026-04-14',
+    websiteUrl: 'https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version',
+  },
+
+  // ========== Perplexity ==========
+  {
+    id: 'sonar',
+    providerId: 'perplexity',
+    name: 'Sonar',
+    version: '1.0',
+    type: 'chat',
+    pricing: { input: 7.2, output: 7.2 }, // $1/$1 → ¥7.2/¥7.2, request fees excluded
+    performance: { contextWindow: 128000, maxOutput: 4096, latency: 400, accuracy: 89 },
+    features: ['AI搜索', '实时信息', '引用来源', '对话搜索'],
+    releaseDate: '2024-10-01',
+    websiteUrl: 'https://docs.perplexity.ai/docs/sonar/models/sonar',
+  },
+  {
+    id: 'sonar-pro',
+    providerId: 'perplexity',
+    name: 'Sonar Pro',
+    version: '1.0',
+    type: 'chat',
+    pricing: { input: 21.6, output: 108 }, // $3/$15 → ¥21.6/¥108, request fees excluded
+    performance: { contextWindow: 128000, maxOutput: 4096, latency: 500, accuracy: 91 },
+    features: ['AI搜索Pro', '无限使用', '深度搜索', '学术研究'],
+    releaseDate: '2024-10-01',
+    websiteUrl: 'https://docs.perplexity.ai/docs/sonar/models/sonar-pro',
+  },
+  {
+    id: 'sonar-reasoning-pro',
+    providerId: 'perplexity',
+    name: 'Sonar Reasoning Pro',
+    version: '1.0',
+    type: 'chat',
+    pricing: { input: 14.4, output: 57.6 }, // $2/$8 → ¥14.4/¥57.6, request fees excluded
+    performance: { contextWindow: 128000, maxOutput: 4096, latency: 650, accuracy: 92 },
+    features: ['推理能力', '搜索增强', '引用来源', '深度搜索'],
+    releaseDate: '2025-12-15',
+    websiteUrl: 'https://docs.perplexity.ai/docs/sonar/models/sonar-reasoning-pro',
+  },
+  {
+    id: 'sonar-deep-research',
+    providerId: 'perplexity',
+    name: 'Sonar Deep Research',
+    version: '1.0',
+    type: 'chat',
+    pricing: { input: 14.4, output: 57.6 }, // $2/$8 → ¥14.4/¥57.6; citation/reasoning/search fees excluded
+    performance: { contextWindow: 128000, maxOutput: 8192, latency: 1200, accuracy: 93 },
+    features: ['深度搜索', '学术研究', '引用来源', '推理能力'],
+    releaseDate: '2025-12-15',
+    websiteUrl: 'https://docs.perplexity.ai/docs/sonar/models/sonar-deep-research',
+  },
+];

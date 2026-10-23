@@ -1,0 +1,32 @@
+{
+  "source": "https://llm-stats.com",
+  "scrapedAt": "2026-05-28T07:58:35.275Z",
+  "routeCount": 1471,
+  "okRouteCount": 1464,
+  "errorRouteCount": 7,
+  "modelCount": 301,
+  "companyCount": 27,
+  "menuCategories": [
+    "arenas",
+    "benchmarks",
+    "compare",
+    "content",
+    "generators",
+    "home",
+    "leaderboards",
+    "media",
+    "methodology",
+    "models",
+    "organizations",
+    "site",
+    "tools",
+    "updates"
+  ],
+  "files": {
+    "summary": "summary.json",
+    "menus": "menus.json",
+    "companies": "companies.json",
+    "models": "models.json",
+    "snapshot": "llm-stats.snapshot.json"
+  }
+}

@@ -1,0 +1,62 @@
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+    tags:
+      - 'release-*'
+  pull_request:
+    branches: [main]
+
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build
+
+      - name: Extract tag version
+        id: tag
+        if: startsWith(github.ref, 'refs/tags/release-')
+        run: echo "VERSION=${GITHUB_REF#refs/tags/release-}" >> $GITHUB_OUTPUT
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: modelmart
+          directory: dist
+          branch: main
+          wranglerVersion: '3'
+
+      - name: Deployment summary
+        if: success()
+        run: |
+          echo "✅ Deployment successful!"
+          echo "🌐 Preview URL: https://modelmart-${{ github.sha }}.pages.dev"
+          echo "🎯 Production: https://modelmart.pages.dev"
+          if [[ "${{ steps.tag.outputs.VERSION }}" != "" ]]; then
+            echo "🏷️ Release tag: ${{ steps.tag.outputs.VERSION }}"
+          fi

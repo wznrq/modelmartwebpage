@@ -1,0 +1,150 @@
+{
+  "source": "https://llm-stats.com",
+  "scrapedAt": "2026-05-28T07:58:35.275Z",
+  "routeCount": 1471,
+  "okRouteCount": 1464,
+  "errorRouteCount": 7,
+  "modelCount": 301,
+  "companyCount": 27,
+  "menuCategories": [
+    "arenas",
+    "benchmarks",
+    "compare",
+    "content",
+    "generators",
+    "home",
+    "leaderboards",
+    "media",
+    "methodology",
+    "models",
+    "organizations",
+    "site",
+    "tools",
+    "updates"
+  ],
+  "files": {
+    "summary": "summary.json",
+    "menus": "menus.json",
+    "companies": "companies.json",
+    "models": "models.json",
+    "snapshot": "llm-stats.snapshot.json"
+  },
+  "menuRouteCounts": {
+    "arenas": 15,
+    "benchmarks": 526,
+    "compare": 316,
+    "content": 180,
+    "generators": 2,
+    "home": 2,
+    "leaderboards": 14,
+    "media": 4,
+    "methodology": 2,
+    "models": 302,
+    "organizations": 93,
+    "site": 3,
+    "tools": 7,
+    "updates": 5
+  },
+  "topCompanies": [
+    {
+      "id": "qwen",
+      "name": "Alibaba Cloud / Qwen Team",
+      "modelCount": 49
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "modelCount": 48
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "modelCount": 34
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral AI",
+      "modelCount": 32
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "modelCount": 23
+    },
+    {
+      "id": "xai",
+      "name": "xAI",
+      "modelCount": 21
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "modelCount": 17
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "modelCount": 10
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "modelCount": 9
+    },
+    {
+      "id": "zai-org",
+      "name": "Zhipu AI",
+      "modelCount": 9
+    },
+    {
+      "id": "moonshotai",
+      "name": "Moonshot AI",
+      "modelCount": 8
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "modelCount": 7
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "modelCount": 6
+    },
+    {
+      "id": "meituan",
+      "name": "Meituan",
+      "modelCount": 4
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "modelCount": 3
+    },
+    {
+      "id": "ibm",
+      "name": "IBM",
+      "modelCount": 3
+    },
+    {
+      "id": "xiaomi",
+      "name": "Xiaomi",
+      "modelCount": 3
+    },
+    {
+      "id": "ai21",
+      "name": "AI21 Labs",
+      "modelCount": 2
+    },
+    {
+      "id": "baidu",
+      "name": "Baidu",
+      "modelCount": 2
+    },
+    {
+      "id": "bytedance",
+      "name": "ByteDance",
+      "modelCount": 2
+    }
+  ]
+}

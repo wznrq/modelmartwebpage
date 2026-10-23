@@ -1,0 +1,45 @@
+{
+  "name": "modelmart",
+  "private": true,
+  "version": "1.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && node scripts/generate-seo.mjs",
+    "seo:generate": "node scripts/generate-seo.mjs",
+    "preview": "vite preview",
+    "deploy": "./deploy.sh",
+    "deploy:tag": "./deploy.sh tag",
+    "deploy:latest": "./deploy.sh latest",
+    "tag:create": "git tag -a v$(node -p \"require('./package.json').version\") -m",
+    "tag:list": "git tag -l --sort=-v:refname",
+    "tag:push": "git push origin --tags",
+    "wrangler": "wrangler"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.99.1",
+    "axios": "^1.15.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "^3.0.0",
+    "react-router-dom": "^7.1.1",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^4.3.6",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5",
+    "wrangler": "^4.83.0"
+  }
+}

@@ -1,0 +1,6696 @@
+[
+  {
+    "id": "jamba-1.5-large",
+    "name": "Jamba 1.5 Large",
+    "organization": "AI21 Labs",
+    "organizationId": "ai21",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.369,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-08-22"
+  },
+  {
+    "id": "jamba-1.5-mini",
+    "name": "Jamba 1.5 Mini",
+    "organization": "AI21 Labs",
+    "organizationId": "ai21",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.323,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-08-22"
+  },
+  {
+    "id": "qvq-72b-preview",
+    "name": "QvQ-72B-Preview",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-12-25"
+  },
+  {
+    "id": "qwen2-72b-instruct",
+    "name": "Qwen2 72B Instruct",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.424,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-07-23"
+  },
+  {
+    "id": "qwen2-7b-instruct",
+    "name": "Qwen2 7B Instruct",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.253,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-07-23"
+  },
+  {
+    "id": "qwen2-vl-72b",
+    "name": "Qwen2-VL-72B-Instruct",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-08-29"
+  },
+  {
+    "id": "qwen-2.5-14b-instruct",
+    "name": "Qwen2.5 14B Instruct",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.455,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-09-19"
+  },
+  {
+    "id": "qwen-2.5-32b-instruct",
+    "name": "Qwen2.5 32B Instruct",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.495,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-09-19"
+  },
+  {
+    "id": "qwen-2.5-72b-instruct",
+    "name": "Qwen2.5 72B Instruct",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.49,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-09-19"
+  },
+  {
+    "id": "qwen-2.5-7b-instruct",
+    "name": "Qwen2.5 7B Instruct",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.364,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-09-19"
+  },
+  {
+    "id": "qwen2.5-vl-32b",
+    "name": "Qwen2.5 VL 32B Instruct",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.46,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-02-28"
+  },
+  {
+    "id": "qwen2.5-vl-72b",
+    "name": "Qwen2.5 VL 72B Instruct",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-01-26"
+  },
+  {
+    "id": "qwen2.5-vl-7b",
+    "name": "Qwen2.5 VL 7B Instruct",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-01-26"
+  },
+  {
+    "id": "qwen-2.5-coder-32b-instruct",
+    "name": "Qwen2.5-Coder 32B Instruct",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-09-19"
+  },
+  {
+    "id": "qwen-2.5-coder-7b-instruct",
+    "name": "Qwen2.5-Coder 7B Instruct",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-09-19"
+  },
+  {
+    "id": "qwen2.5-omni-7b",
+    "name": "Qwen2.5-Omni-7B",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.308,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-03-27"
+  },
+  {
+    "id": "qwen3-235b-a22b",
+    "name": "Qwen3 235B A22B",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.4747,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-04-29"
+  },
+  {
+    "id": "qwen3-30b-a3b",
+    "name": "Qwen3 30B A3B",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.658,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 10.033905969841616,
+        "coding-arena": 3.2647829805463613
+      }
+    },
+    "context": 128000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.1,
+      "outputUsdPerMillionTokens": 0.3
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-04-29"
+  },
+  {
+    "id": "qwen3-32b",
+    "name": "Qwen3 32B",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 7.410205322299774,
+        "coding-arena": 4.016936506124823
+      }
+    },
+    "context": 128000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.1,
+      "outputUsdPerMillionTokens": 0.44
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-04-29"
+  },
+  {
+    "id": "qwen3-max",
+    "name": "Qwen3 Max",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.62,
+      "sweBenchVerifiedScore": 0.696,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 11.833555024641981,
+        "coding-arena": 7.698998256875471
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-12-15"
+  },
+  {
+    "id": "qwen3-vl-235b-a22b-instruct",
+    "name": "Qwen3 VL 235B A22B Instruct",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "coding-arena": 7.0635200674929886
+      }
+    },
+    "context": 262144,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.3,
+      "outputUsdPerMillionTokens": 1.5
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-09-22"
+  },
+  {
+    "id": "qwen3-vl-235b-a22b-thinking",
+    "name": "Qwen3 VL 235B A22B Thinking",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.136,
+      "arenaScores": {
+        "coding-arena": 5.386387898623936
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-09-22"
+  },
+  {
+    "id": "qwen3-vl-30b-a3b-instruct",
+    "name": "Qwen3 VL 30B A3B Instruct",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.704,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "coding-arena": -0.10148022056415185
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-09-22"
+  },
+  {
+    "id": "qwen3-vl-30b-a3b-thinking",
+    "name": "Qwen3 VL 30B A3B Thinking",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.744,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "coding-arena": -0.8899551054572865
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-09-22"
+  },
+  {
+    "id": "qwen3-vl-32b-instruct",
+    "name": "Qwen3 VL 32B Instruct",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.689,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-09-22"
+  },
+  {
+    "id": "qwen3-vl-32b-thinking",
+    "name": "Qwen3 VL 32B Thinking",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.731,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-09-22"
+  },
+  {
+    "id": "qwen3-vl-4b-instruct",
+    "name": "Qwen3 VL 4B Instruct",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "coding-arena": 4.441708339131495
+      }
+    },
+    "context": 262144,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.1,
+      "outputUsdPerMillionTokens": 0.6
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-09-22"
+  },
+  {
+    "id": "qwen3-vl-4b-thinking",
+    "name": "Qwen3 VL 4B Thinking",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.641,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "coding-arena": 6.365291914942377
+      }
+    },
+    "context": 262144,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.1,
+      "outputUsdPerMillionTokens": 1
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-09-22"
+  },
+  {
+    "id": "qwen3-vl-8b-instruct",
+    "name": "Qwen3 VL 8B Instruct",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "coding-arena": 2.0318595981657293
+      }
+    },
+    "context": 262144,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.08,
+      "outputUsdPerMillionTokens": 0.5
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-09-22"
+  },
+  {
+    "id": "qwen3-vl-8b-thinking",
+    "name": "Qwen3 VL 8B Thinking",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.699,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "coding-arena": 4.916419626685304
+      }
+    },
+    "context": 262144,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.18,
+      "outputUsdPerMillionTokens": 2.09
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-09-22"
+  },
+  {
+    "id": "qwen3-235b-a22b-instruct-2507",
+    "name": "Qwen3-235B-A22B-Instruct-2507",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.775,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 8.899316226936566,
+        "coding-arena": 1.4745488221560268
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-07-22"
+  },
+  {
+    "id": "qwen3-235b-a22b-thinking-2507",
+    "name": "Qwen3-235B-A22B-Thinking-2507",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.811,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.182,
+      "arenaScores": {
+        "chat-arena": 9.361523640292145,
+        "coding-arena": 3.5841952165587663
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-07-25"
+  },
+  {
+    "id": "qwen3-coder",
+    "name": "Qwen3-Coder",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 10.323331304848146,
+        "coding-arena": 5.850447901227886
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-01-01"
+  },
+  {
+    "id": "qwen3-coder-480b-a35b-instruct",
+    "name": "Qwen3-Coder 480B A35B Instruct",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": 0.696,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 9.60282053412545,
+        "coding-arena": 0.4634845906399259
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-01-31"
+  },
+  {
+    "id": "qwen3-next-80b-a3b-base",
+    "name": "Qwen3-Next-80B-A3B-Base",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-09-10"
+  },
+  {
+    "id": "qwen3-next-80b-a3b-instruct",
+    "name": "Qwen3-Next-80B-A3B-Instruct",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.729,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-09-10"
+  },
+  {
+    "id": "qwen3-next-80b-a3b-thinking",
+    "name": "Qwen3-Next-80B-A3B-Thinking",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.772,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-09-10"
+  },
+  {
+    "id": "qwen3.5-0.8b",
+    "name": "Qwen3.5-0.8B",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.119,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-03-02"
+  },
+  {
+    "id": "qwen3.5-122b-a10b",
+    "name": "Qwen3.5-122B-A10B",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.866,
+      "sweBenchVerifiedScore": 0.72,
+      "hleScore": 0.475,
+      "arenaScores": {
+        "chat-arena": 12.8141543816541,
+        "coding-arena": 7.472670106151756
+      }
+    },
+    "context": 262144,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.4,
+      "outputUsdPerMillionTokens": 3.2
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-02-24"
+  },
+  {
+    "id": "qwen3.5-27b",
+    "name": "Qwen3.5-27B",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.855,
+      "sweBenchVerifiedScore": 0.724,
+      "hleScore": 0.485,
+      "arenaScores": {
+        "chat-arena": 13.874638664510506,
+        "coding-arena": 7.84650469470366
+      }
+    },
+    "context": 262144,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.3,
+      "outputUsdPerMillionTokens": 2.4
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-02-24"
+  },
+  {
+    "id": "qwen3.5-2b",
+    "name": "Qwen3.5-2B",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.516,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-03-02"
+  },
+  {
+    "id": "qwen3.5-35b-a3b",
+    "name": "Qwen3.5-35B-A3B",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.842,
+      "sweBenchVerifiedScore": 0.692,
+      "hleScore": 0.474,
+      "arenaScores": {
+        "chat-arena": 17.14751931653054,
+        "coding-arena": 4.267628868904992
+      }
+    },
+    "context": 262144,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.25,
+      "outputUsdPerMillionTokens": 2
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-02-24"
+  },
+  {
+    "id": "qwen3.5-397b-a17b",
+    "name": "Qwen3.5-397B-A17B",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.884,
+      "sweBenchVerifiedScore": 0.764,
+      "hleScore": 0.287,
+      "arenaScores": {
+        "chat-arena": 9.628406968889184,
+        "coding-arena": 12.946334829273951
+      }
+    },
+    "context": 262144,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.6,
+      "outputUsdPerMillionTokens": 3.6
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-02-16"
+  },
+  {
+    "id": "qwen3.5-4b",
+    "name": "Qwen3.5-4B",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.762,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-03-02"
+  },
+  {
+    "id": "qwen3.5-9b",
+    "name": "Qwen3.5-9B",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.817,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-03-02"
+  },
+  {
+    "id": "qwen3.6-plus",
+    "name": "Qwen3.6 Plus",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.904,
+      "sweBenchVerifiedScore": 0.788,
+      "hleScore": 0.288,
+      "arenaScores": {
+        "chat-arena": 7.496802277166566,
+        "coding-arena": 12.110289656176569
+      }
+    },
+    "context": 1000000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.5,
+      "outputUsdPerMillionTokens": 3
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-04-02"
+  },
+  {
+    "id": "qwen3.6-27b",
+    "name": "Qwen3.6-27B",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.878,
+      "sweBenchVerifiedScore": 0.772,
+      "hleScore": 0.24,
+      "arenaScores": {
+        "chat-arena": 2.7490225844806986,
+        "coding-arena": 10.619163597041977
+      }
+    },
+    "context": 262144,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.6,
+      "outputUsdPerMillionTokens": 3.6
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-04-21"
+  },
+  {
+    "id": "qwen3.6-35b-a3b",
+    "name": "Qwen3.6-35B-A3B",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.86,
+      "sweBenchVerifiedScore": 0.734,
+      "hleScore": 0.214,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-04-16"
+  },
+  {
+    "id": "qwen3.7-max",
+    "name": "Qwen3.7 Max",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.924,
+      "sweBenchVerifiedScore": 0.804,
+      "hleScore": 0.414,
+      "arenaScores": {
+        "coding-arena": 14.995220932976855
+      }
+    },
+    "context": 1000000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 1.25,
+      "outputUsdPerMillionTokens": 3.75
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-05-19"
+  },
+  {
+    "id": "qwq-32b",
+    "name": "QwQ-32B",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.652,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-03-05"
+  },
+  {
+    "id": "qwq-32b-preview",
+    "name": "QwQ-32B-Preview",
+    "organization": "Alibaba Cloud / Qwen Team",
+    "organizationId": "qwen",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.652,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-11-28"
+  },
+  {
+    "id": "nova-lite",
+    "name": "Nova Lite",
+    "organization": "Amazon",
+    "organizationId": "amazon",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.42,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-11-20"
+  },
+  {
+    "id": "nova-micro",
+    "name": "Nova Micro",
+    "organization": "Amazon",
+    "organizationId": "amazon",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.4,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-11-20"
+  },
+  {
+    "id": "nova-pro",
+    "name": "Nova Pro",
+    "organization": "Amazon",
+    "organizationId": "amazon",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.469,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-11-20"
+  },
+  {
+    "id": "claude-3-haiku-20240307",
+    "name": "Claude 3 Haiku",
+    "organization": "Anthropic",
+    "organizationId": "anthropic",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.333,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-03-13"
+  },
+  {
+    "id": "claude-3-opus-20240229",
+    "name": "Claude 3 Opus",
+    "organization": "Anthropic",
+    "organizationId": "anthropic",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.504,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-02-29"
+  },
+  {
+    "id": "claude-3-sonnet-20240229",
+    "name": "Claude 3 Sonnet",
+    "organization": "Anthropic",
+    "organizationId": "anthropic",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.404,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-02-29"
+  },
+  {
+    "id": "claude-3-5-haiku-20241022",
+    "name": "Claude 3.5 Haiku",
+    "organization": "Anthropic",
+    "organizationId": "anthropic",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.416,
+      "sweBenchVerifiedScore": 0.406,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-10-22"
+  },
+  {
+    "id": "claude-3-5-sonnet-20241022",
+    "name": "Claude 3.5 Sonnet",
+    "organization": "Anthropic",
+    "organizationId": "anthropic",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.672,
+      "sweBenchVerifiedScore": 0.49,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-10-22"
+  },
+  {
+    "id": "claude-3-5-sonnet-20240620",
+    "name": "Claude 3.5 Sonnet",
+    "organization": "Anthropic",
+    "organizationId": "anthropic",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.594,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-06-21"
+  },
+  {
+    "id": "claude-3-7-sonnet-20250219",
+    "name": "Claude 3.7 Sonnet",
+    "organization": "Anthropic",
+    "organizationId": "anthropic",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.848,
+      "sweBenchVerifiedScore": 0.703,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 8.915128293939873,
+        "coding-arena": 6.3223750265623
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-02-24"
+  },
+  {
+    "id": "claude-haiku-4-5-20251001",
+    "name": "Claude Haiku 4.5",
+    "organization": "Anthropic",
+    "organizationId": "anthropic",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.73,
+      "sweBenchVerifiedScore": 0.733,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 11.877705318797876,
+        "coding-arena": 9.617993402554289
+      }
+    },
+    "context": 200000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 1,
+      "outputUsdPerMillionTokens": 5
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-10-15"
+  },
+  {
+    "id": "claude-mythos-preview",
+    "name": "Claude Mythos Preview",
+    "organization": "Anthropic",
+    "organizationId": "anthropic",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.946,
+      "sweBenchVerifiedScore": 0.939,
+      "hleScore": 0.647,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-04-07"
+  },
+  {
+    "id": "claude-opus-4-20250514",
+    "name": "Claude Opus 4",
+    "organization": "Anthropic",
+    "organizationId": "anthropic",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.796,
+      "sweBenchVerifiedScore": 0.725,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 10.883754683516035,
+        "coding-arena": 9.319002285950178
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-05-22"
+  },
+  {
+    "id": "claude-opus-4-1-20250805",
+    "name": "Claude Opus 4.1",
+    "organization": "Anthropic",
+    "organizationId": "anthropic",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.809,
+      "sweBenchVerifiedScore": 0.745,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 11.798522124194815,
+        "coding-arena": 11.886985033954991
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-08-05"
+  },
+  {
+    "id": "claude-opus-4-5-20251101",
+    "name": "Claude Opus 4.5",
+    "organization": "Anthropic",
+    "organizationId": "anthropic",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.87,
+      "sweBenchVerifiedScore": 0.809,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 13.415024677751928,
+        "coding-arena": 16.138930805916726
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-11-24"
+  },
+  {
+    "id": "claude-opus-4-6",
+    "name": "Claude Opus 4.6",
+    "organization": "Anthropic",
+    "organizationId": "anthropic",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.913,
+      "sweBenchVerifiedScore": 0.808,
+      "hleScore": 0.531,
+      "arenaScores": {
+        "chat-arena": 14.914903014921457,
+        "coding-arena": 21.174967829925016
+      }
+    },
+    "context": 1000000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 5,
+      "outputUsdPerMillionTokens": 25
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-02-05"
+  },
+  {
+    "id": "claude-opus-4-7",
+    "name": "Claude Opus 4.7",
+    "organization": "Anthropic",
+    "organizationId": "anthropic",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.942,
+      "sweBenchVerifiedScore": 0.876,
+      "hleScore": 0.547,
+      "arenaScores": {
+        "chat-arena": 3.581430183104736,
+        "coding-arena": 19.248414631094704
+      }
+    },
+    "context": 1000000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 5,
+      "outputUsdPerMillionTokens": 25
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-04-16"
+  },
+  {
+    "id": "claude-sonnet-4-20250514",
+    "name": "Claude Sonnet 4",
+    "organization": "Anthropic",
+    "organizationId": "anthropic",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.754,
+      "sweBenchVerifiedScore": 0.727,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 8.55964788100891,
+        "coding-arena": 8.81620531995036
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-05-22"
+  },
+  {
+    "id": "claude-sonnet-4-5-20250929",
+    "name": "Claude Sonnet 4.5",
+    "organization": "Anthropic",
+    "organizationId": "anthropic",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.834,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 13.084502511705052,
+        "coding-arena": 14.113138299754192
+      }
+    },
+    "context": 200000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 3,
+      "outputUsdPerMillionTokens": 15
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-09-29"
+  },
+  {
+    "id": "claude-sonnet-4-6",
+    "name": "Claude Sonnet 4.6",
+    "organization": "Anthropic",
+    "organizationId": "anthropic",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.899,
+      "sweBenchVerifiedScore": 0.796,
+      "hleScore": 0.49,
+      "arenaScores": {
+        "chat-arena": 9.55726598268478,
+        "coding-arena": 16.917651206250994
+      }
+    },
+    "context": 200000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 3,
+      "outputUsdPerMillionTokens": 15
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-02-17"
+  },
+  {
+    "id": "ernie-4.5",
+    "name": "ERNIE 4.5",
+    "organization": "Baidu",
+    "organizationId": "baidu",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.74,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 10.97177525894819,
+        "coding-arena": 1.2436790095858303
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-06-25"
+  },
+  {
+    "id": "ernie-5.0",
+    "name": "ERNIE 5.0",
+    "organization": "Baidu",
+    "organizationId": "baidu",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.85,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.39,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-01-22"
+  },
+  {
+    "id": "seed-2.0-lite",
+    "name": "Seed 2.0 Lite",
+    "organization": "ByteDance",
+    "organizationId": "bytedance",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.851,
+      "sweBenchVerifiedScore": 0.735,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-02-14"
+  },
+  {
+    "id": "seed-2.0-pro",
+    "name": "Seed 2.0 Pro",
+    "organization": "ByteDance",
+    "organizationId": "bytedance",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.889,
+      "sweBenchVerifiedScore": 0.765,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-02-14"
+  },
+  {
+    "id": "command-r-plus-04-2024",
+    "name": "Command R+",
+    "organization": "Cohere",
+    "organizationId": "cohere",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-08-30"
+  },
+  {
+    "id": "deepseek-r1-distill-llama-70b",
+    "name": "DeepSeek R1 Distill Llama 70B",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.652,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-01-20"
+  },
+  {
+    "id": "deepseek-r1-distill-llama-8b",
+    "name": "DeepSeek R1 Distill Llama 8B",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.49,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-01-20"
+  },
+  {
+    "id": "deepseek-r1-distill-qwen-1.5b",
+    "name": "DeepSeek R1 Distill Qwen 1.5B",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.338,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-01-20"
+  },
+  {
+    "id": "deepseek-r1-distill-qwen-14b",
+    "name": "DeepSeek R1 Distill Qwen 14B",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.591,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-01-20"
+  },
+  {
+    "id": "deepseek-r1-distill-qwen-32b",
+    "name": "DeepSeek R1 Distill Qwen 32B",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.621,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-01-20"
+  },
+  {
+    "id": "deepseek-r1-distill-qwen-7b",
+    "name": "DeepSeek R1 Distill Qwen 7B",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.491,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-01-20"
+  },
+  {
+    "id": "deepseek-r1-zero",
+    "name": "DeepSeek R1 Zero",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.733,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-01-20"
+  },
+  {
+    "id": "deepseek-vl2",
+    "name": "DeepSeek VL2",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-12-13"
+  },
+  {
+    "id": "deepseek-vl2-small",
+    "name": "DeepSeek VL2 Small",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-12-13"
+  },
+  {
+    "id": "deepseek-vl2-tiny",
+    "name": "DeepSeek VL2 Tiny",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-12-13"
+  },
+  {
+    "id": "deepseek-r1",
+    "name": "DeepSeek-R1",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-01-20"
+  },
+  {
+    "id": "deepseek-r1-0528",
+    "name": "DeepSeek-R1-0528",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.81,
+      "sweBenchVerifiedScore": 0.446,
+      "hleScore": 0.177,
+      "arenaScores": {
+        "chat-arena": 11.466212535065756,
+        "coding-arena": 4.399386371905416
+      }
+    },
+    "context": 131072,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.55,
+      "outputUsdPerMillionTokens": 2.19
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-05-28"
+  },
+  {
+    "id": "deepseek-v2.5",
+    "name": "DeepSeek-V2.5",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": 0.168,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-05-08"
+  },
+  {
+    "id": "deepseek-v3",
+    "name": "DeepSeek-V3",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.591,
+      "sweBenchVerifiedScore": 0.42,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-12-25"
+  },
+  {
+    "id": "deepseek-v3-0324",
+    "name": "DeepSeek-V3 0324",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.684,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "coding-arena": 5.351703951985731
+      }
+    },
+    "context": 163840,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.28,
+      "outputUsdPerMillionTokens": 1.14
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-03-25"
+  },
+  {
+    "id": "deepseek-v3.1",
+    "name": "DeepSeek-V3.1",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.749,
+      "sweBenchVerifiedScore": 0.66,
+      "hleScore": 0.159,
+      "arenaScores": {
+        "coding-arena": 1.955609005540346
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-01-10"
+  },
+  {
+    "id": "deepseek-v3.2",
+    "name": "DeepSeek-V3.2",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.824,
+      "sweBenchVerifiedScore": 0.731,
+      "hleScore": 0.408,
+      "arenaScores": {
+        "chat-arena": 9.222403077365538,
+        "coding-arena": 5.503518870450914
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-01"
+  },
+  {
+    "id": "deepseek-chat",
+    "name": "DeepSeek-V3.2 (Non-thinking)",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 9.557280735249975,
+        "coding-arena": 9.693139362605773
+      }
+    },
+    "context": 131072,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.28,
+      "outputUsdPerMillionTokens": 0.42
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-01"
+  },
+  {
+    "id": "deepseek-reasoner",
+    "name": "DeepSeek-V3.2 (Thinking)",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.824,
+      "sweBenchVerifiedScore": 0.731,
+      "hleScore": 0.251,
+      "arenaScores": {
+        "chat-arena": 10.035809772582546,
+        "coding-arena": 3.9316131474548572
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-01"
+  },
+  {
+    "id": "deepseek-v3.2-exp",
+    "name": "DeepSeek-V3.2-Exp",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.799,
+      "sweBenchVerifiedScore": 0.678,
+      "hleScore": 0.198,
+      "arenaScores": {
+        "chat-arena": 12.99627738254195,
+        "coding-arena": 7.496909161537823
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-09-29"
+  },
+  {
+    "id": "deepseek-v3.2-speciale",
+    "name": "DeepSeek-V3.2-Speciale",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": 0.731,
+      "hleScore": 0.306,
+      "arenaScores": {
+        "chat-arena": 10.748306670645702,
+        "coding-arena": 8.323229651422015
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-01"
+  },
+  {
+    "id": "deepseek-v4-flash-max",
+    "name": "DeepSeek-V4-Flash-Max",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.881,
+      "sweBenchVerifiedScore": 0.79,
+      "hleScore": 0.451,
+      "arenaScores": {
+        "chat-arena": 6.328036399741777,
+        "coding-arena": 11.256161492407445
+      }
+    },
+    "context": 1048576,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.14,
+      "outputUsdPerMillionTokens": 0.28
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-04-23"
+  },
+  {
+    "id": "deepseek-v4-pro-max",
+    "name": "DeepSeek-V4-Pro-Max",
+    "organization": "DeepSeek",
+    "organizationId": "deepseek",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.901,
+      "sweBenchVerifiedScore": 0.806,
+      "hleScore": 0.482,
+      "arenaScores": {
+        "chat-arena": 5.107086909838571,
+        "coding-arena": 13.196847869443728
+      }
+    },
+    "context": 1048576,
+    "pricing": {
+      "inputUsdPerMillionTokens": 1.74,
+      "outputUsdPerMillionTokens": 3.48
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-04-23"
+  },
+  {
+    "id": "gemini-1.0-pro",
+    "name": "Gemini 1.0 Pro",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.279,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-02-15"
+  },
+  {
+    "id": "gemini-1.5-flash",
+    "name": "Gemini 1.5 Flash",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.51,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-05-01"
+  },
+  {
+    "id": "gemini-1.5-flash-8b",
+    "name": "Gemini 1.5 Flash 8B",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.384,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-03-15"
+  },
+  {
+    "id": "gemini-1.5-pro",
+    "name": "Gemini 1.5 Pro",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.591,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-05-01"
+  },
+  {
+    "id": "gemini-2.0-flash",
+    "name": "Gemini 2.0 Flash",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.621,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-12-01"
+  },
+  {
+    "id": "gemini-2.0-flash-thinking",
+    "name": "Gemini 2.0 Flash Thinking",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.742,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-01-21"
+  },
+  {
+    "id": "gemini-2.0-flash-lite",
+    "name": "Gemini 2.0 Flash-Lite",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.515,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-02-05"
+  },
+  {
+    "id": "gemini-2.5-flash",
+    "name": "Gemini 2.5 Flash",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.828,
+      "sweBenchVerifiedScore": 0.604,
+      "hleScore": 0.11,
+      "arenaScores": {
+        "chat-arena": 11.32429778615549,
+        "coding-arena": 9.180239369672895
+      }
+    },
+    "context": 1048576,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.3,
+      "outputUsdPerMillionTokens": 2.5
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-05-20"
+  },
+  {
+    "id": "gemini-2.5-flash-lite",
+    "name": "Gemini 2.5 Flash-Lite",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.646,
+      "sweBenchVerifiedScore": 0.316,
+      "hleScore": 0.051,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-06-17"
+  },
+  {
+    "id": "gemini-2.5-pro",
+    "name": "Gemini 2.5 Pro",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.83,
+      "sweBenchVerifiedScore": 0.632,
+      "hleScore": 0.178,
+      "arenaScores": {
+        "chat-arena": 12.776677742065187,
+        "coding-arena": 9.932504046197563
+      }
+    },
+    "context": 1048576,
+    "pricing": {
+      "inputUsdPerMillionTokens": 1.25,
+      "outputUsdPerMillionTokens": 10
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-05-20"
+  },
+  {
+    "id": "gemini-2.5-pro-preview-06-05",
+    "name": "Gemini 2.5 Pro Preview 06-05",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.864,
+      "sweBenchVerifiedScore": 0.672,
+      "hleScore": 0.216,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-06-05"
+  },
+  {
+    "id": "gemini-3-flash-preview",
+    "name": "Gemini 3 Flash",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.904,
+      "sweBenchVerifiedScore": 0.78,
+      "hleScore": 0.435,
+      "arenaScores": {
+        "chat-arena": 11.427995803390624,
+        "coding-arena": 17.00721527330479
+      }
+    },
+    "context": 1000000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.5,
+      "outputUsdPerMillionTokens": 3
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-12-17"
+  },
+  {
+    "id": "gemini-3-pro-preview",
+    "name": "Gemini 3 Pro",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.919,
+      "sweBenchVerifiedScore": 0.762,
+      "hleScore": 0.458,
+      "arenaScores": {
+        "chat-arena": 10.447742889160224,
+        "coding-arena": 15.793066946785471
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-11-18"
+  },
+  {
+    "id": "gemini-3.1-flash-lite-preview",
+    "name": "Gemini 3.1 Flash-Lite",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.869,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.16,
+      "arenaScores": {
+        "chat-arena": 7.560713051998626,
+        "coding-arena": 9.769404055933721
+      }
+    },
+    "context": 1000000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.25,
+      "outputUsdPerMillionTokens": 1.5
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-03-03"
+  },
+  {
+    "id": "gemini-3.1-pro-preview",
+    "name": "Gemini 3.1 Pro",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.943,
+      "sweBenchVerifiedScore": 0.806,
+      "hleScore": 0.514,
+      "arenaScores": {
+        "chat-arena": 12.21627810042001,
+        "coding-arena": 20.91732712612549
+      }
+    },
+    "context": 1048576,
+    "pricing": {
+      "inputUsdPerMillionTokens": 2.5,
+      "outputUsdPerMillionTokens": 15
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-02-19"
+  },
+  {
+    "id": "gemini-3.5-flash",
+    "name": "Gemini 3.5 Flash",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.402,
+      "arenaScores": {
+        "coding-arena": 15.013184381614325
+      }
+    },
+    "context": 1048576,
+    "pricing": {
+      "inputUsdPerMillionTokens": 1.5,
+      "outputUsdPerMillionTokens": 9
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-05-19"
+  },
+  {
+    "id": "gemini-diffusion",
+    "name": "Gemini Diffusion",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.404,
+      "sweBenchVerifiedScore": 0.229,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-05-20"
+  },
+  {
+    "id": "gemma-2-27b-it",
+    "name": "Gemma 2 27B",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-06-27"
+  },
+  {
+    "id": "gemma-2-9b-it",
+    "name": "Gemma 2 9B",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-06-27"
+  },
+  {
+    "id": "gemma-3-12b-it",
+    "name": "Gemma 3 12B",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.409,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-03-12"
+  },
+  {
+    "id": "gemma-3-1b-it",
+    "name": "Gemma 3 1B",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.192,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-03-12"
+  },
+  {
+    "id": "gemma-3-27b-it",
+    "name": "Gemma 3 27B",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.424,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-03-12"
+  },
+  {
+    "id": "gemma-3-4b-it",
+    "name": "Gemma 3 4B",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.308,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-03-12"
+  },
+  {
+    "id": "gemma-3n-e2b",
+    "name": "Gemma 3n E2B",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-06-26"
+  },
+  {
+    "id": "gemma-3n-e2b-it",
+    "name": "Gemma 3n E2B Instructed",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.248,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-06-26"
+  },
+  {
+    "id": "gemma-3n-e2b-it-litert-preview",
+    "name": "Gemma 3n E2B Instructed LiteRT (Preview)",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.248,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-05-20"
+  },
+  {
+    "id": "gemma-3n-e4b",
+    "name": "Gemma 3n E4B",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-06-26"
+  },
+  {
+    "id": "gemma-3n-e4b-it",
+    "name": "Gemma 3n E4B Instructed",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.237,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-06-26"
+  },
+  {
+    "id": "gemma-3n-e4b-it-litert-preview",
+    "name": "Gemma 3n E4B Instructed LiteRT Preview",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.237,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-05-20"
+  },
+  {
+    "id": "gemma-4-26b-a4b-it",
+    "name": "Gemma 4 26B-A4B",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.823,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.172,
+      "arenaScores": {
+        "chat-arena": 5.936432534254523,
+        "coding-arena": 12.446809324102228
+      }
+    },
+    "context": 262144,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.13,
+      "outputUsdPerMillionTokens": 0.4
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-04-02"
+  },
+  {
+    "id": "gemma-4-31b-it",
+    "name": "Gemma 4 31B",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.843,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.265,
+      "arenaScores": {
+        "chat-arena": 8.807762343345642,
+        "coding-arena": 11.353748968349157
+      }
+    },
+    "context": 262144,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.14,
+      "outputUsdPerMillionTokens": 0.4
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-04-02"
+  },
+  {
+    "id": "gemma-4-e2b-it",
+    "name": "Gemma 4 E2B",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.434,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-04-02"
+  },
+  {
+    "id": "gemma-4-e4b-it",
+    "name": "Gemma 4 E4B",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.586,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-04-02"
+  },
+  {
+    "id": "medgemma-4b-it",
+    "name": "MedGemma 4B IT",
+    "organization": "Google",
+    "organizationId": "google",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-05-20"
+  },
+  {
+    "id": "granite-3.3-8b-base",
+    "name": "Granite 3.3 8B Base",
+    "organization": "IBM",
+    "organizationId": "ibm",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-04-16"
+  },
+  {
+    "id": "granite-3.3-8b-instruct",
+    "name": "Granite 3.3 8B Instruct",
+    "organization": "IBM",
+    "organizationId": "ibm",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 6.405980396425342,
+        "coding-arena": -1.8341621163619233
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-04-16"
+  },
+  {
+    "id": "granite-4.0-tiny-preview",
+    "name": "IBM Granite 4.0 Tiny Preview",
+    "organization": "IBM",
+    "organizationId": "ibm",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-05-02"
+  },
+  {
+    "id": "mercury-2",
+    "name": "Mercury 2",
+    "organization": "Inception",
+    "organizationId": "inceptionlabs",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.74,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 3.24033923984649,
+        "coding-arena": 4.8204258740168715
+      }
+    },
+    "context": 128000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.25,
+      "outputUsdPerMillionTokens": 0.75
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-02-24"
+  },
+  {
+    "id": "k-exaone-236b-a23b",
+    "name": "K-EXAONE-236B-A23B",
+    "organization": "LG AI Research",
+    "organizationId": "lg",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 7.9809515815902685,
+        "coding-arena": -0.6469805284990281
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-12-31"
+  },
+  {
+    "id": "longcat-flash-chat",
+    "name": "LongCat-Flash-Chat",
+    "organization": "Meituan",
+    "organizationId": "meituan",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.7323,
+      "sweBenchVerifiedScore": 0.604,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 4.765394403322722,
+        "coding-arena": 10.389506421546745
+      }
+    },
+    "context": 128000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.3,
+      "outputUsdPerMillionTokens": 1.2
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-08-29"
+  },
+  {
+    "id": "longcat-flash-lite",
+    "name": "LongCat-Flash-Lite",
+    "organization": "Meituan",
+    "organizationId": "meituan",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.6678,
+      "sweBenchVerifiedScore": 0.544,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 8.63560078802589,
+        "coding-arena": 7.555726171380875
+      }
+    },
+    "context": 256000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.1,
+      "outputUsdPerMillionTokens": 0.4
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-02-05"
+  },
+  {
+    "id": "longcat-flash-thinking",
+    "name": "LongCat-Flash-Thinking",
+    "organization": "Meituan",
+    "organizationId": "meituan",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.815,
+      "sweBenchVerifiedScore": 0.594,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 10.002722508692903,
+        "coding-arena": 7.906704770249611
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-09-22"
+  },
+  {
+    "id": "longcat-flash-thinking-2601",
+    "name": "LongCat-Flash-Thinking-2601",
+    "organization": "Meituan",
+    "organizationId": "meituan",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.805,
+      "sweBenchVerifiedScore": 0.7,
+      "hleScore": 0.252,
+      "arenaScores": {
+        "chat-arena": 9.14013308684842,
+        "coding-arena": 5.287089602682253
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-01-14"
+  },
+  {
+    "id": "llama-3.1-405b-instruct",
+    "name": "Llama 3.1 405B Instruct",
+    "organization": "Meta",
+    "organizationId": "meta",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.507,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-07-23"
+  },
+  {
+    "id": "llama-3.1-70b-instruct",
+    "name": "Llama 3.1 70B Instruct",
+    "organization": "Meta",
+    "organizationId": "meta",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.417,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-07-23"
+  },
+  {
+    "id": "llama-3.1-8b-instruct",
+    "name": "Llama 3.1 8B Instruct",
+    "organization": "Meta",
+    "organizationId": "meta",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.304,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-07-23"
+  },
+  {
+    "id": "llama-3.2-11b-instruct",
+    "name": "Llama 3.2 11B Instruct",
+    "organization": "Meta",
+    "organizationId": "meta",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.328,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-09-25"
+  },
+  {
+    "id": "llama-3.2-3b-instruct",
+    "name": "Llama 3.2 3B Instruct",
+    "organization": "Meta",
+    "organizationId": "meta",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.328,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-09-25"
+  },
+  {
+    "id": "llama-3.2-90b-instruct",
+    "name": "Llama 3.2 90B Instruct",
+    "organization": "Meta",
+    "organizationId": "meta",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.467,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-09-25"
+  },
+  {
+    "id": "llama-3.3-70b-instruct",
+    "name": "Llama 3.3 70B Instruct",
+    "organization": "Meta",
+    "organizationId": "meta",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.505,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-12-06"
+  },
+  {
+    "id": "llama-4-maverick",
+    "name": "Llama 4 Maverick",
+    "organization": "Meta",
+    "organizationId": "meta",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.698,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-04-05"
+  },
+  {
+    "id": "llama-4-scout",
+    "name": "Llama 4 Scout",
+    "organization": "Meta",
+    "organizationId": "meta",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.572,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-04-05"
+  },
+  {
+    "id": "muse-spark",
+    "name": "Muse Spark",
+    "organization": "Meta",
+    "organizationId": "meta",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.895,
+      "sweBenchVerifiedScore": 0.774,
+      "hleScore": 0.584,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-04-08"
+  },
+  {
+    "id": "phi-4",
+    "name": "Phi 4",
+    "organization": "Microsoft",
+    "organizationId": "microsoft",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.561,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-12-12"
+  },
+  {
+    "id": "phi-4-mini",
+    "name": "Phi 4 Mini",
+    "organization": "Microsoft",
+    "organizationId": "microsoft",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.252,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-02-01"
+  },
+  {
+    "id": "phi-4-mini-reasoning",
+    "name": "Phi 4 Mini Reasoning",
+    "organization": "Microsoft",
+    "organizationId": "microsoft",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.52,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-04-30"
+  },
+  {
+    "id": "phi-4-reasoning",
+    "name": "Phi 4 Reasoning",
+    "organization": "Microsoft",
+    "organizationId": "microsoft",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.658,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-04-30"
+  },
+  {
+    "id": "phi-4-reasoning-plus",
+    "name": "Phi 4 Reasoning Plus",
+    "organization": "Microsoft",
+    "organizationId": "microsoft",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.689,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-04-30"
+  },
+  {
+    "id": "phi-3.5-mini-instruct",
+    "name": "Phi-3.5-mini-instruct",
+    "organization": "Microsoft",
+    "organizationId": "microsoft",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.304,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-08-23"
+  },
+  {
+    "id": "phi-3.5-moe-instruct",
+    "name": "Phi-3.5-MoE-instruct",
+    "organization": "Microsoft",
+    "organizationId": "microsoft",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.368,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-08-23"
+  },
+  {
+    "id": "phi-3.5-vision-instruct",
+    "name": "Phi-3.5-vision-instruct",
+    "organization": "Microsoft",
+    "organizationId": "microsoft",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-08-23"
+  },
+  {
+    "id": "phi-4-multimodal-instruct",
+    "name": "Phi-4-multimodal-instruct",
+    "organization": "Microsoft",
+    "organizationId": "microsoft",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-02-01"
+  },
+  {
+    "id": "minimax-m1-40k",
+    "name": "MiniMax M1 40K",
+    "organization": "MiniMax",
+    "organizationId": "minimax",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.692,
+      "sweBenchVerifiedScore": 0.556,
+      "hleScore": 0.072,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-06-16"
+  },
+  {
+    "id": "minimax-m1-80k",
+    "name": "MiniMax M1 80K",
+    "organization": "MiniMax",
+    "organizationId": "minimax",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.7,
+      "sweBenchVerifiedScore": 0.56,
+      "hleScore": 0.084,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-06-16"
+  },
+  {
+    "id": "minimax-m2",
+    "name": "MiniMax M2",
+    "organization": "MiniMax",
+    "organizationId": "minimax",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.78,
+      "sweBenchVerifiedScore": 0.694,
+      "hleScore": 0.125,
+      "arenaScores": {
+        "chat-arena": 10.028079525908918,
+        "coding-arena": 9.666573872718885
+      }
+    },
+    "context": 1000000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.3,
+      "outputUsdPerMillionTokens": 1.2
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-10-27"
+  },
+  {
+    "id": "minimax-m2.1",
+    "name": "MiniMax M2.1",
+    "organization": "MiniMax",
+    "organizationId": "minimax",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.81,
+      "sweBenchVerifiedScore": 0.67,
+      "hleScore": 0.22,
+      "arenaScores": {
+        "chat-arena": 10.74371619316056,
+        "coding-arena": 8.611696381976683
+      }
+    },
+    "context": 1000000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.3,
+      "outputUsdPerMillionTokens": 1.2
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-23"
+  },
+  {
+    "id": "minimax-m2.5",
+    "name": "MiniMax M2.5",
+    "organization": "MiniMax",
+    "organizationId": "minimax",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": 0.802,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 11.209347983749026,
+        "coding-arena": 10.680188422870856
+      }
+    },
+    "context": 1000000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.3,
+      "outputUsdPerMillionTokens": 1.2
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-02-12"
+  },
+  {
+    "id": "minimax-m2.7",
+    "name": "MiniMax M2.7",
+    "organization": "MiniMax",
+    "organizationId": "minimax",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 12.958934326054425,
+        "coding-arena": 11.555395852045356
+      }
+    },
+    "context": 204800,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.3,
+      "outputUsdPerMillionTokens": 1.2
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-03-18"
+  },
+  {
+    "id": "codestral-22b",
+    "name": "Codestral-22B",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-05-29"
+  },
+  {
+    "id": "devstral-medium-2507",
+    "name": "Devstral Medium",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": 0.616,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-07-10"
+  },
+  {
+    "id": "devstral-small-2507",
+    "name": "Devstral Small 1.1",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": 0.536,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-07-11"
+  },
+  {
+    "id": "magistral-medium",
+    "name": "Magistral Medium",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.708,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.09,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-06-10"
+  },
+  {
+    "id": "magistral-small-2506",
+    "name": "Magistral Small 2506",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.6818,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-06-10"
+  },
+  {
+    "id": "ministral-3b-latest",
+    "name": "Min  istral 3 (3B Reasoning 2512)",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.534,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-04"
+  },
+  {
+    "id": "ministral-3-14b-base-2512",
+    "name": "Ministral 3 (14B Base 2512)",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-04"
+  },
+  {
+    "id": "ministral-3-14b-instruct-2512",
+    "name": "MiniStral 3 (14B Instruct 2512)",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-04"
+  },
+  {
+    "id": "ministral-14b-latest",
+    "name": "Ministral 3 (14B Reasoning 2512)",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.712,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-04"
+  },
+  {
+    "id": "ministral-3-3b-base-2512",
+    "name": "Ministral 3 (3B Base 2512)",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-04"
+  },
+  {
+    "id": "ministral-3-3b-instruct-2512",
+    "name": "Ministral 3 (3B Instruct 2512)",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-04"
+  },
+  {
+    "id": "ministral-3-8b-base-2512",
+    "name": "Ministral 3 (8B Base 2512)",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-04"
+  },
+  {
+    "id": "ministral-3-8b-instruct-2512",
+    "name": "Ministral 3 (8B Instruct 2512)",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-04"
+  },
+  {
+    "id": "ministral-8b-latest",
+    "name": "Ministral 3 (8B Reasoning 2512)",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.668,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-04"
+  },
+  {
+    "id": "ministral-8b-instruct-2410",
+    "name": "Ministral 8B Instruct",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-10-16"
+  },
+  {
+    "id": "mistral-large-2-2407",
+    "name": "Mistral Large 2",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-07-24"
+  },
+  {
+    "id": "mistral-large-3-2509",
+    "name": "Mistral Large 3",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-09-01"
+  },
+  {
+    "id": "mistral-large-3-675b-base-2512",
+    "name": "Mistral Large 3 (675B Base)",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.439,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-04"
+  },
+  {
+    "id": "mistral-large-3-675B-instruct-2512-eagle",
+    "name": "Mistral Large 3 (675B Instruct 2512 Eagle)",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.439,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-04"
+  },
+  {
+    "id": "mistral-large-3-675b-instruct-2512-nvfp4",
+    "name": "Mistral Large 3 (675B Instruct 2512 NVFP4)",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.439,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-04"
+  },
+  {
+    "id": "mistral-large-latest",
+    "name": "Mistral Large 3 (675B Instruct 2512)",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.439,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 10.805792641213294,
+        "coding-arena": 8.685451431103239
+      }
+    },
+    "context": 262100,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.5,
+      "outputUsdPerMillionTokens": 1.5
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-04"
+  },
+  {
+    "id": "mistral-medium-3-5",
+    "name": "Mistral Medium 3.5",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": 0.776,
+      "hleScore": null,
+      "arenaScores": {
+        "coding-arena": 4.934484593644402
+      }
+    },
+    "context": 256000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 1.5,
+      "outputUsdPerMillionTokens": 7.5
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-04-29"
+  },
+  {
+    "id": "mistral-nemo-instruct-2407",
+    "name": "Mistral NeMo Instruct",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-07-18"
+  },
+  {
+    "id": "mistral-small-2409",
+    "name": "Mistral Small",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-09-17"
+  },
+  {
+    "id": "mistral-small-24b-base-2501",
+    "name": "Mistral Small 3 24B Base",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.3437,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-01-30"
+  },
+  {
+    "id": "mistral-small-24b-instruct-2501",
+    "name": "Mistral Small 3 24B Instruct",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.453,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-01-30"
+  },
+  {
+    "id": "mistral-small-3.1-24b-base-2503",
+    "name": "Mistral Small 3.1 24B Base",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.375,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-03-17"
+  },
+  {
+    "id": "mistral-small-3.1-24b-instruct-2503",
+    "name": "Mistral Small 3.1 24B Instruct",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.4596,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-03-17"
+  },
+  {
+    "id": "mistral-small-3.2-24b-instruct-2506",
+    "name": "Mistral Small 3.2 24B Instruct",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.4613,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-06-20"
+  },
+  {
+    "id": "mistral-small-latest",
+    "name": "Mistral Small 4",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.712,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 3.9982954024169555,
+        "coding-arena": 5.628260933155068
+      }
+    },
+    "context": 256000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.15,
+      "outputUsdPerMillionTokens": 0.6
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-03-16"
+  },
+  {
+    "id": "pixtral-large",
+    "name": "Pixtral Large",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-11-18"
+  },
+  {
+    "id": "pixtral-12b-2409",
+    "name": "Pixtral-12B",
+    "organization": "Mistral AI",
+    "organizationId": "mistral",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-09-17"
+  },
+  {
+    "id": "kimi-k2-0905",
+    "name": "Kimi K2 0905",
+    "organization": "Moonshot AI",
+    "organizationId": "moonshotai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.758,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 10.549663760361328,
+        "coding-arena": 10.032850076293528
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-09-05"
+  },
+  {
+    "id": "kimi-k2-base",
+    "name": "Kimi K2 Base",
+    "organization": "Moonshot AI",
+    "organizationId": "moonshotai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.481,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-07-11"
+  },
+  {
+    "id": "kimi-k2-instruct",
+    "name": "Kimi K2 Instruct",
+    "organization": "Moonshot AI",
+    "organizationId": "moonshotai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.751,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.047,
+      "arenaScores": {
+        "coding-arena": -8.817511812791135
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-07-11"
+  },
+  {
+    "id": "kimi-k2-instruct-0905",
+    "name": "Kimi K2-Instruct-0905",
+    "organization": "Moonshot AI",
+    "organizationId": "moonshotai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.751,
+      "sweBenchVerifiedScore": 0.658,
+      "hleScore": 0.047,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-09-05"
+  },
+  {
+    "id": "kimi-k2-thinking-0905",
+    "name": "Kimi K2-Thinking-0905",
+    "organization": "Moonshot AI",
+    "organizationId": "moonshotai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.845,
+      "sweBenchVerifiedScore": 0.713,
+      "hleScore": 0.51,
+      "arenaScores": {
+        "chat-arena": 12.124502313827106,
+        "coding-arena": 9.405460251881149
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-09-05"
+  },
+  {
+    "id": "kimi-k2.5",
+    "name": "Kimi K2.5",
+    "organization": "Moonshot AI",
+    "organizationId": "moonshotai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.876,
+      "sweBenchVerifiedScore": 0.768,
+      "hleScore": 0.502,
+      "arenaScores": {
+        "chat-arena": 10.034418367012332,
+        "coding-arena": 14.621618281823848
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-01-27"
+  },
+  {
+    "id": "kimi-k2.6",
+    "name": "Kimi K2.6",
+    "organization": "Moonshot AI",
+    "organizationId": "moonshotai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.905,
+      "sweBenchVerifiedScore": 0.802,
+      "hleScore": 0.364,
+      "arenaScores": {
+        "chat-arena": -3.895712923391354,
+        "coding-arena": 15.512518564867353
+      }
+    },
+    "context": 262144,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.95,
+      "outputUsdPerMillionTokens": 4
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-04-20"
+  },
+  {
+    "id": "kimi-k1.5",
+    "name": "Kimi-k1.5",
+    "organization": "Moonshot AI",
+    "organizationId": "moonshotai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-01-20"
+  },
+  {
+    "id": "hermes-3-70b",
+    "name": "Hermes 3 70B",
+    "organization": "Nous Research",
+    "organizationId": "nous-research",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.661,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 9.300453758323226,
+        "coding-arena": 0.7079259107046558
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-08-15"
+  },
+  {
+    "id": "llama-3.1-nemotron-70b-instruct",
+    "name": "Llama 3.1 Nemotron 70B Instruct",
+    "organization": "NVIDIA",
+    "organizationId": "nvidia",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2024-10-01"
+  },
+  {
+    "id": "llama-3.1-nemotron-nano-8b-v1",
+    "name": "Llama 3.1 Nemotron Nano 8B V1",
+    "organization": "NVIDIA",
+    "organizationId": "nvidia",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.541,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-03-18"
+  },
+  {
+    "id": "llama-3.1-nemotron-ultra-253b-v1",
+    "name": "Llama 3.1 Nemotron Ultra 253B v1",
+    "organization": "NVIDIA",
+    "organizationId": "nvidia",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.7601,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-04-07"
+  },
+  {
+    "id": "llama-3.3-nemotron-super-49b-v1",
+    "name": "Llama-3.3 Nemotron Super 49B v1",
+    "organization": "NVIDIA",
+    "organizationId": "nvidia",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.6667,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-03-18"
+  },
+  {
+    "id": "nemotron-3-nano-30b-a3b",
+    "name": "Nemotron 3 Nano (30B A3B)",
+    "organization": "NVIDIA",
+    "organizationId": "nvidia",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.75,
+      "sweBenchVerifiedScore": 0.388,
+      "hleScore": 0.155,
+      "arenaScores": {
+        "chat-arena": 9.455412446220413,
+        "coding-arena": 2.870074011702812
+      }
+    },
+    "context": 262144,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.06,
+      "outputUsdPerMillionTokens": 0.24
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-15"
+  },
+  {
+    "id": "nemotron-3-super-120b-a12b",
+    "name": "Nemotron 3 Super (120B A12B)",
+    "organization": "NVIDIA",
+    "organizationId": "nvidia",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.827,
+      "sweBenchVerifiedScore": 0.5373,
+      "hleScore": 0.2282,
+      "arenaScores": {
+        "chat-arena": 14.932969521053,
+        "coding-arena": -0.6299328126732069
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-03-11"
+  },
+  {
+    "id": "nvidia-nemotron-nano-9b-v2",
+    "name": "Nemotron Nano 9B v2",
+    "organization": "NVIDIA",
+    "organizationId": "nvidia",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.64,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-08-18"
+  },
+  {
+    "id": "chatgpt-4o-latest",
+    "name": "ChatGPT-4o Latest",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.84,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 11.730673643526934,
+        "coding-arena": 3.4581820799441285
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-05-13"
+  },
+  {
+    "id": "gpt-oss-120b",
+    "name": "GPT OSS 120B",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.801,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.149,
+      "arenaScores": {
+        "chat-arena": 9.927180981389876,
+        "coding-arena": 4.413842962096514
+      }
+    },
+    "context": 131072,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.09,
+      "outputUsdPerMillionTokens": 0.45
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-08-05"
+  },
+  {
+    "id": "gpt-oss-120b-high",
+    "name": "GPT OSS 120B High",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.809,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 9.945651160476313,
+        "coding-arena": 7.1847180351522395
+      }
+    },
+    "context": 131072,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.1,
+      "outputUsdPerMillionTokens": 0.5
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-08-05"
+  },
+  {
+    "id": "gpt-oss-20b",
+    "name": "GPT OSS 20B",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.715,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.109,
+      "arenaScores": {
+        "chat-arena": 5.909342074860615,
+        "coding-arena": 5.336572712274487
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-08-05"
+  },
+  {
+    "id": "gpt-oss-20b-high",
+    "name": "GPT OSS 20B High",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.742,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 9.268460533604372,
+        "coding-arena": 2.2996650554831546
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-08-05"
+  },
+  {
+    "id": "gpt-3.5-turbo-0125",
+    "name": "GPT-3.5 Turbo",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.308,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "coding-arena": 2.025610761106559
+      }
+    },
+    "context": 16385,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.5,
+      "outputUsdPerMillionTokens": 1.5
+    },
+    "isOpenSource": false,
+    "announcementDate": "2023-03-21"
+  },
+  {
+    "id": "gpt-4-0613",
+    "name": "GPT-4",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.357,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2023-06-13"
+  },
+  {
+    "id": "gpt-4-turbo-2024-04-09",
+    "name": "GPT-4 Turbo",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.48,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "coding-arena": 3.7221603548558204
+      }
+    },
+    "context": 128000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 10,
+      "outputUsdPerMillionTokens": 30
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-04-09"
+  },
+  {
+    "id": "gpt-4.1-2025-04-14",
+    "name": "GPT-4.1",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.663,
+      "sweBenchVerifiedScore": 0.546,
+      "hleScore": 0.054,
+      "arenaScores": {
+        "chat-arena": 12.366383831491312,
+        "coding-arena": 8.413815390482775
+      }
+    },
+    "context": 1047576,
+    "pricing": {
+      "inputUsdPerMillionTokens": 2,
+      "outputUsdPerMillionTokens": 8
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-04-14"
+  },
+  {
+    "id": "gpt-4.1-mini-2025-04-14",
+    "name": "GPT-4.1 mini",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.65,
+      "sweBenchVerifiedScore": 0.236,
+      "hleScore": 0.037,
+      "arenaScores": {
+        "chat-arena": 5.282855787567109,
+        "coding-arena": 10.510982747722593
+      }
+    },
+    "context": 1047576,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.4,
+      "outputUsdPerMillionTokens": 1.6
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-04-14"
+  },
+  {
+    "id": "gpt-4.1-nano-2025-04-14",
+    "name": "GPT-4.1 nano",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.503,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "coding-arena": 5.483748272811401
+      }
+    },
+    "context": 1047576,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.1,
+      "outputUsdPerMillionTokens": 0.4
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-04-14"
+  },
+  {
+    "id": "gpt-4.5",
+    "name": "GPT-4.5",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.695,
+      "sweBenchVerifiedScore": 0.38,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-02-27"
+  },
+  {
+    "id": "gpt-4o-2024-05-13",
+    "name": "GPT-4o",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.536,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "coding-arena": 3.568989241991325
+      }
+    },
+    "context": 128000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 2.5,
+      "outputUsdPerMillionTokens": 10
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-05-13"
+  },
+  {
+    "id": "gpt-4o-2024-08-06",
+    "name": "GPT-4o",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.701,
+      "sweBenchVerifiedScore": 0.332,
+      "hleScore": 0.053,
+      "arenaScores": {
+        "coding-arena": 3.005097204547202
+      }
+    },
+    "context": 128000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 2.5,
+      "outputUsdPerMillionTokens": 10
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-08-06"
+  },
+  {
+    "id": "gpt-4o-mini-2024-07-18",
+    "name": "GPT-4o mini",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.402,
+      "sweBenchVerifiedScore": 0.087,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-07-18"
+  },
+  {
+    "id": "gpt-5-2025-08-07",
+    "name": "GPT-5",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.857,
+      "sweBenchVerifiedScore": 0.749,
+      "hleScore": 0.248,
+      "arenaScores": {
+        "chat-arena": 10.98397369989236,
+        "coding-arena": 8.859438859762507
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-08-07"
+  },
+  {
+    "id": "gpt-5-codex-2025-09-15",
+    "name": "GPT-5 Codex",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": 0.745,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-09-15"
+  },
+  {
+    "id": "gpt-5-high-2025-08-07",
+    "name": "GPT-5 High",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.873,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 10.671153066697297,
+        "coding-arena": 13.009458889477013
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-08-07"
+  },
+  {
+    "id": "gpt-5-medium-2025-08-07",
+    "name": "GPT-5 Medium",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.881,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 10.096173488958001,
+        "coding-arena": 11.009209094556178
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-08-07"
+  },
+  {
+    "id": "gpt-5-mini-2025-08-07",
+    "name": "GPT-5 mini",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.823,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.167,
+      "arenaScores": {
+        "chat-arena": 12.534611782763374,
+        "coding-arena": 11.390714951198825
+      }
+    },
+    "context": 400000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.25,
+      "outputUsdPerMillionTokens": 2
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-08-07"
+  },
+  {
+    "id": "gpt-5-nano-2025-08-07",
+    "name": "GPT-5 nano",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.712,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.087,
+      "arenaScores": {
+        "chat-arena": 5.084423908952773,
+        "coding-arena": 6.626106678754523
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-08-07"
+  },
+  {
+    "id": "gpt-5.1-2025-11-13",
+    "name": "GPT-5.1",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.881,
+      "sweBenchVerifiedScore": 0.763,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 10.207072771180389,
+        "coding-arena": 12.10488548776039
+      }
+    },
+    "context": 400000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 1.25,
+      "outputUsdPerMillionTokens": 10
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-11-13"
+  },
+  {
+    "id": "gpt-5.1-codex",
+    "name": "GPT-5.1 Codex",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": 0.737,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 8.070322019660138,
+        "coding-arena": 7.293116054430141
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-11-19"
+  },
+  {
+    "id": "gpt-5.1-codex-high",
+    "name": "GPT-5.1 Codex High",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 10.941228290159145,
+        "coding-arena": 7.214834984224612
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-11-12"
+  },
+  {
+    "id": "gpt-5.1-codex-mini",
+    "name": "GPT-5.1 Codex Mini",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 8.85549070334849,
+        "coding-arena": 2.1048269059972786
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-11-12"
+  },
+  {
+    "id": "gpt-5.1-high-2025-11-12",
+    "name": "GPT-5.1 High",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.881,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 11.318239354423397,
+        "coding-arena": 11.402277458808678
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-11-12"
+  },
+  {
+    "id": "gpt-5.1-instant-2025-11-12",
+    "name": "GPT-5.1 Instant",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.881,
+      "sweBenchVerifiedScore": 0.763,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 12.19372120167721,
+        "coding-arena": 9.402842818316696
+      }
+    },
+    "context": 400000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 1.25,
+      "outputUsdPerMillionTokens": 10
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-11-12"
+  },
+  {
+    "id": "gpt-5.1-medium-2025-11-12",
+    "name": "GPT-5.1 Medium",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 12.372522781162107,
+        "coding-arena": 11.811007578943364
+      }
+    },
+    "context": 400000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 1.25,
+      "outputUsdPerMillionTokens": 10
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-11-12"
+  },
+  {
+    "id": "gpt-5.1-thinking-2025-11-12",
+    "name": "GPT-5.1 Thinking",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.881,
+      "sweBenchVerifiedScore": 0.763,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 11.483612099588939,
+        "coding-arena": 10.874563371814189
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-11-12"
+  },
+  {
+    "id": "gpt-5.2-2025-12-11",
+    "name": "GPT-5.2",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.924,
+      "sweBenchVerifiedScore": 0.8,
+      "hleScore": 0.345,
+      "arenaScores": {
+        "chat-arena": 11.703660631133229,
+        "coding-arena": 15.19415851801715
+      }
+    },
+    "context": 400000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 1.75,
+      "outputUsdPerMillionTokens": 14
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-12-11"
+  },
+  {
+    "id": "gpt-5.2-codex",
+    "name": "GPT-5.2 Codex",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 8.122720649529066,
+        "coding-arena": 12.319156937714249
+      }
+    },
+    "context": 400000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 1.75,
+      "outputUsdPerMillionTokens": 14
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-01-14"
+  },
+  {
+    "id": "gpt-5.2-pro-2025-12-11",
+    "name": "GPT-5.2 Pro",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.932,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.366,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-12-11"
+  },
+  {
+    "id": "gpt-5.3-chat-latest",
+    "name": "GPT-5.3 Chat",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 6.952354251138878,
+        "coding-arena": 7.17530132215482
+      }
+    },
+    "context": 128000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 1.75,
+      "outputUsdPerMillionTokens": 14
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-03-04"
+  },
+  {
+    "id": "gpt-5.3-codex",
+    "name": "GPT-5.3 Codex",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 8.210085967199902,
+        "coding-arena": 13.600715513581193
+      }
+    },
+    "context": 400000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 1.75,
+      "outputUsdPerMillionTokens": 14
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-02-05"
+  },
+  {
+    "id": "gpt-5.4",
+    "name": "GPT-5.4",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.928,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.398,
+      "arenaScores": {
+        "chat-arena": 11.035027335801358,
+        "coding-arena": 17.262676443925972
+      }
+    },
+    "context": 1000000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 2.5,
+      "outputUsdPerMillionTokens": 15
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-03-05"
+  },
+  {
+    "id": "gpt-5.4-mini",
+    "name": "GPT-5.4 mini",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.88,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.282,
+      "arenaScores": {
+        "chat-arena": 7.174650371324576,
+        "coding-arena": 13.883444401397993
+      }
+    },
+    "context": 400000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.75,
+      "outputUsdPerMillionTokens": 4.5
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-03-17"
+  },
+  {
+    "id": "gpt-5.4-nano",
+    "name": "GPT-5.4 nano",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.828,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.243,
+      "arenaScores": {
+        "chat-arena": 5.417015905484607,
+        "coding-arena": 7.8210206988879785
+      }
+    },
+    "context": 400000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.2,
+      "outputUsdPerMillionTokens": 1.25
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-03-17"
+  },
+  {
+    "id": "gpt-5.5",
+    "name": "GPT-5.5",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.936,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.522,
+      "arenaScores": {
+        "chat-arena": 8.217576665146911,
+        "coding-arena": 19.48646970458166
+      }
+    },
+    "context": 1050000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 5,
+      "outputUsdPerMillionTokens": 30
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-04-23"
+  },
+  {
+    "id": "gpt-5.5-instant",
+    "name": "GPT-5.5 Instant",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.856,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "coding-arena": 13.80628648948355
+      }
+    },
+    "context": 400000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 5,
+      "outputUsdPerMillionTokens": 30
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-05-05"
+  },
+  {
+    "id": "gpt-5.5-pro",
+    "name": "GPT-5.5 Pro",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.572,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-04-23"
+  },
+  {
+    "id": "o1-2024-12-17",
+    "name": "o1",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.78,
+      "sweBenchVerifiedScore": 0.41,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-12-17"
+  },
+  {
+    "id": "o1-mini",
+    "name": "o1-mini",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.6,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-09-12"
+  },
+  {
+    "id": "o1-preview",
+    "name": "o1-preview",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.733,
+      "sweBenchVerifiedScore": 0.413,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-09-12"
+  },
+  {
+    "id": "o1-pro",
+    "name": "o1-pro",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.79,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-12-17"
+  },
+  {
+    "id": "o3-2025-04-16",
+    "name": "o3",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.833,
+      "sweBenchVerifiedScore": 0.691,
+      "hleScore": 0.147,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-04-16"
+  },
+  {
+    "id": "o3-mini",
+    "name": "o3-mini",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.772,
+      "sweBenchVerifiedScore": 0.493,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-01-30"
+  },
+  {
+    "id": "o3-pro-2025-06-10",
+    "name": "o3-pro",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-06-10"
+  },
+  {
+    "id": "o4-mini",
+    "name": "o4-mini",
+    "organization": "OpenAI",
+    "organizationId": "openai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.814,
+      "sweBenchVerifiedScore": 0.681,
+      "hleScore": 0.147,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-04-16"
+  },
+  {
+    "id": "minicpm-sala",
+    "name": "MiniCPM-SALA",
+    "organization": "OpenBMB",
+    "organizationId": "openbmb",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-02-11"
+  },
+  {
+    "id": "sarvam-105b",
+    "name": "Sarvam-105B",
+    "organization": "Sarvam AI",
+    "organizationId": "sarvamai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.787,
+      "sweBenchVerifiedScore": 0.45,
+      "hleScore": 0.112,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-03-06"
+  },
+  {
+    "id": "sarvam-30b",
+    "name": "Sarvam-30B",
+    "organization": "Sarvam AI",
+    "organizationId": "sarvamai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.665,
+      "sweBenchVerifiedScore": 0.34,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-03-06"
+  },
+  {
+    "id": "step-3.5-flash",
+    "name": "Step-3.5-Flash",
+    "organization": "StepFun",
+    "organizationId": "stepfun",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": 0.744,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 10.522602694939753,
+        "coding-arena": 7.232639372689853
+      }
+    },
+    "context": 65536,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.1,
+      "outputUsdPerMillionTokens": 0.4
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-02-02"
+  },
+  {
+    "id": "step3-vl-10b",
+    "name": "Step3-VL-10B",
+    "organization": "StepFun",
+    "organizationId": "stepfun",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-01-15"
+  },
+  {
+    "id": "grok-4-fast",
+    "name": "Grok 4 Fast",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.857,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.2,
+      "arenaScores": {
+        "coding-arena": 9.158236371765659
+      }
+    },
+    "context": 2000000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.2,
+      "outputUsdPerMillionTokens": 0.5
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-08-28"
+  },
+  {
+    "id": "grok-4.3",
+    "name": "Grok 4.3",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "coding-arena": 8.595008435095307
+      }
+    },
+    "context": 1000000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 1.25,
+      "outputUsdPerMillionTokens": 2.5
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-05-06"
+  },
+  {
+    "id": "grok-code-fast-1",
+    "name": "Grok Code Fast 1",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": 0.708,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 10.376329725215065,
+        "coding-arena": 6.102474782990435
+      }
+    },
+    "context": 256000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.2,
+      "outputUsdPerMillionTokens": 1.5
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-08-28"
+  },
+  {
+    "id": "grok-1.5",
+    "name": "Grok-1.5",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.359,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-03-28"
+  },
+  {
+    "id": "grok-1.5v",
+    "name": "Grok-1.5V",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-04-12"
+  },
+  {
+    "id": "grok-2",
+    "name": "Grok-2",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.56,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-08-13"
+  },
+  {
+    "id": "grok-2-image-1212",
+    "name": "Grok-2 Image 1212",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-12-12"
+  },
+  {
+    "id": "grok-2-mini",
+    "name": "Grok-2 mini",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.51,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2024-08-13"
+  },
+  {
+    "id": "grok-3",
+    "name": "Grok-3",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.846,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "coding-arena": 11.113661253656185
+      }
+    },
+    "context": 128000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 3,
+      "outputUsdPerMillionTokens": 15
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-02-17"
+  },
+  {
+    "id": "grok-3-mini",
+    "name": "Grok-3 Mini",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.84,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 10.861647176938625,
+        "coding-arena": 3.4142464430422224
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-02-17"
+  },
+  {
+    "id": "grok-4",
+    "name": "Grok-4",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.875,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.4,
+      "arenaScores": {
+        "chat-arena": 11.959539881870384,
+        "coding-arena": 4.871543652058763
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-07-09"
+  },
+  {
+    "id": "grok-4-fast-non-reasoning",
+    "name": "Grok-4 Fast Non-Reasoning",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 9.084749952666517,
+        "coding-arena": 6.74183187544122
+      }
+    },
+    "context": 2000000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.2,
+      "outputUsdPerMillionTokens": 0.5
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-08-28"
+  },
+  {
+    "id": "grok-4-fast-reasoning",
+    "name": "Grok-4 Fast Reasoning",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 13.562128801559599,
+        "coding-arena": 7.039275617986665
+      }
+    },
+    "context": 2000000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.2,
+      "outputUsdPerMillionTokens": 0.5
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-08-28"
+  },
+  {
+    "id": "grok-4-heavy",
+    "name": "Grok-4 Heavy",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.884,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.507,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-07-09"
+  },
+  {
+    "id": "grok-4.1-2025-11-17",
+    "name": "Grok-4.1",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-11-17"
+  },
+  {
+    "id": "grok-4-1-fast-non-reasoning",
+    "name": "Grok-4.1 Fast Non-Reasoning",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 12.355459101169174,
+        "coding-arena": 6.702983312389457
+      }
+    },
+    "context": 2000000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.2,
+      "outputUsdPerMillionTokens": 0.5
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-11-17"
+  },
+  {
+    "id": "grok-4-1-fast-reasoning",
+    "name": "Grok-4.1 Fast Reasoning",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 10.889564903662636,
+        "coding-arena": 6.252783475451289
+      }
+    },
+    "context": 2000000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 0.2,
+      "outputUsdPerMillionTokens": 0.5
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-11-17"
+  },
+  {
+    "id": "grok-4.1-thinking-2025-11-17",
+    "name": "Grok-4.1 Thinking",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2025-11-17"
+  },
+  {
+    "id": "grok-4.20-beta-0309-non-reasoning",
+    "name": "Grok-4.20 Beta Non-Reasoning",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 8.978377666407974,
+        "coding-arena": 11.689937908956633
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-03-09"
+  },
+  {
+    "id": "grok-4.20-beta-0309-reasoning",
+    "name": "Grok-4.20 Beta Reasoning",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 16.977185739097514,
+        "coding-arena": 7.915527140617944
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-03-09"
+  },
+  {
+    "id": "grok-4.20-multi-agent-beta-0309",
+    "name": "Grok-4.20 Multi-Agent Beta",
+    "organization": "xAI",
+    "organizationId": "xai",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 6.97230401593816,
+        "coding-arena": 6.60217168185755
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-03-09"
+  },
+  {
+    "id": "mimo-v2-flash",
+    "name": "MiMo-V2-Flash",
+    "organization": "Xiaomi",
+    "organizationId": "xiaomi",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.837,
+      "sweBenchVerifiedScore": 0.734,
+      "hleScore": 0.221,
+      "arenaScores": {
+        "chat-arena": 12.283592023613728,
+        "coding-arena": 7.934531639502582
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-16"
+  },
+  {
+    "id": "mimo-v2-omni",
+    "name": "MiMo-V2-Omni",
+    "organization": "Xiaomi",
+    "organizationId": "xiaomi",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": 0.748,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 4.387930434113615,
+        "coding-arena": 1.9106710522845218
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-03-18"
+  },
+  {
+    "id": "mimo-v2-pro",
+    "name": "MiMo-V2-Pro",
+    "organization": "Xiaomi",
+    "organizationId": "xiaomi",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": 0.78,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 9.803252237648234,
+        "coding-arena": 2.1527613611061898
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-03-18"
+  },
+  {
+    "id": "glm-4.5",
+    "name": "GLM-4.5",
+    "organization": "Zhipu AI",
+    "organizationId": "zai-org",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.791,
+      "sweBenchVerifiedScore": 0.642,
+      "hleScore": 0.144,
+      "arenaScores": {
+        "chat-arena": 13.419651481205307,
+        "coding-arena": 7.440740437726144
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-07-28"
+  },
+  {
+    "id": "glm-4.5-air",
+    "name": "GLM-4.5-Air",
+    "organization": "Zhipu AI",
+    "organizationId": "zai-org",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.75,
+      "sweBenchVerifiedScore": 0.576,
+      "hleScore": 0.106,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-07-28"
+  },
+  {
+    "id": "glm-4.5v",
+    "name": "GLM-4.5V",
+    "organization": "Zhipu AI",
+    "organizationId": "zai-org",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 10.264170474049383,
+        "coding-arena": -0.44669202120935925
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-08-11"
+  },
+  {
+    "id": "glm-4.6",
+    "name": "GLM-4.6",
+    "organization": "Zhipu AI",
+    "organizationId": "zai-org",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.81,
+      "sweBenchVerifiedScore": 0.68,
+      "hleScore": 0.172,
+      "arenaScores": {
+        "chat-arena": 10.787901810657619,
+        "coding-arena": 11.439933547984085
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-09-30"
+  },
+  {
+    "id": "glm-4.7",
+    "name": "GLM-4.7",
+    "organization": "Zhipu AI",
+    "organizationId": "zai-org",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.857,
+      "sweBenchVerifiedScore": 0.738,
+      "hleScore": 0.428,
+      "arenaScores": {
+        "chat-arena": 10.172422975054555,
+        "coding-arena": 10.644982224187688
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2025-12-22"
+  },
+  {
+    "id": "glm-4.7-flash",
+    "name": "GLM-4.7-Flash",
+    "organization": "Zhipu AI",
+    "organizationId": "zai-org",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.752,
+      "sweBenchVerifiedScore": 0.592,
+      "hleScore": 0.144,
+      "arenaScores": {
+        "chat-arena": 8.436493722953562,
+        "coding-arena": 7.587818382860923
+      }
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-01-19"
+  },
+  {
+    "id": "glm-5",
+    "name": "GLM-5",
+    "organization": "Zhipu AI",
+    "organizationId": "zai-org",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": 0.778,
+      "hleScore": null,
+      "arenaScores": {
+        "chat-arena": 11.660716607567899,
+        "coding-arena": 15.960270163091327
+      }
+    },
+    "context": 200000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 1,
+      "outputUsdPerMillionTokens": 3.2
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-02-11"
+  },
+  {
+    "id": "glm-5.1",
+    "name": "GLM-5.1",
+    "organization": "Zhipu AI",
+    "organizationId": "zai-org",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": 0.862,
+      "sweBenchVerifiedScore": null,
+      "hleScore": 0.523,
+      "arenaScores": {
+        "chat-arena": 2.6583313889690974,
+        "coding-arena": 18.034823744011618
+      }
+    },
+    "context": 200000,
+    "pricing": {
+      "inputUsdPerMillionTokens": 1.4,
+      "outputUsdPerMillionTokens": 4.4
+    },
+    "isOpenSource": true,
+    "announcementDate": "2026-04-07"
+  },
+  {
+    "id": "glm-5v-turbo",
+    "name": "GLM-5V-Turbo",
+    "organization": "Zhipu AI",
+    "organizationId": "zai-org",
+    "type": "llm",
+    "source": "homepage-leaderboard",
+    "metrics": {
+      "gpqaScore": null,
+      "sweBenchVerifiedScore": null,
+      "hleScore": null,
+      "arenaScores": {}
+    },
+    "context": null,
+    "pricing": {
+      "inputUsdPerMillionTokens": null,
+      "outputUsdPerMillionTokens": null
+    },
+    "isOpenSource": false,
+    "announcementDate": "2026-04-02"
+  }
+]

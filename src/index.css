@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light mode - Clean, warm, sophisticated */
+    --background: 210 20% 98%;
+    --foreground: 215 25% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
+    --primary: 158 85% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 158 85% 55%;
+    --secondary: 210 20% 92%;
+    --secondary-foreground: 215 25% 25%;
+    --muted: 210 20% 92%;
+    --muted-foreground: 215 15% 45%;
+    --accent: 210 40% 94%;
+    --accent-foreground: 158 85% 40%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 210 20% 88%;
+    --input: 210 20% 90%;
+    --ring: 158 85% 45%;
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(210 20% 98%), hsl(160 85% 95%));
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(210 20% 98%));
+    --gradient-accent: linear-gradient(135deg, hsl(158 85% 45%), hsl(160 85% 55%));
+
+    /* Shadows - soft and diffused */
+    --shadow-sm: 0 1px 3px hsl(215 25% 15% / 0.06);
+    --shadow-md: 0 4px 12px hsl(215 25% 15% / 0.08);
+    --shadow-lg: 0 8px 24px hsl(215 25% 15% / 0.1);
+    --shadow-xl: 0 16px 48px hsl(215 25% 15% / 0.12);
+    --shadow-glow: 0 0 40px hsl(158 85% 45% / 0.15);
+
+    /* Transitions */
+    --transition-fast: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-base: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 220 15% 8%;
+    --foreground: 210 20% 95%;
+    --card: 220 15% 10%;
+    --card-foreground: 210 20% 95%;
+    --popover: 220 15% 10%;
+    --popover-foreground: 210 20% 95%;
+    --primary: 158 75% 55%;
+    --primary-foreground: 220 15% 8%;
+    --primary-glow: 158 75% 65%;
+    --secondary: 220 15% 15%;
+    --secondary-foreground: 210 20% 90%;
+    --muted: 220 15% 15%;
+    --muted-foreground: 210 15% 60%;
+    --accent: 220 15% 18%;
+    --accent-foreground: 158 75% 55%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 15% 20%;
+    --input: 220 15% 18%;
+    --ring: 158 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04";
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
