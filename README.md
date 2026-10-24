@@ -6,8 +6,8 @@ AI Model Discovery & Comparison Platform
 
 - **Frontend**: React 18 + TypeScript + Vite + TailwindCSS
 - **State Management**: Zustand
-- **Backend**: FastAPI + PostgreSQL + Redis/Celery
-- **Deployment**: Cloudflare Pages
+- **Data Collection**: Python 3 single-file scraper (`scripts/scrape_models.py`)
+- **Deployment**: Cloudflare Pages (GitHub Actions)
 
 ## Project Structure
 
@@ -17,9 +17,9 @@ AI Model Discovery & Comparison Platform
 │   ├── pages/        # Page components
 │   ├── data/         # Static data (models, benchmarks)
 │   ├── stores/       # Zustand stores
-│   ├── hooks/        # Custom hooks
 │   └── i18n/         # Internationalization
-├── backend/           # Python backend service
+├── scripts/          # Build & data collection scripts
+├── data/             # Scraped snapshots
 ├── docs/             # Documentation
 └── public/           # Static assets
 ```
@@ -36,14 +36,16 @@ npm run dev
 # Build for production
 npm run build
 
-# Optional: point frontend admin panels at a backend API
-VITE_API_BASE_URL=http://localhost:8000 npm run dev
-
-# Start backend services
-docker compose up backend postgres redis celery_worker celery_beat
+# Scrape latest model pricing and diff against src/data/models.ts
+npm run scrape:models
+# or: python scripts/scrape_models.py --diff
 ```
+
+抓取脚本为零第三方依赖的单文件 Python 脚本，输出：
+
+- `data/llm-stats/models.scraped.json` — 归一化后的模型数据（价格已按汇率换算为 CNY / 百万 token）
+- `data/llm-stats/price-diff.json` — 与现有 `src/data/models.ts` 的价格差异，供人工核对后更新
 
 ## Documentation
 
 - [Model Data Sources](docs/MODEL_SOURCES.md)
-- [Data Update System](docs/DATA_UPDATE_SYSTEM.md)

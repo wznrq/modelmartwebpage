@@ -1,0 +1,3567 @@
+{
+  "generatedAt": "2026-10-24T08:20:23.453090+00:00",
+  "source": "https://llm-stats.com",
+  "exchangeRate": 7.2,
+  "pages": [
+    {
+      "url": "https://llm-stats.com/",
+      "status": "ok",
+      "records": 185,
+      "created": 185,
+      "updated": 0
+    },
+    {
+      "url": "https://llm-stats.com/models",
+      "status": "ok",
+      "records": 294,
+      "created": 0,
+      "updated": 6
+    },
+    {
+      "url": "https://llm-stats.com/models/compare",
+      "status": "ok",
+      "records": 0,
+      "created": 0,
+      "updated": 0
+    },
+    {
+      "url": "https://llm-stats.com/leaderboards/llm-leaderboard",
+      "status": "ok",
+      "records": 185,
+      "created": 0,
+      "updated": 0
+    },
+    {
+      "url": "https://llm-stats.com/leaderboards/open-llm-leaderboard",
+      "status": "ok",
+      "records": 177,
+      "created": 0,
+      "updated": 0
+    },
+    {
+      "url": "https://llm-stats.com/benchmarks",
+      "status": "ok",
+      "records": 0,
+      "created": 0,
+      "updated": 0
+    }
+  ],
+  "count": 185,
+  "models": [
+    {
+      "id": "claude-opus-5",
+      "providerId": "anthropic",
+      "providerRaw": "anthropic",
+      "name": "Claude Opus 5",
+      "pricing": {
+        "input": 36.0,
+        "output": 180.0
+      },
+      "pricingUsd": {
+        "input": 5.0,
+        "output": 25.0
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-07-24",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "deepseek-v4-flash-0731",
+      "providerId": "deepseek",
+      "providerRaw": "deepseek",
+      "name": "DeepSeek-V4-Flash-0731",
+      "pricing": {
+        "input": 0.43,
+        "output": 1.3
+      },
+      "pricingUsd": {
+        "input": 0.06,
+        "output": 0.18
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-07-31",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gemini-3-1-pro-preview",
+      "providerId": "google",
+      "providerRaw": "google",
+      "name": "Gemini 3.1 Pro",
+      "pricing": {
+        "input": 14.4,
+        "output": 86.4
+      },
+      "pricingUsd": {
+        "input": 2.0,
+        "output": 12.0
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-02-19",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-5-6-sol",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-5.6 Sol",
+      "pricing": {
+        "input": 36.0,
+        "output": 216.0
+      },
+      "pricingUsd": {
+        "input": 5.0,
+        "output": 30.0
+      },
+      "performance": {
+        "contextWindow": 1050000
+      },
+      "releaseDate": "2026-07-09",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "claude-opus-4-6",
+      "providerId": "anthropic",
+      "providerRaw": "anthropic",
+      "name": "Claude Opus 4.6",
+      "pricing": {
+        "input": 36.0,
+        "output": 180.0
+      },
+      "pricingUsd": {
+        "input": 5.0,
+        "output": 25.0
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-02-05",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-5-5",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-5.5",
+      "pricing": {
+        "input": 36.0,
+        "output": 216.0
+      },
+      "pricingUsd": {
+        "input": 5.0,
+        "output": 30.0
+      },
+      "performance": {
+        "contextWindow": 1050000
+      },
+      "releaseDate": "2026-04-23",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "claude-fable-5",
+      "providerId": "anthropic",
+      "providerRaw": "anthropic",
+      "name": "Claude Fable 5",
+      "pricing": {
+        "input": 72.0,
+        "output": 360.0
+      },
+      "pricingUsd": {
+        "input": 10.0,
+        "output": 50.0
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-06-09",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "claude-opus-4-7",
+      "providerId": "anthropic",
+      "providerRaw": "anthropic",
+      "name": "Claude Opus 4.7",
+      "pricing": {
+        "input": 36.0,
+        "output": 180.0
+      },
+      "pricingUsd": {
+        "input": 5.0,
+        "output": 25.0
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-04-16",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "kimi-k3",
+      "providerId": "moonshot",
+      "providerRaw": "moonshotai",
+      "name": "Kimi K3",
+      "pricing": {
+        "input": 20.52,
+        "output": 102.6
+      },
+      "pricingUsd": {
+        "input": 2.85,
+        "output": 14.25
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-07-16",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-5-4",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-5.4",
+      "pricing": {
+        "input": 18.0,
+        "output": 108.0
+      },
+      "pricingUsd": {
+        "input": 2.5,
+        "output": 15.0
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-03-05",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "glm-5-1",
+      "providerId": "zhipu",
+      "providerRaw": "Zhipu AI",
+      "name": "GLM-5.1",
+      "pricing": {
+        "input": 10.08,
+        "output": 31.68
+      },
+      "pricingUsd": {
+        "input": 1.4,
+        "output": 4.4
+      },
+      "performance": {
+        "contextWindow": 200000
+      },
+      "releaseDate": "2026-04-07",
+      "sourceUrl": "https://llm-stats.com/models"
+    },
+    {
+      "id": "gemini-3-5-flash",
+      "providerId": "google",
+      "providerRaw": "google",
+      "name": "Gemini 3.5 Flash",
+      "pricing": {
+        "input": 10.8,
+        "output": 64.8
+      },
+      "pricingUsd": {
+        "input": 1.5,
+        "output": 9.0
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-05-19",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-7-max",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3.7 Max",
+      "pricing": {
+        "input": 9.0,
+        "output": 27.0
+      },
+      "pricingUsd": {
+        "input": 1.25,
+        "output": 3.75
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-05-19",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "claude-opus-4-8",
+      "providerId": "anthropic",
+      "providerRaw": "anthropic",
+      "name": "Claude Opus 4.8",
+      "pricing": {
+        "input": 36.0,
+        "output": 180.0
+      },
+      "pricingUsd": {
+        "input": 5.0,
+        "output": 25.0
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-05-28",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "providerId": "anthropic",
+      "providerRaw": "anthropic",
+      "name": "Claude Sonnet 4.6",
+      "pricing": {
+        "input": 21.6,
+        "output": 108.0
+      },
+      "pricingUsd": {
+        "input": 3.0,
+        "output": 15.0
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-02-17",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gemini-3-flash-preview",
+      "providerId": "google",
+      "providerRaw": "google",
+      "name": "Gemini 3 Flash",
+      "pricing": {
+        "input": 3.6,
+        "output": 21.6
+      },
+      "pricingUsd": {
+        "input": 0.5,
+        "output": 3.0
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2025-12-17",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "glm-5-2",
+      "providerId": "zhipu",
+      "providerRaw": "Zhipu AI",
+      "name": "GLM-5.2",
+      "pricing": {
+        "input": 5.4,
+        "output": 17.28
+      },
+      "pricingUsd": {
+        "input": 0.75,
+        "output": 2.4
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-06-16",
+      "sourceUrl": "https://llm-stats.com/models"
+    },
+    {
+      "id": "claude-sonnet-5",
+      "providerId": "anthropic",
+      "providerRaw": "anthropic",
+      "name": "Claude Sonnet 5",
+      "pricing": {
+        "input": 14.4,
+        "output": 72.0
+      },
+      "pricingUsd": {
+        "input": 2.0,
+        "output": 10.0
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-06-30",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "glm-5",
+      "providerId": "zhipu",
+      "providerRaw": "Zhipu AI",
+      "name": "GLM-5",
+      "pricing": {
+        "input": 7.2,
+        "output": 23.04
+      },
+      "pricingUsd": {
+        "input": 1.0,
+        "output": 3.2
+      },
+      "performance": {
+        "contextWindow": 200000
+      },
+      "releaseDate": "2026-02-11",
+      "sourceUrl": "https://llm-stats.com/models"
+    },
+    {
+      "id": "gpt-5-2-2025-12-11",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-5.2",
+      "pricing": {
+        "input": 12.6,
+        "output": 100.8
+      },
+      "pricingUsd": {
+        "input": 1.75,
+        "output": 14.0
+      },
+      "performance": {
+        "contextWindow": 400000
+      },
+      "releaseDate": "2025-12-11",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "kimi-k2-6",
+      "providerId": "moonshot",
+      "providerRaw": "moonshotai",
+      "name": "Kimi K2.6",
+      "pricing": {
+        "input": 5.4,
+        "output": 25.2
+      },
+      "pricingUsd": {
+        "input": 0.75,
+        "output": 3.5
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-04-20",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "grok-4-5",
+      "providerId": "xai",
+      "providerRaw": "xai",
+      "name": "Grok 4.5",
+      "pricing": {
+        "input": 14.4,
+        "output": 43.2
+      },
+      "pricingUsd": {
+        "input": 2.0,
+        "output": 6.0
+      },
+      "performance": {
+        "contextWindow": 500000
+      },
+      "releaseDate": "2026-07-16",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-5-4-mini",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-5.4 mini",
+      "pricing": {
+        "input": 5.4,
+        "output": 32.4
+      },
+      "pricingUsd": {
+        "input": 0.75,
+        "output": 4.5
+      },
+      "performance": {
+        "contextWindow": 400000
+      },
+      "releaseDate": "2026-03-17",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "claude-sonnet-4-5-20250929",
+      "providerId": "anthropic",
+      "providerRaw": "anthropic",
+      "name": "Claude Sonnet 4.5",
+      "pricing": {
+        "input": 21.6,
+        "output": 108.0
+      },
+      "pricingUsd": {
+        "input": 3.0,
+        "output": 15.0
+      },
+      "performance": {
+        "contextWindow": 200000
+      },
+      "releaseDate": "2025-09-29",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gemini-3-6-flash",
+      "providerId": "google",
+      "providerRaw": "google",
+      "name": "Gemini 3.6 Flash",
+      "pricing": {
+        "input": 10.8,
+        "output": 54.0
+      },
+      "pricingUsd": {
+        "input": 1.5,
+        "output": 7.5
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-07-21",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-5-3-codex",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-5.3 Codex",
+      "pricing": {
+        "input": 12.6,
+        "output": 100.8
+      },
+      "pricingUsd": {
+        "input": 1.75,
+        "output": 14.0
+      },
+      "performance": {
+        "contextWindow": 400000
+      },
+      "releaseDate": "2026-02-05",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-5-5-instant",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-5.5 Instant",
+      "pricing": {
+        "input": 36.0,
+        "output": 216.0
+      },
+      "pricingUsd": {
+        "input": 5.0,
+        "output": 30.0
+      },
+      "performance": {
+        "contextWindow": 400000
+      },
+      "releaseDate": "2026-05-05",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "deepseek-v4-pro-max",
+      "providerId": "deepseek",
+      "providerRaw": "deepseek",
+      "name": "DeepSeek-V4-Pro-Max",
+      "pricing": {
+        "input": 9.36,
+        "output": 18.72
+      },
+      "pricingUsd": {
+        "input": 1.3,
+        "output": 2.6
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-04-23",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gemma-4-31b-it",
+      "providerId": "google",
+      "providerRaw": "google",
+      "name": "Gemma 4 31B",
+      "pricing": {
+        "input": 0.65,
+        "output": 2.45
+      },
+      "pricingUsd": {
+        "input": 0.09,
+        "output": 0.34
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-04-02",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-5-397b-a17b",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3.5-397B-A17B",
+      "pricing": {
+        "input": 3.24,
+        "output": 21.6
+      },
+      "pricingUsd": {
+        "input": 0.45,
+        "output": 3.0
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-02-16",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-5-1-2025-11-13",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-5.1",
+      "pricing": {
+        "input": 9.0,
+        "output": 72.0
+      },
+      "pricingUsd": {
+        "input": 1.25,
+        "output": 10.0
+      },
+      "performance": {
+        "contextWindow": 400000
+      },
+      "releaseDate": "2025-11-13",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gemma-4-26b-a4b-it",
+      "providerId": "google",
+      "providerRaw": "google",
+      "name": "Gemma 4 26B-A4B",
+      "pricing": {
+        "input": 0.5,
+        "output": 2.45
+      },
+      "pricingUsd": {
+        "input": 0.07,
+        "output": 0.34
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-04-02",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-5-2-codex",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-5.2 Codex",
+      "pricing": {
+        "input": 12.6,
+        "output": 100.8
+      },
+      "pricingUsd": {
+        "input": 1.75,
+        "output": 14.0
+      },
+      "performance": {
+        "contextWindow": 400000
+      },
+      "releaseDate": "2026-01-14",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "minimax-m2-7",
+      "providerId": "minimax",
+      "providerRaw": "minimax",
+      "name": "MiniMax M2.7",
+      "pricing": {
+        "input": 2.16,
+        "output": 8.64
+      },
+      "pricingUsd": {
+        "input": 0.3,
+        "output": 1.2
+      },
+      "performance": {
+        "contextWindow": 204800
+      },
+      "releaseDate": "2026-03-18",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-6-plus",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3.6 Plus",
+      "pricing": {
+        "input": 3.6,
+        "output": 21.6
+      },
+      "pricingUsd": {
+        "input": 0.5,
+        "output": 3.0
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-03-31",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "kimi-k2-7-code",
+      "providerId": "moonshot",
+      "providerRaw": "moonshotai",
+      "name": "Kimi K2.7 Code",
+      "pricing": {
+        "input": 4.9,
+        "output": 24.48
+      },
+      "pricingUsd": {
+        "input": 0.68,
+        "output": 3.4
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-06-12",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-5-mini-2025-08-07",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-5 mini",
+      "pricing": {
+        "input": 1.8,
+        "output": 14.4
+      },
+      "pricingUsd": {
+        "input": 0.25,
+        "output": 2.0
+      },
+      "performance": {
+        "contextWindow": 400000
+      },
+      "releaseDate": "2025-08-07",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-5-6-terra",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-5.6 Terra",
+      "pricing": {
+        "input": 14.4,
+        "output": 86.4
+      },
+      "pricingUsd": {
+        "input": 2.0,
+        "output": 12.0
+      },
+      "performance": {
+        "contextWindow": 1050000
+      },
+      "releaseDate": "2026-07-09",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-5-6-luna",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-5.6 Luna",
+      "pricing": {
+        "input": 1.44,
+        "output": 8.64
+      },
+      "pricingUsd": {
+        "input": 0.2,
+        "output": 1.2
+      },
+      "performance": {
+        "contextWindow": 1050000
+      },
+      "releaseDate": "2026-07-09",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-5-1-medium-2025-11-12",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-5.1 Medium",
+      "pricing": {
+        "input": 9.0,
+        "output": 72.0
+      },
+      "pricingUsd": {
+        "input": 1.25,
+        "output": 10.0
+      },
+      "performance": {
+        "contextWindow": 400000
+      },
+      "releaseDate": "2025-11-12",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "glm-4-6",
+      "providerId": "zhipu",
+      "providerRaw": "Zhipu AI",
+      "name": "GLM-4.6",
+      "pricing": {
+        "input": 3.6,
+        "output": 14.4
+      },
+      "pricingUsd": {
+        "input": 0.5,
+        "output": 2.0
+      },
+      "performance": {
+        "contextWindow": 202752
+      },
+      "releaseDate": "2025-09-30",
+      "sourceUrl": "https://llm-stats.com/models"
+    },
+    {
+      "id": "deepseek-v4-flash-max",
+      "providerId": "deepseek",
+      "providerRaw": "deepseek",
+      "name": "DeepSeek-V4-Flash-Max",
+      "pricing": {
+        "input": 0.65,
+        "output": 1.3
+      },
+      "pricingUsd": {
+        "input": 0.09,
+        "output": 0.18
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-04-23",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-6-27b",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3.6-27B",
+      "pricing": {
+        "input": 2.3,
+        "output": 23.04
+      },
+      "pricingUsd": {
+        "input": 0.32,
+        "output": 3.2
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-04-21",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "muse-spark-1-1",
+      "providerId": "meta",
+      "providerRaw": "meta",
+      "name": "Muse Spark 1.1",
+      "pricing": {
+        "input": 9.0,
+        "output": 30.6
+      },
+      "pricingUsd": {
+        "input": 1.25,
+        "output": 4.25
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-07-09",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-4-1-mini-2025-04-14",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-4.1 mini",
+      "pricing": {
+        "input": 2.88,
+        "output": 11.52
+      },
+      "pricingUsd": {
+        "input": 0.4,
+        "output": 1.6
+      },
+      "performance": {
+        "contextWindow": 1047576
+      },
+      "releaseDate": "2025-04-14",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "glm-4-7",
+      "providerId": "other",
+      "providerRaw": "zai-org",
+      "name": "GLM-4.7",
+      "pricing": {
+        "input": 2.88,
+        "output": 12.6
+      },
+      "pricingUsd": {
+        "input": 0.4,
+        "output": 1.75
+      },
+      "performance": {
+        "contextWindow": 202752
+      },
+      "releaseDate": "2025-12-22",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "minimax-m3",
+      "providerId": "minimax",
+      "providerRaw": "minimax",
+      "name": "MiniMax M3",
+      "pricing": {
+        "input": 2.02,
+        "output": 7.92
+      },
+      "pricingUsd": {
+        "input": 0.28,
+        "output": 1.1
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-06-01",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "mimo-v2-5-pro",
+      "providerId": "xiaomi",
+      "providerRaw": "xiaomi",
+      "name": "MiMo-V2.5-Pro",
+      "pricing": {
+        "input": 3.13,
+        "output": 6.26
+      },
+      "pricingUsd": {
+        "input": 0.435,
+        "output": 0.87
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-04-27",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "deepseek-chat",
+      "providerId": "deepseek",
+      "providerRaw": "deepseek",
+      "name": "DeepSeek-V3.2 (Non-thinking)",
+      "pricing": {
+        "input": 2.02,
+        "output": 3.02
+      },
+      "pricingUsd": {
+        "input": 0.28,
+        "output": 0.42
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2025-12-01",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "minimax-m2-5",
+      "providerId": "minimax",
+      "providerRaw": "minimax",
+      "name": "MiniMax M2.5",
+      "pricing": {
+        "input": 2.16,
+        "output": 8.64
+      },
+      "pricingUsd": {
+        "input": 0.3,
+        "output": 1.2
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-02-12",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "grok-3",
+      "providerId": "xai",
+      "providerRaw": "xai",
+      "name": "Grok-3",
+      "pricing": {
+        "input": 21.6,
+        "output": 108.0
+      },
+      "pricingUsd": {
+        "input": 3.0,
+        "output": 15.0
+      },
+      "performance": {
+        "contextWindow": 128000
+      },
+      "releaseDate": "2025-02-17",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gemini-2-5-pro",
+      "providerId": "google",
+      "providerRaw": "google",
+      "name": "Gemini 2.5 Pro",
+      "pricing": {
+        "input": 9.0,
+        "output": 72.0
+      },
+      "pricingUsd": {
+        "input": 1.25,
+        "output": 10.0
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2025-05-20",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "minimax-m2",
+      "providerId": "minimax",
+      "providerRaw": "minimax",
+      "name": "MiniMax M2",
+      "pricing": {
+        "input": 2.16,
+        "output": 8.64
+      },
+      "pricingUsd": {
+        "input": 0.3,
+        "output": 1.2
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2025-10-27",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gemini-3-1-flash-lite-preview",
+      "providerId": "google",
+      "providerRaw": "google",
+      "name": "Gemini 3.1 Flash-Lite",
+      "pricing": {
+        "input": 1.8,
+        "output": 10.8
+      },
+      "pricingUsd": {
+        "input": 0.25,
+        "output": 1.5
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-03-03",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-5-1-instant-2025-11-12",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-5.1 Instant",
+      "pricing": {
+        "input": 9.0,
+        "output": 72.0
+      },
+      "pricingUsd": {
+        "input": 1.25,
+        "output": 10.0
+      },
+      "performance": {
+        "contextWindow": 400000
+      },
+      "releaseDate": "2025-11-12",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "claude-haiku-4-5-20251001",
+      "providerId": "anthropic",
+      "providerRaw": "anthropic",
+      "name": "Claude Haiku 4.5",
+      "pricing": {
+        "input": 7.2,
+        "output": 36.0
+      },
+      "pricingUsd": {
+        "input": 1.0,
+        "output": 5.0
+      },
+      "performance": {
+        "contextWindow": 200000
+      },
+      "releaseDate": "2025-10-15",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "grok-4-3",
+      "providerId": "xai",
+      "providerRaw": "xai",
+      "name": "Grok 4.3",
+      "pricing": {
+        "input": 9.0,
+        "output": 18.0
+      },
+      "pricingUsd": {
+        "input": 1.25,
+        "output": 2.5
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-05-06",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gemini-2-5-flash",
+      "providerId": "google",
+      "providerRaw": "google",
+      "name": "Gemini 2.5 Flash",
+      "pricing": {
+        "input": 2.16,
+        "output": 18.0
+      },
+      "pricingUsd": {
+        "input": 0.3,
+        "output": 2.5
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2025-05-20",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-5-4-nano",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-5.4 nano",
+      "pricing": {
+        "input": 1.44,
+        "output": 9.0
+      },
+      "pricingUsd": {
+        "input": 0.2,
+        "output": 1.25
+      },
+      "performance": {
+        "contextWindow": 400000
+      },
+      "releaseDate": "2026-03-17",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "mistral-large-latest",
+      "providerId": "mistral",
+      "providerRaw": "mistral",
+      "name": "Mistral Large 3 (675B Instruct 2512)",
+      "pricing": {
+        "input": 3.6,
+        "output": 10.8
+      },
+      "pricingUsd": {
+        "input": 0.5,
+        "output": 1.5
+      },
+      "performance": {
+        "contextWindow": 262100
+      },
+      "releaseDate": "2025-12-04",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "seed-2-0-pro",
+      "providerId": "bytedance",
+      "providerRaw": "bytedance",
+      "name": "Seed 2.0 Pro",
+      "pricing": {
+        "input": 3.6,
+        "output": 21.6
+      },
+      "pricingUsd": {
+        "input": 0.5,
+        "output": 3.0
+      },
+      "performance": {
+        "contextWindow": 256000
+      },
+      "releaseDate": "2026-02-14",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "minimax-m2-1",
+      "providerId": "minimax",
+      "providerRaw": "minimax",
+      "name": "MiniMax M2.1",
+      "pricing": {
+        "input": 2.16,
+        "output": 8.64
+      },
+      "pricingUsd": {
+        "input": 0.3,
+        "output": 1.2
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2025-12-23",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-4-1-2025-04-14",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-4.1",
+      "pricing": {
+        "input": 14.4,
+        "output": 57.6
+      },
+      "pricingUsd": {
+        "input": 2.0,
+        "output": 8.0
+      },
+      "performance": {
+        "contextWindow": 1047576
+      },
+      "releaseDate": "2025-04-14",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-5-27b",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3.5-27B",
+      "pricing": {
+        "input": 1.87,
+        "output": 18.72
+      },
+      "pricingUsd": {
+        "input": 0.26,
+        "output": 2.6
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-02-24",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-5-122b-a10b",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3.5-122B-A10B",
+      "pricing": {
+        "input": 2.09,
+        "output": 17.28
+      },
+      "pricingUsd": {
+        "input": 0.29,
+        "output": 2.4
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-02-24",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-max",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3 Max",
+      "pricing": {
+        "input": 8.64,
+        "output": 43.2
+      },
+      "pricingUsd": {
+        "input": 1.2,
+        "output": 6.0
+      },
+      "performance": {
+        "contextWindow": 256000
+      },
+      "releaseDate": "2025-12-15",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "step-3-5-flash",
+      "providerId": "step",
+      "providerRaw": "stepfun",
+      "name": "Step-3.5-Flash",
+      "pricing": {
+        "input": 0.72,
+        "output": 2.88
+      },
+      "pricingUsd": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "performance": {
+        "contextWindow": 65536
+      },
+      "releaseDate": "2026-02-02",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "longcat-flash-lite",
+      "providerId": "meituan",
+      "providerRaw": "meituan",
+      "name": "LongCat-Flash-Lite",
+      "pricing": {
+        "input": 0.72,
+        "output": 2.88
+      },
+      "pricingUsd": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "performance": {
+        "contextWindow": 256000
+      },
+      "releaseDate": "2026-02-05",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-5-3-chat-latest",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-5.3 Chat",
+      "pricing": {
+        "input": 12.6,
+        "output": 100.8
+      },
+      "pricingUsd": {
+        "input": 1.75,
+        "output": 14.0
+      },
+      "performance": {
+        "contextWindow": 128000
+      },
+      "releaseDate": "2026-03-04",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-4-1-nano-2025-04-14",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-4.1 nano",
+      "pricing": {
+        "input": 0.72,
+        "output": 2.88
+      },
+      "pricingUsd": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "performance": {
+        "contextWindow": 1047576
+      },
+      "releaseDate": "2025-04-14",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "grok-4-fast-reasoning",
+      "providerId": "xai",
+      "providerRaw": "xai",
+      "name": "Grok-4 Fast Reasoning",
+      "pricing": {
+        "input": 1.44,
+        "output": 3.6
+      },
+      "pricingUsd": {
+        "input": 0.2,
+        "output": 0.5
+      },
+      "performance": {
+        "contextWindow": 2000000
+      },
+      "releaseDate": "2025-08-28",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-vl-235b-a22b-instruct",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3 VL 235B A22B Instruct",
+      "pricing": {
+        "input": 1.44,
+        "output": 6.34
+      },
+      "pricingUsd": {
+        "input": 0.2,
+        "output": 0.88
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2025-09-22",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "grok-4-1-fast-non-reasoning",
+      "providerId": "xai",
+      "providerRaw": "xai",
+      "name": "Grok-4.1 Fast Non-Reasoning",
+      "pricing": {
+        "input": 1.44,
+        "output": 3.6
+      },
+      "pricingUsd": {
+        "input": 0.2,
+        "output": 0.5
+      },
+      "performance": {
+        "contextWindow": 2000000
+      },
+      "releaseDate": "2025-11-17",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "grok-code-fast-1",
+      "providerId": "xai",
+      "providerRaw": "xai",
+      "name": "Grok Code Fast 1",
+      "pricing": {
+        "input": 1.44,
+        "output": 10.8
+      },
+      "pricingUsd": {
+        "input": 0.2,
+        "output": 1.5
+      },
+      "performance": {
+        "contextWindow": 256000
+      },
+      "releaseDate": "2025-08-28",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "grok-4-1-fast-reasoning",
+      "providerId": "xai",
+      "providerRaw": "xai",
+      "name": "Grok-4.1 Fast Reasoning",
+      "pricing": {
+        "input": 1.44,
+        "output": 3.6
+      },
+      "pricingUsd": {
+        "input": 0.2,
+        "output": 0.5
+      },
+      "performance": {
+        "contextWindow": 2000000
+      },
+      "releaseDate": "2025-11-17",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "mimo-v2-5",
+      "providerId": "xiaomi",
+      "providerRaw": "xiaomi",
+      "name": "MiMo-V2.5",
+      "pricing": {
+        "input": 1.21,
+        "output": 2.42
+      },
+      "pricingUsd": {
+        "input": 0.168,
+        "output": 0.336
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-04-22",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gemini-3-5-flash-lite",
+      "providerId": "google",
+      "providerRaw": "google",
+      "name": "Gemini 3.5 Flash-Lite",
+      "pricing": {
+        "input": 2.16,
+        "output": 18.0
+      },
+      "pricingUsd": {
+        "input": 0.3,
+        "output": 2.5
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-07-21",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "mistral-medium-3-5",
+      "providerId": "mistral",
+      "providerRaw": "mistral",
+      "name": "Mistral Medium 3.5",
+      "pricing": {
+        "input": 10.8,
+        "output": 54.0
+      },
+      "pricingUsd": {
+        "input": 1.5,
+        "output": 7.5
+      },
+      "performance": {
+        "contextWindow": 256000
+      },
+      "releaseDate": "2026-04-29",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "mercury-2",
+      "providerId": "inceptionlabs",
+      "providerRaw": "inceptionlabs",
+      "name": "Mercury 2",
+      "pricing": {
+        "input": 1.8,
+        "output": 5.4
+      },
+      "pricingUsd": {
+        "input": 0.25,
+        "output": 0.75
+      },
+      "performance": {
+        "contextWindow": 128000
+      },
+      "releaseDate": "2026-02-24",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "mistral-small-latest",
+      "providerId": "mistral",
+      "providerRaw": "mistral",
+      "name": "Mistral Small 4",
+      "pricing": {
+        "input": 1.08,
+        "output": 4.32
+      },
+      "pricingUsd": {
+        "input": 0.15,
+        "output": 0.6
+      },
+      "performance": {
+        "contextWindow": 256000
+      },
+      "releaseDate": "2026-03-16",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "deepseek-v3-2",
+      "providerId": "deepseek",
+      "providerRaw": "deepseek",
+      "name": "DeepSeek-V3.2",
+      "pricing": {
+        "input": 1.87,
+        "output": 2.74
+      },
+      "pricingUsd": {
+        "input": 0.26,
+        "output": 0.38
+      },
+      "performance": {
+        "contextWindow": 163840
+      },
+      "releaseDate": "2025-12-01",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-oss-20b",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT OSS 20B",
+      "pricing": {
+        "input": 0.22,
+        "output": 1.01
+      },
+      "pricingUsd": {
+        "input": 0.03,
+        "output": 0.14
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2025-08-05",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "deepseek-v3-0324",
+      "providerId": "deepseek",
+      "providerRaw": "deepseek",
+      "name": "DeepSeek-V3 0324",
+      "pricing": {
+        "input": 1.73,
+        "output": 6.48
+      },
+      "pricingUsd": {
+        "input": 0.24,
+        "output": 0.9
+      },
+      "performance": {
+        "contextWindow": 163840
+      },
+      "releaseDate": "2025-03-25",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-4o-2024-05-13",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-4o",
+      "pricing": {
+        "input": 18.0,
+        "output": 72.0
+      },
+      "pricingUsd": {
+        "input": 2.5,
+        "output": 10.0
+      },
+      "performance": {
+        "contextWindow": 128000
+      },
+      "releaseDate": "2024-05-13",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-5-35b-a3b",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3.5-35B-A3B",
+      "pricing": {
+        "input": 1.01,
+        "output": 7.2
+      },
+      "pricingUsd": {
+        "input": 0.14,
+        "output": 1.0
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-02-24",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-4o-2024-08-06",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-4o",
+      "pricing": {
+        "input": 18.0,
+        "output": 72.0
+      },
+      "pricingUsd": {
+        "input": 2.5,
+        "output": 10.0
+      },
+      "performance": {
+        "contextWindow": 128000
+      },
+      "releaseDate": "2024-08-06",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-oss-120b",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT OSS 120B",
+      "pricing": {
+        "input": 0.27,
+        "output": 1.22
+      },
+      "pricingUsd": {
+        "input": 0.037,
+        "output": 0.17
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2025-08-05",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "deepseek-r1-0528",
+      "providerId": "deepseek",
+      "providerRaw": "deepseek",
+      "name": "DeepSeek-R1-0528",
+      "pricing": {
+        "input": 3.6,
+        "output": 15.48
+      },
+      "pricingUsd": {
+        "input": 0.5,
+        "output": 2.15
+      },
+      "performance": {
+        "contextWindow": 163840
+      },
+      "releaseDate": "2025-05-28",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-30b-a3b",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3 30B A3B",
+      "pricing": {
+        "input": 0.72,
+        "output": 3.17
+      },
+      "pricingUsd": {
+        "input": 0.1,
+        "output": 0.44
+      },
+      "performance": {
+        "contextWindow": 128000
+      },
+      "releaseDate": "2025-04-29",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "nemotron-3-nano-30b-a3b",
+      "providerId": "nvidia",
+      "providerRaw": "nvidia",
+      "name": "Nemotron 3 Nano (30B A3B)",
+      "pricing": {
+        "input": 0.36,
+        "output": 1.44
+      },
+      "pricingUsd": {
+        "input": 0.05,
+        "output": 0.2
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2025-12-15",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-32b",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3 32B",
+      "pricing": {
+        "input": 0.58,
+        "output": 2.02
+      },
+      "pricingUsd": {
+        "input": 0.08,
+        "output": 0.28
+      },
+      "performance": {
+        "contextWindow": 128000
+      },
+      "releaseDate": "2025-04-29",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-4-turbo-2024-04-09",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-4 Turbo",
+      "pricing": {
+        "input": 72.0,
+        "output": 216.0
+      },
+      "pricingUsd": {
+        "input": 10.0,
+        "output": 30.0
+      },
+      "performance": {
+        "contextWindow": 128000
+      },
+      "releaseDate": "2024-04-09",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-3-5-turbo-0125",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-3.5 Turbo",
+      "pricing": {
+        "input": 3.6,
+        "output": 10.8
+      },
+      "pricingUsd": {
+        "input": 0.5,
+        "output": 1.5
+      },
+      "performance": {
+        "contextWindow": 16385
+      },
+      "releaseDate": "2023-03-21",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "deepseek-v3-1",
+      "providerId": "deepseek",
+      "providerRaw": "deepseek",
+      "name": "DeepSeek-V3.1",
+      "pricing": {
+        "input": 1.8,
+        "output": 6.84
+      },
+      "pricingUsd": {
+        "input": 0.25,
+        "output": 0.95
+      },
+      "performance": {
+        "contextWindow": 163840
+      },
+      "releaseDate": "2025-01-10",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-235b-a22b-instruct-2507",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3-235B-A22B-Instruct-2507",
+      "pricing": {
+        "input": 0.65,
+        "output": 3.96
+      },
+      "pricingUsd": {
+        "input": 0.09,
+        "output": 0.55
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2025-07-22",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "hermes-3-70b",
+      "providerId": "nous-research",
+      "providerRaw": "nous-research",
+      "name": "Hermes 3 70B",
+      "pricing": {
+        "input": 5.04,
+        "output": 5.04
+      },
+      "pricingUsd": {
+        "input": 0.7,
+        "output": 0.7
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2024-08-15",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-coder-480b-a35b-instruct",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3-Coder 480B A35B Instruct",
+      "pricing": {
+        "input": 2.16,
+        "output": 7.2
+      },
+      "pricingUsd": {
+        "input": 0.3,
+        "output": 1.0
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2025-01-31",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-vl-30b-a3b-instruct",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3 VL 30B A3B Instruct",
+      "pricing": {
+        "input": 1.08,
+        "output": 4.32
+      },
+      "pricingUsd": {
+        "input": 0.15,
+        "output": 0.6
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2025-09-22",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "nemotron-3-super-120b-a12b",
+      "providerId": "nvidia",
+      "providerRaw": "nvidia",
+      "name": "Nemotron 3 Super (120B A12B)",
+      "pricing": {
+        "input": 0.61,
+        "output": 2.88
+      },
+      "pricingUsd": {
+        "input": 0.085,
+        "output": 0.4
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-03-11",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "beam-1-0-501b-a23b",
+      "providerId": "other",
+      "providerRaw": "reflection",
+      "name": "Beam 1.0",
+      "pricing": {
+        "input": 2.88,
+        "output": 8.64
+      },
+      "pricingUsd": {
+        "input": 0.4,
+        "output": 1.2
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-10-16",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "claude-fable-5-1",
+      "providerId": "anthropic",
+      "providerRaw": "anthropic",
+      "name": "Claude Fable 5.1",
+      "pricing": {
+        "input": 72.0,
+        "output": 360.0
+      },
+      "pricingUsd": {
+        "input": 10.0,
+        "output": 50.0
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-09-01",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "claude-haiku-5-5",
+      "providerId": "anthropic",
+      "providerRaw": "anthropic",
+      "name": "Claude Haiku 5.5",
+      "pricing": {
+        "input": 0.72,
+        "output": 3.6
+      },
+      "pricingUsd": {
+        "input": 0.1,
+        "output": 0.5
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-10-07",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "claude-opus-5-5",
+      "providerId": "anthropic",
+      "providerRaw": "anthropic",
+      "name": "Claude Opus 5.5",
+      "pricing": {
+        "input": 28.8,
+        "output": 144.0
+      },
+      "pricingUsd": {
+        "input": 4.0,
+        "output": 20.0
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-09-22",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "claude-sonnet-5-5",
+      "providerId": "anthropic",
+      "providerRaw": "anthropic",
+      "name": "Claude Sonnet 5.5",
+      "pricing": {
+        "input": 14.4,
+        "output": 72.0
+      },
+      "pricingUsd": {
+        "input": 2.0,
+        "output": 10.0
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-09-28",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "deepseek-v3",
+      "providerId": "deepseek",
+      "providerRaw": "deepseek",
+      "name": "DeepSeek-V3",
+      "pricing": {
+        "input": 2.3,
+        "output": 6.41
+      },
+      "pricingUsd": {
+        "input": 0.32,
+        "output": 0.89
+      },
+      "performance": {
+        "contextWindow": 163840
+      },
+      "releaseDate": "2024-12-25",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "deepseek-v4-flash-0423",
+      "providerId": "deepseek",
+      "providerRaw": "deepseek",
+      "name": "DeepSeek-V4-Flash-0423",
+      "pricing": {
+        "input": 0.65,
+        "output": 1.3
+      },
+      "pricingUsd": {
+        "input": 0.09,
+        "output": 0.18
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-04-23",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "deepseek-v4-flash-vision-exp",
+      "providerId": "deepseek",
+      "providerRaw": "deepseek",
+      "name": "DeepSeek-V4-Flash-Vision-Exp",
+      "pricing": {
+        "input": 3.17,
+        "output": 9.5
+      },
+      "pricingUsd": {
+        "input": 0.44,
+        "output": 1.32
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-08-21",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "deepseek-v4-pro-0813",
+      "providerId": "deepseek",
+      "providerRaw": "deepseek",
+      "name": "DeepSeek-V4-Pro-0813",
+      "pricing": {
+        "input": 9.36,
+        "output": 18.72
+      },
+      "pricingUsd": {
+        "input": 1.3,
+        "output": 2.6
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-08-13",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "deepseek-v4-1-flash",
+      "providerId": "deepseek",
+      "providerRaw": "deepseek",
+      "name": "DeepSeek-V4.1-Flash",
+      "pricing": {
+        "input": 1.58,
+        "output": 4.75
+      },
+      "pricingUsd": {
+        "input": 0.22,
+        "output": 0.66
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-09-10",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "deepseek-v4-1-flash-1017",
+      "providerId": "deepseek",
+      "providerRaw": "deepseek",
+      "name": "DeepSeek-V4.1-Flash-1017",
+      "pricing": {
+        "input": 2.16,
+        "output": 8.64
+      },
+      "pricingUsd": {
+        "input": 0.3,
+        "output": 1.2
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-10-17",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "ember-1",
+      "providerId": "other",
+      "providerRaw": "fireworks",
+      "name": "Ember-1",
+      "pricing": {
+        "input": 21.6,
+        "output": 108.0
+      },
+      "pricingUsd": {
+        "input": 3.0,
+        "output": 15.0
+      },
+      "performance": {
+        "contextWindow": 1040000
+      },
+      "releaseDate": "2026-09-23",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gemini-3-7-flash",
+      "providerId": "google",
+      "providerRaw": "google",
+      "name": "Gemini 3.7 Flash",
+      "pricing": {
+        "input": 5.4,
+        "output": 27.0
+      },
+      "pricingUsd": {
+        "input": 0.75,
+        "output": 3.75
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-08-13",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gemini-3-8-flash",
+      "providerId": "google",
+      "providerRaw": "google",
+      "name": "Gemini 3.8 Flash",
+      "pricing": {
+        "input": 5.4,
+        "output": 27.0
+      },
+      "pricingUsd": {
+        "input": 0.75,
+        "output": 3.75
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-09-02",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gemini-4-argon",
+      "providerId": "google",
+      "providerRaw": "google",
+      "name": "Gemini 4 Argon",
+      "pricing": {
+        "input": 14.4,
+        "output": 72.0
+      },
+      "pricingUsd": {
+        "input": 2.0,
+        "output": 10.0
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-09-30",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gemma-3-12b-it",
+      "providerId": "google",
+      "providerRaw": "google",
+      "name": "Gemma 3 12B",
+      "pricing": {
+        "input": 0.36,
+        "output": 1.08
+      },
+      "pricingUsd": {
+        "input": 0.05,
+        "output": 0.15
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2025-03-12",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gemma-3-27b-it",
+      "providerId": "google",
+      "providerRaw": "google",
+      "name": "Gemma 3 27B",
+      "pricing": {
+        "input": 0.58,
+        "output": 1.15
+      },
+      "pricingUsd": {
+        "input": 0.08,
+        "output": 0.16
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2025-03-12",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gemma-3-4b-it",
+      "providerId": "google",
+      "providerRaw": "google",
+      "name": "Gemma 3 4B",
+      "pricing": {
+        "input": 0.36,
+        "output": 0.72
+      },
+      "pricingUsd": {
+        "input": 0.05,
+        "output": 0.1
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2025-03-12",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gemma-4-e4b-it",
+      "providerId": "google",
+      "providerRaw": "google",
+      "name": "Gemma 4 E4B",
+      "pricing": {
+        "input": 0.14,
+        "output": 0.72
+      },
+      "pricingUsd": {
+        "input": 0.02,
+        "output": 0.1
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2026-04-02",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "glm-5-3",
+      "providerId": "zhipu",
+      "providerRaw": "Zhipu AI",
+      "name": "GLM-5.3",
+      "pricing": {
+        "input": 10.08,
+        "output": 31.68
+      },
+      "pricingUsd": {
+        "input": 1.4,
+        "output": 4.4
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-08-14",
+      "sourceUrl": "https://llm-stats.com/models"
+    },
+    {
+      "id": "glm-5-3-flash",
+      "providerId": "zhipu",
+      "providerRaw": "Zhipu AI",
+      "name": "GLM-5.3-Flash",
+      "pricing": {
+        "input": 1.08,
+        "output": 3.6
+      },
+      "pricingUsd": {
+        "input": 0.15,
+        "output": 0.5
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-08-26",
+      "sourceUrl": "https://llm-stats.com/models"
+    },
+    {
+      "id": "gpt-5-6-cyber",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-5.6 Cyber",
+      "pricing": {
+        "input": 90.0,
+        "output": 540.0
+      },
+      "pricingUsd": {
+        "input": 12.5,
+        "output": 75.0
+      },
+      "performance": {
+        "contextWindow": 400000
+      },
+      "releaseDate": "2026-08-10",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-6-astra",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-6 Astra",
+      "pricing": {
+        "input": 72.0,
+        "output": 360.0
+      },
+      "pricingUsd": {
+        "input": 10.0,
+        "output": 50.0
+      },
+      "performance": {
+        "contextWindow": 1050000
+      },
+      "releaseDate": "2026-09-04",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-6-luna",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-6 Luna",
+      "pricing": {
+        "input": 0.72,
+        "output": 3.6
+      },
+      "pricingUsd": {
+        "input": 0.1,
+        "output": 0.5
+      },
+      "performance": {
+        "contextWindow": 1050000
+      },
+      "releaseDate": "2026-09-22",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-6-sol",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-6 Sol",
+      "pricing": {
+        "input": 14.4,
+        "output": 72.0
+      },
+      "pricingUsd": {
+        "input": 2.0,
+        "output": 10.0
+      },
+      "performance": {
+        "contextWindow": 1050000
+      },
+      "releaseDate": "2026-09-22",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-6-1-sol",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-6.1 Sol",
+      "pricing": {
+        "input": 14.4,
+        "output": 72.0
+      },
+      "pricingUsd": {
+        "input": 2.0,
+        "output": 10.0
+      },
+      "performance": {
+        "contextWindow": 1050000
+      },
+      "releaseDate": "2026-09-29",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "gpt-rosalind-research",
+      "providerId": "openai",
+      "providerRaw": "openai",
+      "name": "GPT-Rosalind",
+      "pricing": {
+        "input": 36.0,
+        "output": 180.0
+      },
+      "pricingUsd": {
+        "input": 5.0,
+        "output": 25.0
+      },
+      "performance": {
+        "contextWindow": 0
+      },
+      "releaseDate": "2026-09-11",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "grok-4-6",
+      "providerId": "xai",
+      "providerRaw": "xai",
+      "name": "Grok 4.6",
+      "pricing": {
+        "input": 14.4,
+        "output": 43.2
+      },
+      "pricingUsd": {
+        "input": 2.0,
+        "output": 6.0
+      },
+      "performance": {
+        "contextWindow": 500000
+      },
+      "releaseDate": "2026-08-12",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "grok-4-7",
+      "providerId": "xai",
+      "providerRaw": "xai",
+      "name": "Grok 4.7",
+      "pricing": {
+        "input": 14.4,
+        "output": 43.2
+      },
+      "pricingUsd": {
+        "input": 2.0,
+        "output": 6.0
+      },
+      "performance": {
+        "contextWindow": 500000
+      },
+      "releaseDate": "2026-09-21",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "hermes-3-405b",
+      "providerId": "nous-research",
+      "providerRaw": "nous-research",
+      "name": "Hermes 3 405B",
+      "pricing": {
+        "input": 7.2,
+        "output": 7.2
+      },
+      "pricingUsd": {
+        "input": 1.0,
+        "output": 1.0
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2024-10-09",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "hy3",
+      "providerId": "tencent",
+      "providerRaw": "tencent",
+      "name": "Hy3",
+      "pricing": {
+        "input": 1.01,
+        "output": 4.18
+      },
+      "pricingUsd": {
+        "input": 0.14,
+        "output": 0.58
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-07-06",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "granite-4-2-30b",
+      "providerId": "ibm",
+      "providerRaw": "ibm",
+      "name": "IBM Granite 4.2 30B",
+      "pricing": {
+        "input": 1.15,
+        "output": 4.68
+      },
+      "pricingUsd": {
+        "input": 0.16,
+        "output": 0.65
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2026-08-25",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "granite-4-2-3b",
+      "providerId": "ibm",
+      "providerRaw": "ibm",
+      "name": "IBM Granite 4.2 3B",
+      "pricing": {
+        "input": 0.22,
+        "output": 0.86
+      },
+      "pricingUsd": {
+        "input": 0.03,
+        "output": 0.12
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2026-08-25",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "granite-4-2-8b",
+      "providerId": "ibm",
+      "providerRaw": "ibm",
+      "name": "IBM Granite 4.2 8B",
+      "pricing": {
+        "input": 0.43,
+        "output": 1.8
+      },
+      "pricingUsd": {
+        "input": 0.06,
+        "output": 0.25
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2026-08-25",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "inkling",
+      "providerId": "other",
+      "providerRaw": "thinking-machines",
+      "name": "Inkling",
+      "pricing": {
+        "input": 6.84,
+        "output": 29.16
+      },
+      "pricingUsd": {
+        "input": 0.95,
+        "output": 4.05
+      },
+      "performance": {
+        "contextWindow": 524288
+      },
+      "releaseDate": "2026-07-21",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "inkling-small",
+      "providerId": "other",
+      "providerRaw": "thinking-machines",
+      "name": "Inkling-Small",
+      "pricing": {
+        "input": 2.16,
+        "output": 8.64
+      },
+      "pricingUsd": {
+        "input": 0.3,
+        "output": 1.2
+      },
+      "performance": {
+        "contextWindow": 524288
+      },
+      "releaseDate": "2026-07-30",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "l3-8b-lunaris-v1",
+      "providerId": "other",
+      "providerRaw": "sao10k",
+      "name": "L3 8B Lunaris v1",
+      "pricing": {
+        "input": 0.29,
+        "output": 0.36
+      },
+      "pricingUsd": {
+        "input": 0.04,
+        "output": 0.05
+      },
+      "performance": {
+        "contextWindow": 8192
+      },
+      "releaseDate": "2025-04-09",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "l3-1-70b-euryale-v2-2",
+      "providerId": "other",
+      "providerRaw": "sao10k",
+      "name": "L3.1 70B Euryale v2.2",
+      "pricing": {
+        "input": 6.12,
+        "output": 6.12
+      },
+      "pricingUsd": {
+        "input": 0.85,
+        "output": 0.85
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2024-09-12",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "laguna-s-2-1",
+      "providerId": "other",
+      "providerRaw": "poolside",
+      "name": "Laguna S 2.1",
+      "pricing": {
+        "input": 0.72,
+        "output": 1.44
+      },
+      "pricingUsd": {
+        "input": 0.1,
+        "output": 0.2
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-07-21",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "laguna-xs-2-1",
+      "providerId": "other",
+      "providerRaw": "poolside",
+      "name": "Laguna XS 2.1",
+      "pricing": {
+        "input": 0.72,
+        "output": 1.44
+      },
+      "pricingUsd": {
+        "input": 0.1,
+        "output": 0.2
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-07-02",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "ling-3-0-flash",
+      "providerId": "other",
+      "providerRaw": "inclusionai",
+      "name": "Ling 3.0 Flash",
+      "pricing": {
+        "input": 0.43,
+        "output": 1.3
+      },
+      "pricingUsd": {
+        "input": 0.06,
+        "output": 0.18
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2026-08-04",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "ling-3-0-flash-fin",
+      "providerId": "other",
+      "providerRaw": "inclusionai",
+      "name": "Ling 3.0 Flash Fin",
+      "pricing": {
+        "input": 0.43,
+        "output": 1.3
+      },
+      "pricingUsd": {
+        "input": 0.06,
+        "output": 0.18
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-09-03",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "llama-3-1-70b-instruct",
+      "providerId": "meta",
+      "providerRaw": "meta",
+      "name": "Llama 3.1 70B Instruct",
+      "pricing": {
+        "input": 2.88,
+        "output": 2.88
+      },
+      "pricingUsd": {
+        "input": 0.4,
+        "output": 0.4
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2024-07-23",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "llama-3-1-8b-instruct",
+      "providerId": "meta",
+      "providerRaw": "meta",
+      "name": "Llama 3.1 8B Instruct",
+      "pricing": {
+        "input": 0.14,
+        "output": 0.29
+      },
+      "pricingUsd": {
+        "input": 0.02,
+        "output": 0.04
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2024-07-23",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "llama-3-3-70b-instruct",
+      "providerId": "meta",
+      "providerRaw": "meta",
+      "name": "Llama 3.3 70B Instruct",
+      "pricing": {
+        "input": 0.72,
+        "output": 2.3
+      },
+      "pricingUsd": {
+        "input": 0.1,
+        "output": 0.32
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2024-12-06",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "llama-4-maverick",
+      "providerId": "meta",
+      "providerRaw": "meta",
+      "name": "Llama 4 Maverick",
+      "pricing": {
+        "input": 1.44,
+        "output": 5.76
+      },
+      "pricingUsd": {
+        "input": 0.2,
+        "output": 0.8
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2025-04-05",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "llama-4-scout",
+      "providerId": "meta",
+      "providerRaw": "meta",
+      "name": "Llama 4 Scout",
+      "pricing": {
+        "input": 0.72,
+        "output": 2.16
+      },
+      "pricingUsd": {
+        "input": 0.1,
+        "output": 0.3
+      },
+      "performance": {
+        "contextWindow": 327680
+      },
+      "releaseDate": "2025-04-05",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "llama-guard-4-12b",
+      "providerId": "meta",
+      "providerRaw": "meta",
+      "name": "Llama Guard 4 12B",
+      "pricing": {
+        "input": 1.3,
+        "output": 1.3
+      },
+      "pricingUsd": {
+        "input": 0.18,
+        "output": 0.18
+      },
+      "performance": {
+        "contextWindow": 163840
+      },
+      "releaseDate": "2025-04-28",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "mai-code-1-1-flash",
+      "providerId": "microsoft",
+      "providerRaw": "microsoft",
+      "name": "MAI-Code-1.1-Flash",
+      "pricing": {
+        "input": 1.44,
+        "output": 8.64
+      },
+      "pricingUsd": {
+        "input": 0.2,
+        "output": 1.2
+      },
+      "performance": {
+        "contextWindow": 256000
+      },
+      "releaseDate": "2026-08-11",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "mercury-3",
+      "providerId": "inceptionlabs",
+      "providerRaw": "inceptionlabs",
+      "name": "Mercury 3",
+      "pricing": {
+        "input": 0.72,
+        "output": 2.52
+      },
+      "pricingUsd": {
+        "input": 0.1,
+        "output": 0.35
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-10-19",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "mimo-v2-6-flash",
+      "providerId": "xiaomi",
+      "providerRaw": "xiaomi",
+      "name": "MiMo-V2.6-Flash",
+      "pricing": {
+        "input": 1.01,
+        "output": 2.02
+      },
+      "pricingUsd": {
+        "input": 0.14,
+        "output": 0.28
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-09-22",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "mimo-v2-6-pro",
+      "providerId": "xiaomi",
+      "providerRaw": "xiaomi",
+      "name": "MiMo-V2.6-Pro",
+      "pricing": {
+        "input": 3.13,
+        "output": 6.26
+      },
+      "pricingUsd": {
+        "input": 0.435,
+        "output": 0.87
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-09-22",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "minimax-m3-1-flash",
+      "providerId": "minimax",
+      "providerRaw": "minimax",
+      "name": "MiniMax M3.1 Flash",
+      "pricing": {
+        "input": 1.08,
+        "output": 4.32
+      },
+      "pricingUsd": {
+        "input": 0.15,
+        "output": 0.6
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-10-19",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "mistral-large-4",
+      "providerId": "mistral",
+      "providerRaw": "mistral",
+      "name": "Mistral Large 4",
+      "pricing": {
+        "input": 4.9,
+        "output": 15.05
+      },
+      "pricingUsd": {
+        "input": 0.68,
+        "output": 2.09
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-10-06",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "mistral-nemo-instruct-2407",
+      "providerId": "mistral",
+      "providerRaw": "mistral",
+      "name": "Mistral NeMo Instruct",
+      "pricing": {
+        "input": 0.14,
+        "output": 0.22
+      },
+      "pricingUsd": {
+        "input": 0.019,
+        "output": 0.03
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2024-07-18",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "mistral-small-24b-instruct-2501",
+      "providerId": "mistral",
+      "providerRaw": "mistral",
+      "name": "Mistral Small 3 24B Instruct",
+      "pricing": {
+        "input": 0.36,
+        "output": 0.58
+      },
+      "pricingUsd": {
+        "input": 0.05,
+        "output": 0.08
+      },
+      "performance": {
+        "contextWindow": 32768
+      },
+      "releaseDate": "2025-01-30",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "mistral-small-3-2-24b-instruct-2506",
+      "providerId": "mistral",
+      "providerRaw": "mistral",
+      "name": "Mistral Small 3.2 24B Instruct",
+      "pricing": {
+        "input": 0.54,
+        "output": 1.44
+      },
+      "pricingUsd": {
+        "input": 0.075,
+        "output": 0.2
+      },
+      "performance": {
+        "contextWindow": 128000
+      },
+      "releaseDate": "2025-06-20",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "muse-glimmer-30b",
+      "providerId": "meta",
+      "providerRaw": "meta",
+      "name": "Muse Glimmer-30B",
+      "pricing": {
+        "input": 2.16,
+        "output": 8.64
+      },
+      "pricingUsd": {
+        "input": 0.3,
+        "output": 1.2
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2026-08-10",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "muse-spark-1-2",
+      "providerId": "meta",
+      "providerRaw": "meta",
+      "name": "Muse Spark 1.2",
+      "pricing": {
+        "input": 9.0,
+        "output": 30.6
+      },
+      "pricingUsd": {
+        "input": 1.25,
+        "output": 4.25
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-08-05",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "muse-spark-1-3",
+      "providerId": "meta",
+      "providerRaw": "meta",
+      "name": "Muse Spark 1.3",
+      "pricing": {
+        "input": 9.0,
+        "output": 30.6
+      },
+      "pricingUsd": {
+        "input": 1.25,
+        "output": 4.25
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-09-02",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "muse-spark-open",
+      "providerId": "meta",
+      "providerRaw": "meta",
+      "name": "Muse Spark Open",
+      "pricing": {
+        "input": 9.0,
+        "output": 30.6
+      },
+      "pricingUsd": {
+        "input": 1.25,
+        "output": 4.25
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-10-15",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "muse-wonder-1-0",
+      "providerId": "meta",
+      "providerRaw": "meta",
+      "name": "Muse Wonder",
+      "pricing": {
+        "input": 28.8,
+        "output": 144.0
+      },
+      "pricingUsd": {
+        "input": 4.0,
+        "output": 20.0
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-10-12",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "mythomax-l2-13b",
+      "providerId": "other",
+      "providerRaw": "gryphe",
+      "name": "MythoMax L2 13B",
+      "pricing": {
+        "input": 2.88,
+        "output": 2.88
+      },
+      "pricingUsd": {
+        "input": 0.4,
+        "output": 0.4
+      },
+      "performance": {
+        "contextWindow": 4096
+      },
+      "releaseDate": "2023-10-04",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "nemotron-3-ultra-550b-a55b",
+      "providerId": "nvidia",
+      "providerRaw": "nvidia",
+      "name": "Nemotron 3 Ultra (550B A55B)",
+      "pricing": {
+        "input": 3.6,
+        "output": 15.84
+      },
+      "pricingUsd": {
+        "input": 0.5,
+        "output": 2.2
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-06-04",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "nemotron-3-5-lightning-30b-a3b",
+      "providerId": "nvidia",
+      "providerRaw": "nvidia",
+      "name": "Nemotron 3.5 Lightning (30B A3B)",
+      "pricing": {
+        "input": 0.58,
+        "output": 1.44
+      },
+      "pricingUsd": {
+        "input": 0.08,
+        "output": 0.2
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-08-11",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "nemotron-3-5-super-vl-120b-a12b",
+      "providerId": "nvidia",
+      "providerRaw": "nvidia",
+      "name": "Nemotron 3.5 Super VL (120B A12B)",
+      "pricing": {
+        "input": 1.44,
+        "output": 7.2
+      },
+      "pricingUsd": {
+        "input": 0.2,
+        "output": 1.0
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-10-15",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "nemotron-content-safety-3-5",
+      "providerId": "nvidia",
+      "providerRaw": "nvidia",
+      "name": "Nemotron Content Safety 3.5",
+      "pricing": {
+        "input": 1.44,
+        "output": 1.44
+      },
+      "pricingUsd": {
+        "input": 0.2,
+        "output": 0.2
+      },
+      "performance": {
+        "contextWindow": 131072
+      },
+      "releaseDate": "2026-06-01",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "nova-2-lite",
+      "providerId": "amazon",
+      "providerRaw": "amazon",
+      "name": "Nova 2 Lite",
+      "pricing": {
+        "input": 2.16,
+        "output": 18.0
+      },
+      "pricingUsd": {
+        "input": 0.3,
+        "output": 2.5
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2025-12-02",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "nova-2-sonic",
+      "providerId": "amazon",
+      "providerRaw": "amazon",
+      "name": "Nova 2 Sonic",
+      "pricing": {
+        "input": 2.38,
+        "output": 19.8
+      },
+      "pricingUsd": {
+        "input": 0.33,
+        "output": 2.75
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2025-12-02",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "phi-4",
+      "providerId": "microsoft",
+      "providerRaw": "microsoft",
+      "name": "Phi 4",
+      "pricing": {
+        "input": 0.5,
+        "output": 1.01
+      },
+      "pricingUsd": {
+        "input": 0.07,
+        "output": 0.14
+      },
+      "performance": {
+        "contextWindow": 16384
+      },
+      "releaseDate": "2024-12-12",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen-2-5-72b-instruct",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen2.5 72B Instruct",
+      "pricing": {
+        "input": 2.59,
+        "output": 2.88
+      },
+      "pricingUsd": {
+        "input": 0.36,
+        "output": 0.4
+      },
+      "performance": {
+        "contextWindow": 32768
+      },
+      "releaseDate": "2024-09-19",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-14b",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3 14B",
+      "pricing": {
+        "input": 0.86,
+        "output": 1.73
+      },
+      "pricingUsd": {
+        "input": 0.12,
+        "output": 0.24
+      },
+      "performance": {
+        "contextWindow": 40960
+      },
+      "releaseDate": "2025-04-28",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-max-thinking",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3 Max Thinking",
+      "pricing": {
+        "input": 8.64,
+        "output": 43.2
+      },
+      "pricingUsd": {
+        "input": 1.2,
+        "output": 6.0
+      },
+      "performance": {
+        "contextWindow": 256000
+      },
+      "releaseDate": "2026-02-13",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-next-80b-a3b-instruct",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3-Next-80B-A3B-Instruct",
+      "pricing": {
+        "input": 0.65,
+        "output": 7.92
+      },
+      "pricingUsd": {
+        "input": 0.09,
+        "output": 1.1
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2025-09-10",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-5-9b",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3.5-9B",
+      "pricing": {
+        "input": 0.72,
+        "output": 1.08
+      },
+      "pricingUsd": {
+        "input": 0.1,
+        "output": 0.15
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-03-02",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-6-35b-a3b",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3.6-35B-A3B",
+      "pricing": {
+        "input": 0.72,
+        "output": 6.84
+      },
+      "pricingUsd": {
+        "input": 0.1,
+        "output": 0.95
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-04-16",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-8-flash",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3.8 Flash",
+      "pricing": {
+        "input": 1.08,
+        "output": 3.38
+      },
+      "pricingUsd": {
+        "input": 0.15,
+        "output": 0.47
+      },
+      "performance": {
+        "contextWindow": 1000000
+      },
+      "releaseDate": "2026-08-26",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-8-max",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3.8 Max",
+      "pricing": {
+        "input": 11.88,
+        "output": 35.65
+      },
+      "pricingUsd": {
+        "input": 1.65,
+        "output": 4.951
+      },
+      "performance": {
+        "contextWindow": 1048576
+      },
+      "releaseDate": "2026-08-02",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "qwen3-8-27b",
+      "providerId": "alibaba",
+      "providerRaw": "qwen",
+      "name": "Qwen3.8-27B",
+      "pricing": {
+        "input": 2.88,
+        "output": 21.6
+      },
+      "pricingUsd": {
+        "input": 0.4,
+        "output": 3.0
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-08-14",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "sakana-namazu",
+      "providerId": "other",
+      "providerRaw": "sakana",
+      "name": "Sakana Namazu",
+      "pricing": {
+        "input": 6.84,
+        "output": 28.8
+      },
+      "pricingUsd": {
+        "input": 0.95,
+        "output": 4.0
+      },
+      "performance": {
+        "contextWindow": 256000
+      },
+      "releaseDate": "2026-08-03",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "seed-1-8",
+      "providerId": "bytedance",
+      "providerRaw": "bytedance",
+      "name": "Seed 1.8",
+      "pricing": {
+        "input": 1.8,
+        "output": 14.4
+      },
+      "pricingUsd": {
+        "input": 0.25,
+        "output": 2.0
+      },
+      "performance": {
+        "contextWindow": 256000
+      },
+      "releaseDate": "2026-02-17",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "seed-2-0-code",
+      "providerId": "bytedance",
+      "providerRaw": "bytedance",
+      "name": "Seed 2.0 Code",
+      "pricing": {
+        "input": 3.6,
+        "output": 21.6
+      },
+      "pricingUsd": {
+        "input": 0.5,
+        "output": 3.0
+      },
+      "performance": {
+        "contextWindow": 256000
+      },
+      "releaseDate": "2026-04-29",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "seed-2-0-mini",
+      "providerId": "bytedance",
+      "providerRaw": "bytedance",
+      "name": "Seed 2.0 Mini",
+      "pricing": {
+        "input": 0.72,
+        "output": 2.88
+      },
+      "pricingUsd": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "performance": {
+        "contextWindow": 256000
+      },
+      "releaseDate": "2026-02-17",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "solar-mini4",
+      "providerId": "other",
+      "providerRaw": "upstage",
+      "name": "Solar Mini 4",
+      "pricing": {
+        "input": 0.72,
+        "output": 2.88
+      },
+      "pricingUsd": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "performance": {
+        "contextWindow": 524288
+      },
+      "releaseDate": "2026-09-22",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "solar-pro4",
+      "providerId": "other",
+      "providerRaw": "upstage",
+      "name": "Solar Pro 4",
+      "pricing": {
+        "input": 2.16,
+        "output": 8.64
+      },
+      "pricingUsd": {
+        "input": 0.3,
+        "output": 1.2
+      },
+      "performance": {
+        "contextWindow": 524288
+      },
+      "releaseDate": "2026-08-06",
+      "sourceUrl": "https://llm-stats.com/"
+    },
+    {
+      "id": "step-3-7-flash",
+      "providerId": "step",
+      "providerRaw": "stepfun",
+      "name": "Step 3.7 Flash",
+      "pricing": {
+        "input": 1.44,
+        "output": 8.28
+      },
+      "pricingUsd": {
+        "input": 0.2,
+        "output": 1.15
+      },
+      "performance": {
+        "contextWindow": 262144
+      },
+      "releaseDate": "2026-06-10",
+      "sourceUrl": "https://llm-stats.com/"
+    }
+  ]
+}

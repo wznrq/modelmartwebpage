@@ -5,6 +5,11 @@ dist-ssr
 .DS_Store
 *.tsbuildinfo
 
+# Env
+.env
+.env.local
+.env.*.local
+
 # Python
 __pycache__/
 *.pyc
